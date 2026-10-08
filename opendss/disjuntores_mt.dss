@@ -1,0 +1,81 @@
+new line.DJ_5002409 phases=3 bus1=4630 bus2=84799235002409
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5001992 phases=3 bus1=1783 bus2=85521915001992
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5001993 phases=3 bus1=1783 bus2=84804395001993
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5002188 phases=3 bus1=1783 bus2=85862715002188
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5002228 phases=3 bus1=4629 bus2=84804495002228
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5001994 phases=3 bus1=4629 bus2=84804505001994
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5001995 phases=3 bus1=4629 bus2=84804515001995
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5002210 phases=3 bus1=4629 bus2=84804525002210
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5001996 phases=3 bus1=4629 bus2=84804535001996
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5001997 phases=3 bus1=4629 bus2=84804545001997
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5001998 phases=3 bus1=4629 bus2=84804555001998
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5002410 phases=3 bus1=4630 bus2=84799255002410
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5002211 phases=3 bus1=4629 bus2=90018655002211
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5007257 phases=3 bus1=6440 bus2=93360665007257
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5007258 phases=3 bus1=6440 bus2=93360675007258
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5007259 phases=3 bus1=6440 bus2=93360685007259
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5008497 phases=3 bus1=6440 bus2=95463855008497
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5008498 phases=3 bus1=6440 bus2=95463865008498
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5008499 phases=3 bus1=6440 bus2=95463875008499
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5008500 phases=3 bus1=6440 bus2=95463885008500
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5002411 phases=3 bus1=4630 bus2=84799265002411
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5002412 phases=3 bus1=4630 bus2=84799275002412
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5002413 phases=3 bus1=4630 bus2=84799285002413
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5002414 phases=3 bus1=4630 bus2=84799245002414
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5002148 phases=3 bus1=1783 bus2=84804355002148
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5001990 phases=3 bus1=1783 bus2=84804365001990
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+new line.DJ_5001991 phases=3 bus1=1783 bus2=84804375001991
+~ switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+

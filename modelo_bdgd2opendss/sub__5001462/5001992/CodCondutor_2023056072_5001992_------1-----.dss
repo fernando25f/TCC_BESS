@@ -1,0 +1,1715 @@
+New "Linecode.446-44B_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.446-44B_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.446-44B_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.446-44B_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+
+New "Linecode.69-40B_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.69-40B_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.69-40B_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.69-40B_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+
+New "Linecode.69-44_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.69-44_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.69-44_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.69-44_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+
+New "Linecode.69-44B_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.69-44B_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.69-44B_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+New "Linecode.69-44B_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1000 units=km normamps=44.00
+
+New "Linecode.68-40B_1" nphases=1 basefreq=60 r1=2.1790 x1=0.1000 units=km normamps=59.00
+New "Linecode.68-40B_2" nphases=2 basefreq=60 r1=2.1790 x1=0.1000 units=km normamps=59.00
+New "Linecode.68-40B_3" nphases=3 basefreq=60 r1=2.1790 x1=0.1000 units=km normamps=59.00
+New "Linecode.68-40B_4" nphases=4 basefreq=60 r1=2.1790 x1=0.1000 units=km normamps=59.00
+
+New "Linecode.68-44B_1" nphases=1 basefreq=60 r1=2.1790 x1=0.1000 units=km normamps=59.00
+New "Linecode.68-44B_2" nphases=2 basefreq=60 r1=2.1790 x1=0.1000 units=km normamps=59.00
+New "Linecode.68-44B_3" nphases=3 basefreq=60 r1=2.1790 x1=0.1000 units=km normamps=59.00
+New "Linecode.68-44B_4" nphases=4 basefreq=60 r1=2.1790 x1=0.1000 units=km normamps=59.00
+
+New "Linecode.67-44B_1" nphases=1 basefreq=60 r1=1.3690 x1=0.1000 units=km normamps=80.00
+New "Linecode.67-44B_2" nphases=2 basefreq=60 r1=1.3690 x1=0.1000 units=km normamps=80.00
+New "Linecode.67-44B_3" nphases=3 basefreq=60 r1=1.3690 x1=0.1000 units=km normamps=80.00
+New "Linecode.67-44B_4" nphases=4 basefreq=60 r1=1.3690 x1=0.1000 units=km normamps=80.00
+
+New "Linecode.45-40B_1" nphases=1 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.45-40B_2" nphases=2 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.45-40B_3" nphases=3 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.45-40B_4" nphases=4 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+
+New "Linecode.45-44B_1" nphases=1 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.45-44B_2" nphases=2 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.45-44B_3" nphases=3 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.45-44B_4" nphases=4 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+
+New "Linecode.553-44B_1" nphases=1 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+New "Linecode.553-44B_2" nphases=2 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+New "Linecode.553-44B_3" nphases=3 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+New "Linecode.553-44B_4" nphases=4 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+
+New "Linecode.56-44B_1" nphases=1 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+New "Linecode.56-44B_2" nphases=2 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+New "Linecode.56-44B_3" nphases=3 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+New "Linecode.56-44B_4" nphases=4 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+
+New "Linecode.27-44B_1" nphases=1 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+New "Linecode.27-44B_2" nphases=2 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+New "Linecode.27-44B_3" nphases=3 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+New "Linecode.27-44B_4" nphases=4 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+
+New "Linecode.46-40B_1" nphases=1 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+New "Linecode.46-40B_2" nphases=2 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+New "Linecode.46-40B_3" nphases=3 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+New "Linecode.46-40B_4" nphases=4 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+
+New "Linecode.46-44B_1" nphases=1 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+New "Linecode.46-44B_2" nphases=2 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+New "Linecode.46-44B_3" nphases=3 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+New "Linecode.46-44B_4" nphases=4 basefreq=60 r1=0.5060 x1=0.1000 units=km normamps=157.00
+
+New "Linecode.28-44B_1" nphases=1 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=196.00
+New "Linecode.28-44B_2" nphases=2 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=196.00
+New "Linecode.28-44B_3" nphases=3 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=196.00
+New "Linecode.28-44B_4" nphases=4 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=196.00
+
+New "Linecode.26-40B_1" nphases=1 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.26-40B_2" nphases=2 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.26-40B_3" nphases=3 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.26-40B_4" nphases=4 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+
+New "Linecode.26-44B_1" nphases=1 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.26-44B_2" nphases=2 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.26-44B_3" nphases=3 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.26-44B_4" nphases=4 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+
+New "Linecode.45-44X_1" nphases=1 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.45-44X_2" nphases=2 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.45-44X_3" nphases=3 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+New "Linecode.45-44X_4" nphases=4 basefreq=60 r1=0.9910 x1=0.1000 units=km normamps=100.00
+
+New "Linecode.CI-06_1" nphases=1 basefreq=60 r1=3.5040 x1=0.1300 units=km normamps=51.00
+New "Linecode.CI-06_2" nphases=2 basefreq=60 r1=3.5040 x1=0.1300 units=km normamps=51.00
+New "Linecode.CI-06_3" nphases=3 basefreq=60 r1=3.5040 x1=0.1300 units=km normamps=51.00
+New "Linecode.CI-06_4" nphases=4 basefreq=60 r1=3.5040 x1=0.1300 units=km normamps=51.00
+
+New "Linecode.100-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.100-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.100-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.100-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.100-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.100-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.100-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.100-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.101-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.101-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.101-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.101-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.102-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.102-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.102-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.102-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.10-31A_1" nphases=1 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+New "Linecode.10-31A_2" nphases=2 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+New "Linecode.10-31A_3" nphases=3 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+New "Linecode.10-31A_4" nphases=4 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+
+New "Linecode.103-71N_1" nphases=1 basefreq=60 r1=18.3250 x1=0.4940 units=km normamps=35.00
+New "Linecode.103-71N_2" nphases=2 basefreq=60 r1=18.3250 x1=0.4940 units=km normamps=35.00
+New "Linecode.103-71N_3" nphases=3 basefreq=60 r1=18.3250 x1=0.4940 units=km normamps=35.00
+New "Linecode.103-71N_4" nphases=4 basefreq=60 r1=18.3250 x1=0.4940 units=km normamps=35.00
+
+New "Linecode.104-71N_1" nphases=1 basefreq=60 r1=29.1420 x1=0.5130 units=km normamps=25.00
+New "Linecode.104-71N_2" nphases=2 basefreq=60 r1=29.1420 x1=0.5130 units=km normamps=25.00
+New "Linecode.104-71N_3" nphases=3 basefreq=60 r1=29.1420 x1=0.5130 units=km normamps=25.00
+New "Linecode.104-71N_4" nphases=4 basefreq=60 r1=29.1420 x1=0.5130 units=km normamps=25.00
+
+New "Linecode.105-71N_1" nphases=1 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+New "Linecode.105-71N_2" nphases=2 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+New "Linecode.105-71N_3" nphases=3 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+New "Linecode.105-71N_4" nphases=4 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+
+New "Linecode.10-61A_1" nphases=1 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+New "Linecode.10-61A_2" nphases=2 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+New "Linecode.10-61A_3" nphases=3 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+New "Linecode.10-61A_4" nphases=4 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+
+New "Linecode.106-71B_1" nphases=1 basefreq=60 r1=2.4690 x1=0.6000 units=km normamps=105.00
+New "Linecode.106-71B_2" nphases=2 basefreq=60 r1=2.4690 x1=0.6000 units=km normamps=105.00
+New "Linecode.106-71B_3" nphases=3 basefreq=60 r1=2.4690 x1=0.6000 units=km normamps=105.00
+New "Linecode.106-71B_4" nphases=4 basefreq=60 r1=2.4690 x1=0.6000 units=km normamps=105.00
+
+New "Linecode.106-71N_1" nphases=1 basefreq=60 r1=2.4690 x1=0.6000 units=km normamps=105.00
+New "Linecode.106-71N_2" nphases=2 basefreq=60 r1=2.4690 x1=0.6000 units=km normamps=105.00
+New "Linecode.106-71N_3" nphases=3 basefreq=60 r1=2.4690 x1=0.6000 units=km normamps=105.00
+New "Linecode.106-71N_4" nphases=4 basefreq=60 r1=2.4690 x1=0.6000 units=km normamps=105.00
+
+New "Linecode.10-71A_1" nphases=1 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+New "Linecode.10-71A_2" nphases=2 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+New "Linecode.10-71A_3" nphases=3 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+New "Linecode.10-71A_4" nphases=4 basefreq=60 r1=0.1190 x1=0.5180 units=km normamps=880.00
+
+New "Linecode.10-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.10-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.10-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.10-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.10-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.10-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.10-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.10-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.107-27_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-27_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-27_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-27_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+
+New "Linecode.107-42_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-42_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-42_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-42_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+
+New "Linecode.107-42X_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-42X_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-42X_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-42X_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+
+New "Linecode.107-42Y_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-42Y_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-42Y_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-42Y_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+
+New "Linecode.107-43_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-43_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-43_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-43_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+
+New "Linecode.107-44_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-44_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-44_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-44_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+
+New "Linecode.107-51B_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-51B_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-51B_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.107-51B_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+
+New "Linecode.108-26_1" nphases=1 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-26_2" nphases=2 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-26_3" nphases=3 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-26_4" nphases=4 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.108-43_1" nphases=1 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-43_2" nphases=2 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-43_3" nphases=3 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-43_4" nphases=4 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.108-43X_1" nphases=1 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-43X_2" nphases=2 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-43X_3" nphases=3 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-43X_4" nphases=4 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.108-44_1" nphases=1 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-44_2" nphases=2 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-44_3" nphases=3 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-44_4" nphases=4 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.108-51B_1" nphases=1 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-51B_2" nphases=2 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-51B_3" nphases=3 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.108-51B_4" nphases=4 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.109-43_1" nphases=1 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.109-43_2" nphases=2 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.109-43_3" nphases=3 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.109-43_4" nphases=4 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+
+New "Linecode.109-44_1" nphases=1 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.109-44_2" nphases=2 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.109-44_3" nphases=3 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.109-44_4" nphases=4 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+
+New "Linecode.109-51B_1" nphases=1 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.109-51B_2" nphases=2 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.109-51B_3" nphases=3 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.109-51B_4" nphases=4 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+
+New "Linecode.110-44_1" nphases=1 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.110-44_2" nphases=2 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.110-44_3" nphases=3 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.110-44_4" nphases=4 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+
+New "Linecode.110-51B_1" nphases=1 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.110-51B_2" nphases=2 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.110-51B_3" nphases=3 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.110-51B_4" nphases=4 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+
+New "Linecode.111-51B_1" nphases=1 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+New "Linecode.111-51B_2" nphases=2 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+New "Linecode.111-51B_3" nphases=3 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+New "Linecode.111-51B_4" nphases=4 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+
+New "Linecode.112-51B_1" nphases=1 basefreq=60 r1=0.5060 x1=0.1100 units=km normamps=138.00
+New "Linecode.112-51B_2" nphases=2 basefreq=60 r1=0.5060 x1=0.1100 units=km normamps=138.00
+New "Linecode.112-51B_3" nphases=3 basefreq=60 r1=0.5060 x1=0.1100 units=km normamps=138.00
+New "Linecode.112-51B_4" nphases=4 basefreq=60 r1=0.5060 x1=0.1100 units=km normamps=138.00
+
+New "Linecode.113-51B_1" nphases=1 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=164.00
+New "Linecode.113-51B_2" nphases=2 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=164.00
+New "Linecode.113-51B_3" nphases=3 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=164.00
+New "Linecode.113-51B_4" nphases=4 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=164.00
+
+New "Linecode.114-51B_1" nphases=1 basefreq=60 r1=0.2890 x1=0.1000 units=km normamps=186.00
+New "Linecode.114-51B_2" nphases=2 basefreq=60 r1=0.2890 x1=0.1000 units=km normamps=186.00
+New "Linecode.114-51B_3" nphases=3 basefreq=60 r1=0.2890 x1=0.1000 units=km normamps=186.00
+New "Linecode.114-51B_4" nphases=4 basefreq=60 r1=0.2890 x1=0.1000 units=km normamps=186.00
+
+New "Linecode.115-51B_1" nphases=1 basefreq=60 r1=0.2360 x1=0.1000 units=km normamps=210.00
+New "Linecode.115-51B_2" nphases=2 basefreq=60 r1=0.2360 x1=0.1000 units=km normamps=210.00
+New "Linecode.115-51B_3" nphases=3 basefreq=60 r1=0.2360 x1=0.1000 units=km normamps=210.00
+New "Linecode.115-51B_4" nphases=4 basefreq=60 r1=0.2360 x1=0.1000 units=km normamps=210.00
+
+New "Linecode.11-61A_1" nphases=1 basefreq=60 r1=0.1950 x1=0.4020 units=km normamps=502.80
+New "Linecode.11-61A_2" nphases=2 basefreq=60 r1=0.1950 x1=0.4020 units=km normamps=502.80
+New "Linecode.11-61A_3" nphases=3 basefreq=60 r1=0.1950 x1=0.4020 units=km normamps=502.80
+New "Linecode.11-61A_4" nphases=4 basefreq=60 r1=0.1950 x1=0.4020 units=km normamps=502.80
+
+New "Linecode.116-51B_1" nphases=1 basefreq=60 r1=0.1880 x1=0.1000 units=km normamps=236.00
+New "Linecode.116-51B_2" nphases=2 basefreq=60 r1=0.1880 x1=0.1000 units=km normamps=236.00
+New "Linecode.116-51B_3" nphases=3 basefreq=60 r1=0.1880 x1=0.1000 units=km normamps=236.00
+New "Linecode.116-51B_4" nphases=4 basefreq=60 r1=0.1880 x1=0.1000 units=km normamps=236.00
+
+New "Linecode.11-71A_1" nphases=1 basefreq=60 r1=0.1950 x1=0.4020 units=km normamps=502.80
+New "Linecode.11-71A_2" nphases=2 basefreq=60 r1=0.1950 x1=0.4020 units=km normamps=502.80
+New "Linecode.11-71A_3" nphases=3 basefreq=60 r1=0.1950 x1=0.4020 units=km normamps=502.80
+New "Linecode.11-71A_4" nphases=4 basefreq=60 r1=0.1950 x1=0.4020 units=km normamps=502.80
+
+New "Linecode.11-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.11-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.11-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.11-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.11-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.11-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.11-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.11-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.117-51B_1" nphases=1 basefreq=60 r1=0.1430 x1=0.1000 units=km normamps=272.00
+New "Linecode.117-51B_2" nphases=2 basefreq=60 r1=0.1430 x1=0.1000 units=km normamps=272.00
+New "Linecode.117-51B_3" nphases=3 basefreq=60 r1=0.1430 x1=0.1000 units=km normamps=272.00
+New "Linecode.117-51B_4" nphases=4 basefreq=60 r1=0.1430 x1=0.1000 units=km normamps=272.00
+
+New "Linecode.118-51M_1" nphases=1 basefreq=60 r1=0.9910 x1=0.1700 units=km normamps=83.00
+New "Linecode.118-51M_2" nphases=2 basefreq=60 r1=0.9910 x1=0.1700 units=km normamps=83.00
+New "Linecode.118-51M_3" nphases=3 basefreq=60 r1=0.9910 x1=0.1700 units=km normamps=83.00
+New "Linecode.118-51M_4" nphases=4 basefreq=60 r1=0.9910 x1=0.1700 units=km normamps=83.00
+
+New "Linecode.119-51M_1" nphases=1 basefreq=60 r1=0.7320 x1=0.1600 units=km normamps=98.00
+New "Linecode.119-51M_2" nphases=2 basefreq=60 r1=0.7320 x1=0.1600 units=km normamps=98.00
+New "Linecode.119-51M_3" nphases=3 basefreq=60 r1=0.7320 x1=0.1600 units=km normamps=98.00
+New "Linecode.119-51M_4" nphases=4 basefreq=60 r1=0.7320 x1=0.1600 units=km normamps=98.00
+
+New "Linecode.120-31M_1" nphases=1 basefreq=60 r1=0.5060 x1=0.1500 units=km normamps=120.00
+New "Linecode.120-31M_2" nphases=2 basefreq=60 r1=0.5060 x1=0.1500 units=km normamps=120.00
+New "Linecode.120-31M_3" nphases=3 basefreq=60 r1=0.5060 x1=0.1500 units=km normamps=120.00
+New "Linecode.120-31M_4" nphases=4 basefreq=60 r1=0.5060 x1=0.1500 units=km normamps=120.00
+
+New "Linecode.121-31M_1" nphases=1 basefreq=60 r1=0.3650 x1=0.1500 units=km normamps=143.00
+New "Linecode.121-31M_2" nphases=2 basefreq=60 r1=0.3650 x1=0.1500 units=km normamps=143.00
+New "Linecode.121-31M_3" nphases=3 basefreq=60 r1=0.3650 x1=0.1500 units=km normamps=143.00
+New "Linecode.121-31M_4" nphases=4 basefreq=60 r1=0.3650 x1=0.1500 units=km normamps=143.00
+
+New "Linecode.12-31A_1" nphases=1 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.12-31A_2" nphases=2 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.12-31A_3" nphases=3 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.12-31A_4" nphases=4 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+
+New "Linecode.123-31M_1" nphases=1 basefreq=60 r1=0.2360 x1=0.1400 units=km normamps=182.00
+New "Linecode.123-31M_2" nphases=2 basefreq=60 r1=0.2360 x1=0.1400 units=km normamps=182.00
+New "Linecode.123-31M_3" nphases=3 basefreq=60 r1=0.2360 x1=0.1400 units=km normamps=182.00
+New "Linecode.123-31M_4" nphases=4 basefreq=60 r1=0.2360 x1=0.1400 units=km normamps=182.00
+
+New "Linecode.124-31M_1" nphases=1 basefreq=60 r1=0.1880 x1=0.1300 units=km normamps=205.00
+New "Linecode.124-31M_2" nphases=2 basefreq=60 r1=0.1880 x1=0.1300 units=km normamps=205.00
+New "Linecode.124-31M_3" nphases=3 basefreq=60 r1=0.1880 x1=0.1300 units=km normamps=205.00
+New "Linecode.124-31M_4" nphases=4 basefreq=60 r1=0.1880 x1=0.1300 units=km normamps=205.00
+
+New "Linecode.12-61A_1" nphases=1 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.12-61A_2" nphases=2 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.12-61A_3" nphases=3 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.12-61A_4" nphases=4 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+
+New "Linecode.126-51M_1" nphases=1 basefreq=60 r1=0.1150 x1=0.1200 units=km normamps=305.00
+New "Linecode.126-51M_2" nphases=2 basefreq=60 r1=0.1150 x1=0.1200 units=km normamps=305.00
+New "Linecode.126-51M_3" nphases=3 basefreq=60 r1=0.1150 x1=0.1200 units=km normamps=305.00
+New "Linecode.126-51M_4" nphases=4 basefreq=60 r1=0.1150 x1=0.1200 units=km normamps=305.00
+
+New "Linecode.12-71A_1" nphases=1 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.12-71A_2" nphases=2 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.12-71A_3" nphases=3 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.12-71A_4" nphases=4 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+
+New "Linecode.12-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.12-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.12-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.12-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.127-51B_1" nphases=1 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-51B_2" nphases=2 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-51B_3" nphases=3 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-51B_4" nphases=4 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.127-71_1" nphases=1 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-71_2" nphases=2 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-71_3" nphases=3 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-71_4" nphases=4 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.127-71X_1" nphases=1 basefreq=60 r1=2.2420 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-71X_2" nphases=2 basefreq=60 r1=2.2420 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-71X_3" nphases=3 basefreq=60 r1=2.2420 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-71X_4" nphases=4 basefreq=60 r1=2.2420 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.127-71Y_1" nphases=1 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-71Y_2" nphases=2 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-71Y_3" nphases=3 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+New "Linecode.127-71Y_4" nphases=4 basefreq=60 r1=2.0820 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.128-42X_1" nphases=1 basefreq=60 r1=1.4010 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-42X_2" nphases=2 basefreq=60 r1=1.4010 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-42X_3" nphases=3 basefreq=60 r1=1.4010 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-42X_4" nphases=4 basefreq=60 r1=1.4010 x1=0.1200 units=km normamps=79.00
+
+New "Linecode.128-51_1" nphases=1 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-51_2" nphases=2 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-51_3" nphases=3 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-51_4" nphases=4 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+
+New "Linecode.128-51B_1" nphases=1 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-51B_2" nphases=2 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-51B_3" nphases=3 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-51B_4" nphases=4 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+
+New "Linecode.128-71_1" nphases=1 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-71_2" nphases=2 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-71_3" nphases=3 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-71_4" nphases=4 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+
+New "Linecode.128-71X_1" nphases=1 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-71X_2" nphases=2 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-71X_3" nphases=3 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+New "Linecode.128-71X_4" nphases=4 basefreq=60 r1=1.3080 x1=0.1200 units=km normamps=79.00
+
+New "Linecode.129-51B_1" nphases=1 basefreq=60 r1=0.8270 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-51B_2" nphases=2 basefreq=60 r1=0.8270 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-51B_3" nphases=3 basefreq=60 r1=0.8270 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-51B_4" nphases=4 basefreq=60 r1=0.8270 x1=0.1200 units=km normamps=101.00
+
+New "Linecode.129-71_1" nphases=1 basefreq=60 r1=0.8270 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-71_2" nphases=2 basefreq=60 r1=0.8270 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-71_3" nphases=3 basefreq=60 r1=0.8270 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-71_4" nphases=4 basefreq=60 r1=0.8270 x1=0.1200 units=km normamps=101.00
+
+New "Linecode.129-71X_1" nphases=1 basefreq=60 r1=0.8970 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-71X_2" nphases=2 basefreq=60 r1=0.8970 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-71X_3" nphases=3 basefreq=60 r1=0.8970 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-71X_4" nphases=4 basefreq=60 r1=0.8970 x1=0.1200 units=km normamps=101.00
+
+New "Linecode.129-71Y_1" nphases=1 basefreq=60 r1=0.8970 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-71Y_2" nphases=2 basefreq=60 r1=0.8970 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-71Y_3" nphases=3 basefreq=60 r1=0.8970 x1=0.1200 units=km normamps=101.00
+New "Linecode.129-71Y_4" nphases=4 basefreq=60 r1=0.8970 x1=0.1200 units=km normamps=101.00
+
+New "Linecode.130-51_1" nphases=1 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+New "Linecode.130-51_2" nphases=2 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+New "Linecode.130-51_3" nphases=3 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+New "Linecode.130-51_4" nphases=4 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+
+New "Linecode.130-51B_1" nphases=1 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+New "Linecode.130-51B_2" nphases=2 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+New "Linecode.130-51B_3" nphases=3 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+New "Linecode.130-51B_4" nphases=4 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+
+New "Linecode.130-51X_1" nphases=1 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+New "Linecode.130-51X_2" nphases=2 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+New "Linecode.130-51X_3" nphases=3 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+New "Linecode.130-51X_4" nphases=4 basefreq=60 r1=0.5960 x1=0.1100 units=km normamps=122.00
+
+New "Linecode.1-31M_1" nphases=1 basefreq=60 r1=0.1950 x1=0.4000 units=km normamps=419.00
+New "Linecode.1-31M_2" nphases=2 basefreq=60 r1=0.1950 x1=0.4000 units=km normamps=419.00
+New "Linecode.1-31M_3" nphases=3 basefreq=60 r1=0.1950 x1=0.4000 units=km normamps=419.00
+New "Linecode.1-31M_4" nphases=4 basefreq=60 r1=0.1950 x1=0.4000 units=km normamps=419.00
+
+New "Linecode.132-51B_1" nphases=1 basefreq=60 r1=0.3050 x1=0.1000 units=km normamps=178.00
+New "Linecode.132-51B_2" nphases=2 basefreq=60 r1=0.3050 x1=0.1000 units=km normamps=178.00
+New "Linecode.132-51B_3" nphases=3 basefreq=60 r1=0.3050 x1=0.1000 units=km normamps=178.00
+New "Linecode.132-51B_4" nphases=4 basefreq=60 r1=0.3050 x1=0.1000 units=km normamps=178.00
+
+New "Linecode.134-51B_1" nphases=1 basefreq=60 r1=0.1750 x1=0.1000 units=km normamps=240.00
+New "Linecode.134-51B_2" nphases=2 basefreq=60 r1=0.1750 x1=0.1000 units=km normamps=240.00
+New "Linecode.134-51B_3" nphases=3 basefreq=60 r1=0.1750 x1=0.1000 units=km normamps=240.00
+New "Linecode.134-51B_4" nphases=4 basefreq=60 r1=0.1750 x1=0.1000 units=km normamps=240.00
+
+New "Linecode.13-61A_1" nphases=1 basefreq=60 r1=0.1190 x1=0.5280 units=km normamps=562.00
+New "Linecode.13-61A_2" nphases=2 basefreq=60 r1=0.1190 x1=0.5280 units=km normamps=562.00
+New "Linecode.13-61A_3" nphases=3 basefreq=60 r1=0.1190 x1=0.5280 units=km normamps=562.00
+New "Linecode.13-61A_4" nphases=4 basefreq=60 r1=0.1190 x1=0.5280 units=km normamps=562.00
+
+New "Linecode.136-51B_1" nphases=1 basefreq=60 r1=0.1140 x1=0.1000 units=km normamps=304.00
+New "Linecode.136-51B_2" nphases=2 basefreq=60 r1=0.1140 x1=0.1000 units=km normamps=304.00
+New "Linecode.136-51B_3" nphases=3 basefreq=60 r1=0.1140 x1=0.1000 units=km normamps=304.00
+New "Linecode.136-51B_4" nphases=4 basefreq=60 r1=0.1140 x1=0.1000 units=km normamps=304.00
+
+New "Linecode.13-71A_1" nphases=1 basefreq=60 r1=0.1190 x1=0.5280 units=km normamps=562.00
+New "Linecode.13-71A_2" nphases=2 basefreq=60 r1=0.1190 x1=0.5280 units=km normamps=562.00
+New "Linecode.13-71A_3" nphases=3 basefreq=60 r1=0.1190 x1=0.5280 units=km normamps=562.00
+New "Linecode.13-71A_4" nphases=4 basefreq=60 r1=0.1190 x1=0.5280 units=km normamps=562.00
+
+New "Linecode.13-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.13-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.13-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.13-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.13-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4500 units=km normamps=203.00
+New "Linecode.13-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4500 units=km normamps=203.00
+New "Linecode.13-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4500 units=km normamps=203.00
+New "Linecode.13-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.137-51B_1" nphases=1 basefreq=60 r1=0.0870 x1=0.1000 units=km normamps=351.00
+New "Linecode.137-51B_2" nphases=2 basefreq=60 r1=0.0870 x1=0.1000 units=km normamps=351.00
+New "Linecode.137-51B_3" nphases=3 basefreq=60 r1=0.0870 x1=0.1000 units=km normamps=351.00
+New "Linecode.137-51B_4" nphases=4 basefreq=60 r1=0.0870 x1=0.1000 units=km normamps=351.00
+
+New "Linecode.138-51M_1" nphases=1 basefreq=60 r1=0.5960 x1=0.1600 units=km normamps=108.00
+New "Linecode.138-51M_2" nphases=2 basefreq=60 r1=0.5960 x1=0.1600 units=km normamps=108.00
+New "Linecode.138-51M_3" nphases=3 basefreq=60 r1=0.5960 x1=0.1600 units=km normamps=108.00
+New "Linecode.138-51M_4" nphases=4 basefreq=60 r1=0.5960 x1=0.1600 units=km normamps=108.00
+
+New "Linecode.139-51M_1" nphases=1 basefreq=60 r1=0.4410 x1=0.1600 units=km normamps=127.00
+New "Linecode.139-51M_2" nphases=2 basefreq=60 r1=0.4410 x1=0.1600 units=km normamps=127.00
+New "Linecode.139-51M_3" nphases=3 basefreq=60 r1=0.4410 x1=0.1600 units=km normamps=127.00
+New "Linecode.139-51M_4" nphases=4 basefreq=60 r1=0.4410 x1=0.1600 units=km normamps=127.00
+
+New "Linecode.140-31M_1" nphases=1 basefreq=60 r1=0.3050 x1=0.1500 units=km normamps=154.00
+New "Linecode.140-31M_2" nphases=2 basefreq=60 r1=0.3050 x1=0.1500 units=km normamps=154.00
+New "Linecode.140-31M_3" nphases=3 basefreq=60 r1=0.3050 x1=0.1500 units=km normamps=154.00
+New "Linecode.140-31M_4" nphases=4 basefreq=60 r1=0.3050 x1=0.1500 units=km normamps=154.00
+
+New "Linecode.141-31M_1" nphases=1 basefreq=60 r1=0.2200 x1=0.1400 units=km normamps=184.00
+New "Linecode.141-31M_2" nphases=2 basefreq=60 r1=0.2200 x1=0.1400 units=km normamps=184.00
+New "Linecode.141-31M_3" nphases=3 basefreq=60 r1=0.2200 x1=0.1400 units=km normamps=184.00
+New "Linecode.141-31M_4" nphases=4 basefreq=60 r1=0.2200 x1=0.1400 units=km normamps=184.00
+
+New "Linecode.142-51M_1" nphases=1 basefreq=60 r1=0.1750 x1=0.1300 units=km normamps=209.00
+New "Linecode.142-51M_2" nphases=2 basefreq=60 r1=0.1750 x1=0.1300 units=km normamps=209.00
+New "Linecode.142-51M_3" nphases=3 basefreq=60 r1=0.1750 x1=0.1300 units=km normamps=209.00
+New "Linecode.142-51M_4" nphases=4 basefreq=60 r1=0.1750 x1=0.1300 units=km normamps=209.00
+
+New "Linecode.14-31A_1" nphases=1 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+New "Linecode.14-31A_2" nphases=2 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+New "Linecode.14-31A_3" nphases=3 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+New "Linecode.14-31A_4" nphases=4 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+
+New "Linecode.143-31M_1" nphases=1 basefreq=60 r1=0.1420 x1=0.1300 units=km normamps=234.00
+New "Linecode.143-31M_2" nphases=2 basefreq=60 r1=0.1420 x1=0.1300 units=km normamps=234.00
+New "Linecode.143-31M_3" nphases=3 basefreq=60 r1=0.1420 x1=0.1300 units=km normamps=234.00
+New "Linecode.143-31M_4" nphases=4 basefreq=60 r1=0.1420 x1=0.1300 units=km normamps=234.00
+
+New "Linecode.144-31M_1" nphases=1 basefreq=60 r1=0.1140 x1=0.1300 units=km normamps=263.00
+New "Linecode.144-31M_2" nphases=2 basefreq=60 r1=0.1140 x1=0.1300 units=km normamps=263.00
+New "Linecode.144-31M_3" nphases=3 basefreq=60 r1=0.1140 x1=0.1300 units=km normamps=263.00
+New "Linecode.144-31M_4" nphases=4 basefreq=60 r1=0.1140 x1=0.1300 units=km normamps=263.00
+
+New "Linecode.145-31M_1" nphases=1 basefreq=60 r1=0.0870 x1=0.1300 units=km normamps=303.00
+New "Linecode.145-31M_2" nphases=2 basefreq=60 r1=0.0870 x1=0.1300 units=km normamps=303.00
+New "Linecode.145-31M_3" nphases=3 basefreq=60 r1=0.0870 x1=0.1300 units=km normamps=303.00
+New "Linecode.145-31M_4" nphases=4 basefreq=60 r1=0.0870 x1=0.1300 units=km normamps=303.00
+
+New "Linecode.14-61A_1" nphases=1 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+New "Linecode.14-61A_2" nphases=2 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+New "Linecode.14-61A_3" nphases=3 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+New "Linecode.14-61A_4" nphases=4 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+
+New "Linecode.146-51M_1" nphases=1 basefreq=60 r1=0.0560 x1=0.1200 units=km normamps=382.00
+New "Linecode.146-51M_2" nphases=2 basefreq=60 r1=0.0560 x1=0.1200 units=km normamps=382.00
+New "Linecode.146-51M_3" nphases=3 basefreq=60 r1=0.0560 x1=0.1200 units=km normamps=382.00
+New "Linecode.146-51M_4" nphases=4 basefreq=60 r1=0.0560 x1=0.1200 units=km normamps=382.00
+
+New "Linecode.14-71A_1" nphases=1 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+New "Linecode.14-71A_2" nphases=2 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+New "Linecode.14-71A_3" nphases=3 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+New "Linecode.14-71A_4" nphases=4 basefreq=60 r1=0.4860 x1=0.5640 units=km normamps=234.30
+
+New "Linecode.15-61A_1" nphases=1 basefreq=60 r1=0.3860 x1=0.4210 units=km normamps=396.00
+New "Linecode.15-61A_2" nphases=2 basefreq=60 r1=0.3860 x1=0.4210 units=km normamps=396.00
+New "Linecode.15-61A_3" nphases=3 basefreq=60 r1=0.3860 x1=0.4210 units=km normamps=396.00
+New "Linecode.15-61A_4" nphases=4 basefreq=60 r1=0.3860 x1=0.4210 units=km normamps=396.00
+
+New "Linecode.15-71B_1" nphases=1 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.15-71B_2" nphases=2 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.15-71B_3" nphases=3 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.15-71B_4" nphases=4 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+
+New "Linecode.1-61A_1" nphases=1 basefreq=60 r1=0.1950 x1=0.4570 units=km normamps=451.80
+New "Linecode.1-61A_2" nphases=2 basefreq=60 r1=0.1950 x1=0.4570 units=km normamps=451.80
+New "Linecode.1-61A_3" nphases=3 basefreq=60 r1=0.1950 x1=0.4570 units=km normamps=451.80
+New "Linecode.1-61A_4" nphases=4 basefreq=60 r1=0.1950 x1=0.4570 units=km normamps=451.80
+
+New "Linecode.16-61A_1" nphases=1 basefreq=60 r1=0.2170 x1=0.4610 units=km normamps=418.40
+New "Linecode.16-61A_2" nphases=2 basefreq=60 r1=0.2170 x1=0.4610 units=km normamps=418.40
+New "Linecode.16-61A_3" nphases=3 basefreq=60 r1=0.2170 x1=0.4610 units=km normamps=418.40
+New "Linecode.16-61A_4" nphases=4 basefreq=60 r1=0.2170 x1=0.4610 units=km normamps=418.40
+
+New "Linecode.16-71A_1" nphases=1 basefreq=60 r1=0.2170 x1=0.4610 units=km normamps=418.40
+New "Linecode.16-71A_2" nphases=2 basefreq=60 r1=0.2170 x1=0.4610 units=km normamps=418.40
+New "Linecode.16-71A_3" nphases=3 basefreq=60 r1=0.2170 x1=0.4610 units=km normamps=418.40
+New "Linecode.16-71A_4" nphases=4 basefreq=60 r1=0.2170 x1=0.4610 units=km normamps=418.40
+
+New "Linecode.18-71B_1" nphases=1 basefreq=60 r1=0.3060 x1=0.4200 units=km normamps=314.00
+New "Linecode.18-71B_2" nphases=2 basefreq=60 r1=0.3060 x1=0.4200 units=km normamps=314.00
+New "Linecode.18-71B_3" nphases=3 basefreq=60 r1=0.3060 x1=0.4200 units=km normamps=314.00
+New "Linecode.18-71B_4" nphases=4 basefreq=60 r1=0.3060 x1=0.4200 units=km normamps=314.00
+
+New "Linecode.22-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.22-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.22-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.22-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.22-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.22-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.22-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.22-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.2-31A_1" nphases=1 basefreq=60 r1=0.1380 x1=0.4200 units=km normamps=645.00
+New "Linecode.2-31A_2" nphases=2 basefreq=60 r1=0.1380 x1=0.4200 units=km normamps=645.00
+New "Linecode.2-31A_3" nphases=3 basefreq=60 r1=0.1380 x1=0.4200 units=km normamps=645.00
+New "Linecode.2-31A_4" nphases=4 basefreq=60 r1=0.1380 x1=0.4200 units=km normamps=645.00
+
+New "Linecode.2-31M_1" nphases=1 basefreq=60 r1=0.2450 x1=0.4200 units=km normamps=362.00
+New "Linecode.2-31M_2" nphases=2 basefreq=60 r1=0.2450 x1=0.4200 units=km normamps=362.00
+New "Linecode.2-31M_3" nphases=3 basefreq=60 r1=0.2450 x1=0.4200 units=km normamps=362.00
+New "Linecode.2-31M_4" nphases=4 basefreq=60 r1=0.2450 x1=0.4200 units=km normamps=362.00
+
+New "Linecode.23-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.23-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.23-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.23-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.23-71N_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.23-71N_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.23-71N_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.23-71N_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.24-71N_1" nphases=1 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.24-71N_2" nphases=2 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.24-71N_3" nphases=3 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.24-71N_4" nphases=4 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+
+New "Linecode.2-61A_1" nphases=1 basefreq=60 r1=0.1380 x1=0.4020 units=km normamps=645.00
+New "Linecode.2-61A_2" nphases=2 basefreq=60 r1=0.1380 x1=0.4020 units=km normamps=645.00
+New "Linecode.2-61A_3" nphases=3 basefreq=60 r1=0.1380 x1=0.4020 units=km normamps=645.00
+New "Linecode.2-61A_4" nphases=4 basefreq=60 r1=0.1380 x1=0.4020 units=km normamps=645.00
+
+New "Linecode.2-71A_1" nphases=1 basefreq=60 r1=0.1380 x1=0.4020 units=km normamps=645.00
+New "Linecode.2-71A_2" nphases=2 basefreq=60 r1=0.1380 x1=0.4020 units=km normamps=645.00
+New "Linecode.2-71A_3" nphases=3 basefreq=60 r1=0.1380 x1=0.4020 units=km normamps=645.00
+New "Linecode.2-71A_4" nphases=4 basefreq=60 r1=0.1380 x1=0.4020 units=km normamps=645.00
+
+New "Linecode.29-31M_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.29-31M_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.29-31M_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.29-31M_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.29-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.29-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.29-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.29-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.30-31M_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.30-31M_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.30-31M_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.30-31M_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.31-31M_1" nphases=1 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.31-31M_2" nphases=2 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.31-31M_3" nphases=3 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.31-31M_4" nphases=4 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+
+New "Linecode.32-31M_1" nphases=1 basefreq=60 r1=0.3060 x1=0.4200 units=km normamps=314.00
+New "Linecode.32-31M_2" nphases=2 basefreq=60 r1=0.3060 x1=0.4200 units=km normamps=314.00
+New "Linecode.32-31M_3" nphases=3 basefreq=60 r1=0.3060 x1=0.4200 units=km normamps=314.00
+New "Linecode.32-31M_4" nphases=4 basefreq=60 r1=0.3060 x1=0.4200 units=km normamps=314.00
+
+New "Linecode.3-31A_1" nphases=1 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+New "Linecode.3-31A_2" nphases=2 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+New "Linecode.3-31A_3" nphases=3 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+New "Linecode.3-31A_4" nphases=4 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+
+New "Linecode.33-31M_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.33-31M_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.33-31M_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.33-31M_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.33-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.33-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.33-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.33-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.33-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.33-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.33-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.33-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.34-14M_1" nphases=1 basefreq=60 r1=0.2890 x1=0.2700 units=km normamps=401.00
+New "Linecode.34-14M_2" nphases=2 basefreq=60 r1=0.2890 x1=0.2700 units=km normamps=401.00
+New "Linecode.34-14M_3" nphases=3 basefreq=60 r1=0.2890 x1=0.2700 units=km normamps=401.00
+New "Linecode.34-14M_4" nphases=4 basefreq=60 r1=0.2890 x1=0.2700 units=km normamps=401.00
+
+New "Linecode.35-14M_1" nphases=1 basefreq=60 r1=0.2360 x1=0.2700 units=km normamps=456.00
+New "Linecode.35-14M_2" nphases=2 basefreq=60 r1=0.2360 x1=0.2700 units=km normamps=456.00
+New "Linecode.35-14M_3" nphases=3 basefreq=60 r1=0.2360 x1=0.2700 units=km normamps=456.00
+New "Linecode.35-14M_4" nphases=4 basefreq=60 r1=0.2360 x1=0.2700 units=km normamps=456.00
+
+New "Linecode.3-61A_1" nphases=1 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+New "Linecode.3-61A_2" nphases=2 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+New "Linecode.3-61A_3" nphases=3 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+New "Linecode.3-61A_4" nphases=4 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+
+New "Linecode.36-14M_1" nphases=1 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+New "Linecode.36-14M_2" nphases=2 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+New "Linecode.36-14M_3" nphases=3 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+New "Linecode.36-14M_4" nphases=4 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+
+New "Linecode.3-71A_1" nphases=1 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+New "Linecode.3-71A_2" nphases=2 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+New "Linecode.3-71A_3" nphases=3 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+New "Linecode.3-71A_4" nphases=4 basefreq=60 r1=0.2450 x1=0.4980 units=km normamps=384.90
+
+New "Linecode.3-71N_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.3-71N_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.3-71N_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.3-71N_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.38-14M_1" nphases=1 basefreq=60 r1=0.5060 x1=0.3100 units=km normamps=282.00
+New "Linecode.38-14M_2" nphases=2 basefreq=60 r1=0.5060 x1=0.3100 units=km normamps=282.00
+New "Linecode.38-14M_3" nphases=3 basefreq=60 r1=0.5060 x1=0.3100 units=km normamps=282.00
+New "Linecode.38-14M_4" nphases=4 basefreq=60 r1=0.5060 x1=0.3100 units=km normamps=282.00
+
+New "Linecode.39-31M_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.39-31M_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.39-31M_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.39-31M_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+
+New "Linecode.39-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.39-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.39-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.39-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+
+New "Linecode.39-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.39-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.39-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.39-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+
+New "Linecode.40-31M_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4400 units=km normamps=220.00
+New "Linecode.40-31M_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4400 units=km normamps=220.00
+New "Linecode.40-31M_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4400 units=km normamps=220.00
+New "Linecode.40-31M_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4400 units=km normamps=220.00
+
+New "Linecode.41-31M_1" nphases=1 basefreq=60 r1=0.4860 x1=0.4300 units=km normamps=250.00
+New "Linecode.41-31M_2" nphases=2 basefreq=60 r1=0.4860 x1=0.4300 units=km normamps=250.00
+New "Linecode.41-31M_3" nphases=3 basefreq=60 r1=0.4860 x1=0.4300 units=km normamps=250.00
+New "Linecode.41-31M_4" nphases=4 basefreq=60 r1=0.4860 x1=0.4300 units=km normamps=250.00
+
+New "Linecode.42-31M_1" nphases=1 basefreq=60 r1=0.3060 x1=0.4100 units=km normamps=330.00
+New "Linecode.42-31M_2" nphases=2 basefreq=60 r1=0.3060 x1=0.4100 units=km normamps=330.00
+New "Linecode.42-31M_3" nphases=3 basefreq=60 r1=0.3060 x1=0.4100 units=km normamps=330.00
+New "Linecode.42-31M_4" nphases=4 basefreq=60 r1=0.3060 x1=0.4100 units=km normamps=330.00
+
+New "Linecode.43-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.43-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.43-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.43-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.43-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=152.00
+New "Linecode.43-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=152.00
+New "Linecode.43-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=152.00
+New "Linecode.43-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.443-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.443-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.443-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.443-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.443-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.443-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.443-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.443-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.444-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.444-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.444-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.444-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.445-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.445-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.445-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.445-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.44-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.44-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.44-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.44-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.448-71B_1" nphases=1 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.448-71B_2" nphases=2 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.448-71B_3" nphases=3 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.448-71B_4" nphases=4 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+
+New "Linecode.451-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.451-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.451-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.451-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.452-71B_1" nphases=1 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.452-71B_2" nphases=2 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.452-71B_3" nphases=3 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.452-71B_4" nphases=4 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+
+New "Linecode.457-71B_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.457-71B_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.457-71B_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.457-71B_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.458-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.458-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.458-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.458-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.460-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.460-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.460-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.460-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.461-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.461-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.461-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.461-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.462-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.462-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.462-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.462-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.464-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.464-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.464-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.464-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.470-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.470-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.470-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.470-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.4-71B_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.4-71B_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.4-71B_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.4-71B_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.472-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.472-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.472-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.472-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.473-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.473-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.473-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.473-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.475-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.475-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.475-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.475-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.476-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.476-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.476-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.476-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.477-71B_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.477-71B_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.477-71B_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.477-71B_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.478-71B_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.478-71B_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.478-71B_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.478-71B_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.484-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.484-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.484-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.484-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.488-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.488-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.488-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.488-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.489-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.489-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.489-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.489-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.490-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.490-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.490-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.490-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.491-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.491-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.491-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.491-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.493-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.493-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.493-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.493-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.494-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.494-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.494-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.494-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.496-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.496-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.496-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.496-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.49-71N_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5000 units=km normamps=95.00
+New "Linecode.49-71N_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5000 units=km normamps=95.00
+New "Linecode.49-71N_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5000 units=km normamps=95.00
+New "Linecode.49-71N_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5000 units=km normamps=95.00
+
+New "Linecode.498-71B_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.498-71B_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.498-71B_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.498-71B_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.500-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.500-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.500-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.500-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.50-14M_1" nphases=1 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.50-14M_2" nphases=2 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.50-14M_3" nphases=3 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.50-14M_4" nphases=4 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+
+New "Linecode.501-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.501-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.501-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.501-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.502-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.502-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.502-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.502-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.503-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.503-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.503-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.503-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.504-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.504-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.504-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.504-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.505-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.505-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.505-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.505-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.506-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.506-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.506-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.506-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.508-31M_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.508-31M_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.508-31M_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.508-31M_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.508-71B_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.508-71B_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.508-71B_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.508-71B_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.510-71B_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.510-71B_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.510-71B_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.510-71B_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.51-14M_1" nphases=1 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+New "Linecode.51-14M_2" nphases=2 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+New "Linecode.51-14M_3" nphases=3 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+New "Linecode.51-14M_4" nphases=4 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+
+New "Linecode.513-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.513-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.513-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.513-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.514-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.514-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.514-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.514-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.515-71B_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.515-71B_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.515-71B_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.515-71B_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.520-71B_1" nphases=1 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.520-71B_2" nphases=2 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.520-71B_3" nphases=3 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.520-71B_4" nphases=4 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+
+New "Linecode.521-71B_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.521-71B_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.521-71B_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.521-71B_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.522-71B_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.522-71B_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.522-71B_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.522-71B_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.52-31M_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.52-31M_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.52-31M_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.52-31M_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.524-71B_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.524-71B_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.524-71B_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.524-71B_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.524-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=170.00
+New "Linecode.524-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=170.00
+New "Linecode.524-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=170.00
+New "Linecode.524-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.525-71B_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.525-71B_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.525-71B_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.525-71B_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.526-71B_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.526-71B_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.526-71B_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.526-71B_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.527-71B_1" nphases=1 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+New "Linecode.527-71B_2" nphases=2 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+New "Linecode.527-71B_3" nphases=3 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+New "Linecode.527-71B_4" nphases=4 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+
+New "Linecode.527-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.5280 units=km normamps=25.00
+New "Linecode.527-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.5280 units=km normamps=25.00
+New "Linecode.527-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.5280 units=km normamps=25.00
+New "Linecode.527-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.5280 units=km normamps=25.00
+
+New "Linecode.529-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.529-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.529-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.529-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.5-31A_1" nphases=1 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+New "Linecode.5-31A_2" nphases=2 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+New "Linecode.5-31A_3" nphases=3 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+New "Linecode.5-31A_4" nphases=4 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+
+New "Linecode.531-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.531-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.531-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.531-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.531-71N_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4700 units=km normamps=152.00
+New "Linecode.531-71N_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4700 units=km normamps=152.00
+New "Linecode.531-71N_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4700 units=km normamps=152.00
+New "Linecode.531-71N_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.532-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.532-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.532-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.532-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.53-31M_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.53-31M_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.53-31M_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.53-31M_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.533-71B_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.533-71B_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.533-71B_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.533-71B_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.534-71N_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.534-71N_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.534-71N_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.534-71N_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.535-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.535-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.535-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.535-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.536-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.536-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.536-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.536-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.537-71B_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.537-71B_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.537-71B_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.537-71B_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.538-71N_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.538-71N_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.538-71N_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.538-71N_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.539-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.539-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.539-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.539-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.540-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.540-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.540-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.540-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.541-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.541-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.541-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.541-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.542-71B_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.542-71B_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.542-71B_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.542-71B_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.54-31M_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.54-31M_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.54-31M_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.54-31M_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.543-71N_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.543-71N_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.543-71N_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.543-71N_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.544-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.544-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.544-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.544-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.545-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.545-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.545-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.545-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.546-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.546-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.546-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.546-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.547-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.547-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.547-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.547-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.547-71N_1" nphases=1 basefreq=60 r1=2.3890 x1=0.4700 units=km normamps=230.00
+New "Linecode.547-71N_2" nphases=2 basefreq=60 r1=2.3890 x1=0.4700 units=km normamps=230.00
+New "Linecode.547-71N_3" nphases=3 basefreq=60 r1=2.3890 x1=0.4700 units=km normamps=230.00
+New "Linecode.547-71N_4" nphases=4 basefreq=60 r1=2.3890 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.549-71N_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.549-71N_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.549-71N_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.549-71N_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.550-71B_1" nphases=1 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+New "Linecode.550-71B_2" nphases=2 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+New "Linecode.550-71B_3" nphases=3 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+New "Linecode.550-71B_4" nphases=4 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+
+New "Linecode.550-71N_1" nphases=1 basefreq=60 r1=29.1420 x1=0.5280 units=km normamps=25.00
+New "Linecode.550-71N_2" nphases=2 basefreq=60 r1=29.1420 x1=0.5280 units=km normamps=25.00
+New "Linecode.550-71N_3" nphases=3 basefreq=60 r1=29.1420 x1=0.5280 units=km normamps=25.00
+New "Linecode.550-71N_4" nphases=4 basefreq=60 r1=29.1420 x1=0.5280 units=km normamps=25.00
+
+New "Linecode.551-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.551-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.551-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.551-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.552-71B_1" nphases=1 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+New "Linecode.552-71B_2" nphases=2 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+New "Linecode.552-71B_3" nphases=3 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+New "Linecode.552-71B_4" nphases=4 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+
+New "Linecode.55-31M_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.55-31M_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.55-31M_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.55-31M_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.554-31M_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.554-31M_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.554-31M_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.554-31M_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.554-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.554-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.554-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.554-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.554-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.554-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.554-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.554-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.555-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.555-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.555-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.555-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.555-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.555-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.555-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.555-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.556-31M_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.556-31M_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.556-31M_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.556-31M_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.556-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.556-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.556-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.556-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.558-71B_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.558-71B_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.558-71B_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.558-71B_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.5-61A_1" nphases=1 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+New "Linecode.5-61A_2" nphases=2 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+New "Linecode.5-61A_3" nphases=3 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+New "Linecode.5-61A_4" nphases=4 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+
+New "Linecode.562-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.562-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.562-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.562-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.563-71B_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.563-71B_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.563-71B_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.563-71B_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.565-71B_1" nphases=1 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.565-71B_2" nphases=2 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.565-71B_3" nphases=3 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.565-71B_4" nphases=4 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+
+New "Linecode.566-71B_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.566-71B_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.566-71B_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.566-71B_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.567-71B_1" nphases=1 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+New "Linecode.567-71B_2" nphases=2 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+New "Linecode.567-71B_3" nphases=3 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+New "Linecode.567-71B_4" nphases=4 basefreq=60 r1=29.1420 x1=0.9000 units=km normamps=25.00
+
+New "Linecode.568-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.568-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.568-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.568-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.5-71A_1" nphases=1 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+New "Linecode.5-71A_2" nphases=2 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+New "Linecode.5-71A_3" nphases=3 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+New "Linecode.5-71A_4" nphases=4 basefreq=60 r1=0.3060 x1=0.4780 units=km normamps=365.00
+
+New "Linecode.5-71B_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.5-71B_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.5-71B_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.5-71B_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.5-71N_1" nphases=1 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.5-71N_2" nphases=2 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.5-71N_3" nphases=3 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+New "Linecode.5-71N_4" nphases=4 basefreq=60 r1=2.3890 x1=0.5200 units=km normamps=90.00
+
+New "Linecode.571-71B_1" nphases=1 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.571-71B_2" nphases=2 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.571-71B_3" nphases=3 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.571-71B_4" nphases=4 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+
+New "Linecode.57-44B_1" nphases=1 basefreq=60 r1=0.1880 x1=0.1000 units=km normamps=240.00
+New "Linecode.57-44B_2" nphases=2 basefreq=60 r1=0.1880 x1=0.1000 units=km normamps=240.00
+New "Linecode.57-44B_3" nphases=3 basefreq=60 r1=0.1880 x1=0.1000 units=km normamps=240.00
+New "Linecode.57-44B_4" nphases=4 basefreq=60 r1=0.1880 x1=0.1000 units=km normamps=240.00
+
+New "Linecode.577-71B_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.577-71B_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.577-71B_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.577-71B_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.580-51B_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.580-51B_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.580-51B_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.580-51B_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+
+New "Linecode.581-51B_1" nphases=1 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.581-51B_2" nphases=2 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.581-51B_3" nphases=3 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.581-51B_4" nphases=4 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.582-51B_1" nphases=1 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.582-51B_2" nphases=2 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.582-51B_3" nphases=3 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.582-51B_4" nphases=4 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+
+New "Linecode.583-51B_1" nphases=1 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+New "Linecode.583-51B_2" nphases=2 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+New "Linecode.583-51B_3" nphases=3 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+New "Linecode.583-51B_4" nphases=4 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+
+New "Linecode.584-51B_1" nphases=1 basefreq=60 r1=0.5060 x1=0.1100 units=km normamps=138.00
+New "Linecode.584-51B_2" nphases=2 basefreq=60 r1=0.5060 x1=0.1100 units=km normamps=138.00
+New "Linecode.584-51B_3" nphases=3 basefreq=60 r1=0.5060 x1=0.1100 units=km normamps=138.00
+New "Linecode.584-51B_4" nphases=4 basefreq=60 r1=0.5060 x1=0.1100 units=km normamps=138.00
+
+New "Linecode.585-51B_1" nphases=1 basefreq=60 r1=0.2890 x1=0.1000 units=km normamps=186.00
+New "Linecode.585-51B_2" nphases=2 basefreq=60 r1=0.2890 x1=0.1000 units=km normamps=186.00
+New "Linecode.585-51B_3" nphases=3 basefreq=60 r1=0.2890 x1=0.1000 units=km normamps=186.00
+New "Linecode.585-51B_4" nphases=4 basefreq=60 r1=0.2890 x1=0.1000 units=km normamps=186.00
+
+New "Linecode.58-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.58-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.58-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.58-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.59-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.59-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.59-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.59-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.59-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.59-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.59-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.59-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.60-31A_1" nphases=1 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=640.00
+New "Linecode.60-31A_2" nphases=2 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=640.00
+New "Linecode.60-31A_3" nphases=3 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=640.00
+New "Linecode.60-31A_4" nphases=4 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=640.00
+
+New "Linecode.60-61A_1" nphases=1 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=968.00
+New "Linecode.60-61A_2" nphases=2 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=968.00
+New "Linecode.60-61A_3" nphases=3 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=968.00
+New "Linecode.60-61A_4" nphases=4 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=968.00
+
+New "Linecode.60-71A_1" nphases=1 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=640.00
+New "Linecode.60-71A_2" nphases=2 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=640.00
+New "Linecode.60-71A_3" nphases=3 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=640.00
+New "Linecode.60-71A_4" nphases=4 basefreq=60 r1=0.1450 x1=0.4020 units=km normamps=640.00
+
+New "Linecode.60-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.60-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.60-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.60-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.60-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.60-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.60-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.60-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.61-31A_1" nphases=1 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+New "Linecode.61-31A_2" nphases=2 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+New "Linecode.61-31A_3" nphases=3 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+New "Linecode.61-31A_4" nphases=4 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+
+New "Linecode.61-61A_1" nphases=1 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+New "Linecode.61-61A_2" nphases=2 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+New "Linecode.61-61A_3" nphases=3 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+New "Linecode.61-61A_4" nphases=4 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+
+New "Linecode.61-71A_1" nphases=1 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+New "Linecode.61-71A_2" nphases=2 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+New "Linecode.61-71A_3" nphases=3 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+New "Linecode.61-71A_4" nphases=4 basefreq=60 r1=0.0880 x1=0.5180 units=km normamps=880.00
+
+New "Linecode.61-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.61-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.61-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.61-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.62-71B_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.62-71B_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.62-71B_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.62-71B_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.64-71B_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.64-71B_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.64-71B_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+New "Linecode.64-71B_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=170.00
+
+New "Linecode.65-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.65-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.65-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.65-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.66-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.66-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.66-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.66-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.66-71N_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4700 units=km normamps=230.00
+New "Linecode.66-71N_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4700 units=km normamps=230.00
+New "Linecode.66-71N_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4700 units=km normamps=230.00
+New "Linecode.66-71N_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.6-71B_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.6-71B_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.6-71B_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.6-71B_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.700-10M_1" nphases=1 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.700-10M_2" nphases=2 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.700-10M_3" nphases=3 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.700-10M_4" nphases=4 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+
+New "Linecode.700-14M_1" nphases=1 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.700-14M_2" nphases=2 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.700-14M_3" nphases=3 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.700-14M_4" nphases=4 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+
+New "Linecode.70-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.70-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.70-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.70-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.71-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.71-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.71-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.71-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.72-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.72-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.72-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.72-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.7-31A_1" nphases=1 basefreq=60 r1=0.1950 x1=0.4570 units=km normamps=451.80
+New "Linecode.7-31A_2" nphases=2 basefreq=60 r1=0.1950 x1=0.4570 units=km normamps=451.80
+New "Linecode.7-31A_3" nphases=3 basefreq=60 r1=0.1950 x1=0.4570 units=km normamps=451.80
+New "Linecode.7-31A_4" nphases=4 basefreq=60 r1=0.1950 x1=0.4570 units=km normamps=451.80
+
+New "Linecode.73-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.73-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.73-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.73-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.74-31M_1" nphases=1 basefreq=60 r1=18.3250 x1=0.7500 units=km normamps=35.00
+New "Linecode.74-31M_2" nphases=2 basefreq=60 r1=18.3250 x1=0.7500 units=km normamps=35.00
+New "Linecode.74-31M_3" nphases=3 basefreq=60 r1=18.3250 x1=0.7500 units=km normamps=35.00
+New "Linecode.74-31M_4" nphases=4 basefreq=60 r1=18.3250 x1=0.7500 units=km normamps=35.00
+
+New "Linecode.744-51B_1" nphases=1 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.744-51B_2" nphases=2 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.744-51B_3" nphases=3 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+New "Linecode.744-51B_4" nphases=4 basefreq=60 r1=2.1790 x1=0.1200 units=km normamps=61.00
+
+New "Linecode.75-31M_1" nphases=1 basefreq=60 r1=29.1420 x1=0.8000 units=km normamps=25.00
+New "Linecode.75-31M_2" nphases=2 basefreq=60 r1=29.1420 x1=0.8000 units=km normamps=25.00
+New "Linecode.75-31M_3" nphases=3 basefreq=60 r1=29.1420 x1=0.8000 units=km normamps=25.00
+New "Linecode.75-31M_4" nphases=4 basefreq=60 r1=29.1420 x1=0.8000 units=km normamps=25.00
+
+New "Linecode.760-51B_1" nphases=1 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+New "Linecode.760-51B_2" nphases=2 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+New "Linecode.760-51B_3" nphases=3 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+New "Linecode.760-51B_4" nphases=4 basefreq=60 r1=0.7320 x1=0.1100 units=km normamps=112.00
+
+New "Linecode.7-61A_1" nphases=1 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.7-61A_2" nphases=2 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.7-61A_3" nphases=3 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.7-61A_4" nphases=4 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+
+New "Linecode.76-31M_1" nphases=1 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+New "Linecode.76-31M_2" nphases=2 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+New "Linecode.76-31M_3" nphases=3 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+New "Linecode.76-31M_4" nphases=4 basefreq=60 r1=11.4110 x1=0.5200 units=km normamps=65.00
+
+New "Linecode.7-71A_1" nphases=1 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.7-71A_2" nphases=2 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.7-71A_3" nphases=3 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+New "Linecode.7-71A_4" nphases=4 basefreq=60 r1=0.1650 x1=0.4710 units=km normamps=502.00
+
+New "Linecode.7-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.7-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.7-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.7-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.77-71N_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.77-71N_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.77-71N_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.77-71N_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.780-51B_1" nphases=1 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.780-51B_2" nphases=2 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.780-51B_3" nphases=3 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+New "Linecode.780-51B_4" nphases=4 basefreq=60 r1=3.5140 x1=0.1300 units=km normamps=47.00
+
+New "Linecode.78-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.78-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.78-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.78-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+
+New "Linecode.78-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.78-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.78-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+New "Linecode.78-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=125.00
+
+New "Linecode.79-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=185.00
+New "Linecode.79-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=185.00
+New "Linecode.79-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=185.00
+New "Linecode.79-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=185.00
+
+New "Linecode.79-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=185.00
+New "Linecode.79-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=185.00
+New "Linecode.79-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=185.00
+New "Linecode.79-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=185.00
+
+New "Linecode.800-51B_1" nphases=1 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.800-51B_2" nphases=2 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.800-51B_3" nphases=3 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+New "Linecode.800-51B_4" nphases=4 basefreq=60 r1=1.3690 x1=0.1200 units=km normamps=78.00
+
+New "Linecode.801-10M_1" nphases=1 basefreq=60 r1=0.4410 x1=0.3100 units=km normamps=225.00
+New "Linecode.801-10M_2" nphases=2 basefreq=60 r1=0.4410 x1=0.3100 units=km normamps=225.00
+New "Linecode.801-10M_3" nphases=3 basefreq=60 r1=0.4410 x1=0.3100 units=km normamps=225.00
+New "Linecode.801-10M_4" nphases=4 basefreq=60 r1=0.4410 x1=0.3100 units=km normamps=225.00
+
+New "Linecode.801-14M_1" nphases=1 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.801-14M_2" nphases=2 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.801-14M_3" nphases=3 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+New "Linecode.801-14M_4" nphases=4 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=225.00
+
+New "Linecode.802-14M_1" nphases=1 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+New "Linecode.802-14M_2" nphases=2 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+New "Linecode.802-14M_3" nphases=3 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+New "Linecode.802-14M_4" nphases=4 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+
+New "Linecode.803-14M_1" nphases=1 basefreq=60 r1=0.2360 x1=0.2700 units=km normamps=456.00
+New "Linecode.803-14M_2" nphases=2 basefreq=60 r1=0.2360 x1=0.2700 units=km normamps=456.00
+New "Linecode.803-14M_3" nphases=3 basefreq=60 r1=0.2360 x1=0.2700 units=km normamps=456.00
+New "Linecode.803-14M_4" nphases=4 basefreq=60 r1=0.2360 x1=0.2700 units=km normamps=456.00
+
+New "Linecode.80-71N_1" nphases=1 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+New "Linecode.80-71N_2" nphases=2 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+New "Linecode.80-71N_3" nphases=3 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+New "Linecode.80-71N_4" nphases=4 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+
+New "Linecode.81-71B_1" nphases=1 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+New "Linecode.81-71B_2" nphases=2 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+New "Linecode.81-71B_3" nphases=3 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+New "Linecode.81-71B_4" nphases=4 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+
+New "Linecode.821-51M_1" nphases=1 basefreq=60 r1=0.3050 x1=0.1500 units=km normamps=154.00
+New "Linecode.821-51M_2" nphases=2 basefreq=60 r1=0.3050 x1=0.1500 units=km normamps=154.00
+New "Linecode.821-51M_3" nphases=3 basefreq=60 r1=0.3050 x1=0.1500 units=km normamps=154.00
+New "Linecode.821-51M_4" nphases=4 basefreq=60 r1=0.3050 x1=0.1500 units=km normamps=154.00
+
+New "Linecode.82-71B_1" nphases=1 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+New "Linecode.82-71B_2" nphases=2 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+New "Linecode.82-71B_3" nphases=3 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+New "Linecode.82-71B_4" nphases=4 basefreq=60 r1=2.4690 x1=0.5000 units=km normamps=95.00
+
+New "Linecode.841-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.841-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.841-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.841-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.841-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=152.00
+New "Linecode.841-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=152.00
+New "Linecode.841-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=152.00
+New "Linecode.841-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.84-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.84-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.84-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.84-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.85-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.85-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.85-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.85-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.861-31M_1" nphases=1 basefreq=60 r1=0.4410 x1=0.3100 units=km normamps=225.00
+New "Linecode.861-31M_2" nphases=2 basefreq=60 r1=0.4410 x1=0.3100 units=km normamps=225.00
+New "Linecode.861-31M_3" nphases=3 basefreq=60 r1=0.4410 x1=0.3100 units=km normamps=225.00
+New "Linecode.861-31M_4" nphases=4 basefreq=60 r1=0.4410 x1=0.3100 units=km normamps=225.00
+
+New "Linecode.865-31M_1" nphases=1 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+New "Linecode.865-31M_2" nphases=2 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+New "Linecode.865-31M_3" nphases=3 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+New "Linecode.865-31M_4" nphases=4 basefreq=60 r1=0.3650 x1=0.2800 units=km normamps=345.00
+
+New "Linecode.866-31M_1" nphases=1 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+New "Linecode.866-31M_2" nphases=2 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+New "Linecode.866-31M_3" nphases=3 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+New "Linecode.866-31M_4" nphases=4 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+
+New "Linecode.86-71B_1" nphases=1 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.86-71B_2" nphases=2 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.86-71B_3" nphases=3 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+New "Linecode.86-71B_4" nphases=4 basefreq=60 r1=1.5640 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.86-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.5100 units=km normamps=120.00
+New "Linecode.86-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.5100 units=km normamps=120.00
+New "Linecode.86-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.5100 units=km normamps=120.00
+New "Linecode.86-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.5100 units=km normamps=120.00
+
+New "Linecode.867-31M_1" nphases=1 basefreq=60 r1=0.2450 x1=0.4600 units=km normamps=455.00
+New "Linecode.867-31M_2" nphases=2 basefreq=60 r1=0.2450 x1=0.4600 units=km normamps=455.00
+New "Linecode.867-31M_3" nphases=3 basefreq=60 r1=0.2450 x1=0.4600 units=km normamps=455.00
+New "Linecode.867-31M_4" nphases=4 basefreq=60 r1=0.2450 x1=0.4600 units=km normamps=455.00
+
+New "Linecode.868-14M_1" nphases=1 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+New "Linecode.868-14M_2" nphases=2 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+New "Linecode.868-14M_3" nphases=3 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+New "Linecode.868-14M_4" nphases=4 basefreq=60 r1=0.1880 x1=0.2600 units=km normamps=525.00
+
+New "Linecode.869-40B_1" nphases=1 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.869-40B_2" nphases=2 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.869-40B_3" nphases=3 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.869-40B_4" nphases=4 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+
+New "Linecode.869-44B_1" nphases=1 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.869-44B_2" nphases=2 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.869-44B_3" nphases=3 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+New "Linecode.869-44B_4" nphases=4 basefreq=60 r1=0.9910 x1=0.1100 units=km normamps=94.00
+
+New "Linecode.870-44B_1" nphases=1 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+New "Linecode.870-44B_2" nphases=2 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+New "Linecode.870-44B_3" nphases=3 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+New "Linecode.870-44B_4" nphases=4 basefreq=60 r1=0.7320 x1=0.1000 units=km normamps=122.00
+
+New "Linecode.8-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.8-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.8-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.8-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.871-44B_1" nphases=1 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=196.00
+New "Linecode.871-44B_2" nphases=2 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=196.00
+New "Linecode.871-44B_3" nphases=3 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=196.00
+New "Linecode.871-44B_4" nphases=4 basefreq=60 r1=0.3650 x1=0.1000 units=km normamps=196.00
+
+New "Linecode.873-31M_1" nphases=1 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=170.00
+New "Linecode.873-31M_2" nphases=2 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=170.00
+New "Linecode.873-31M_3" nphases=3 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=170.00
+New "Linecode.873-31M_4" nphases=4 basefreq=60 r1=0.7320 x1=0.3100 units=km normamps=170.00
+
+New "Linecode.876-31M_1" nphases=1 basefreq=60 r1=0.1900 x1=0.4000 units=km normamps=419.00
+New "Linecode.876-31M_2" nphases=2 basefreq=60 r1=0.1900 x1=0.4000 units=km normamps=419.00
+New "Linecode.876-31M_3" nphases=3 basefreq=60 r1=0.1900 x1=0.4000 units=km normamps=419.00
+New "Linecode.876-31M_4" nphases=4 basefreq=60 r1=0.1900 x1=0.4000 units=km normamps=419.00
+
+New "Linecode.87-71B_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.87-71B_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.87-71B_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.87-71B_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.877-51M_1" nphases=1 basefreq=60 r1=0.1430 x1=0.1300 units=km normamps=238.00
+New "Linecode.877-51M_2" nphases=2 basefreq=60 r1=0.1430 x1=0.1300 units=km normamps=238.00
+New "Linecode.877-51M_3" nphases=3 basefreq=60 r1=0.1430 x1=0.1300 units=km normamps=238.00
+New "Linecode.877-51M_4" nphases=4 basefreq=60 r1=0.1430 x1=0.1300 units=km normamps=238.00
+
+New "Linecode.88-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.88-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.88-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+New "Linecode.88-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4700 units=km normamps=152.00
+
+New "Linecode.89-31M_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4600 units=km normamps=160.00
+New "Linecode.89-31M_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4600 units=km normamps=160.00
+New "Linecode.89-31M_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4600 units=km normamps=160.00
+New "Linecode.89-31M_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4600 units=km normamps=160.00
+
+New "Linecode.90-71N_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.90-71N_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.90-71N_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.90-71N_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.92-71N_1" nphases=1 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=114.00
+New "Linecode.92-71N_2" nphases=2 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=114.00
+New "Linecode.92-71N_3" nphases=3 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=114.00
+New "Linecode.92-71N_4" nphases=4 basefreq=60 r1=0.9840 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.93-71B_1" nphases=1 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.93-71B_2" nphases=2 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.93-71B_3" nphases=3 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+New "Linecode.93-71B_4" nphases=4 basefreq=60 r1=1.5510 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.93-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4900 units=km normamps=114.00
+New "Linecode.93-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4900 units=km normamps=114.00
+New "Linecode.93-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4900 units=km normamps=114.00
+New "Linecode.93-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4900 units=km normamps=114.00
+
+New "Linecode.94-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.94-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.94-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.94-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.94-71N_1" nphases=1 basefreq=60 r1=0.9750 x1=0.4500 units=km normamps=203.00
+New "Linecode.94-71N_2" nphases=2 basefreq=60 r1=0.9750 x1=0.4500 units=km normamps=203.00
+New "Linecode.94-71N_3" nphases=3 basefreq=60 r1=0.9750 x1=0.4500 units=km normamps=203.00
+New "Linecode.94-71N_4" nphases=4 basefreq=60 r1=0.9750 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.95-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.95-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.95-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.95-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.96-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.96-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.96-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.96-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.9-71B_1" nphases=1 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.9-71B_2" nphases=2 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.9-71B_3" nphases=3 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+New "Linecode.9-71B_4" nphases=4 basefreq=60 r1=0.6200 x1=0.4700 units=km normamps=230.00
+
+New "Linecode.97-71B_1" nphases=1 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.97-71B_2" nphases=2 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.97-71B_3" nphases=3 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+New "Linecode.97-71B_4" nphases=4 basefreq=60 r1=0.6130 x1=0.4500 units=km normamps=203.00
+
+New "Linecode.98-71B_1" nphases=1 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.98-71B_2" nphases=2 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.98-71B_3" nphases=3 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+New "Linecode.98-71B_4" nphases=4 basefreq=60 r1=0.4860 x1=0.4400 units=km normamps=235.00
+
+New "Linecode.99-31M_1" nphases=1 basefreq=60 r1=2.4690 x1=0.4900 units=km normamps=105.00
+New "Linecode.99-31M_2" nphases=2 basefreq=60 r1=2.4690 x1=0.4900 units=km normamps=105.00
+New "Linecode.99-31M_3" nphases=3 basefreq=60 r1=2.4690 x1=0.4900 units=km normamps=105.00
+New "Linecode.99-31M_4" nphases=4 basefreq=60 r1=2.4690 x1=0.4900 units=km normamps=105.00
+

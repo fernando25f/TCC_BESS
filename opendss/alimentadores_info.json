@@ -1,0 +1,189 @@
+{
+  "subestacao": "Subestacao_5001462",
+  "trafos_subestacao": {
+    "GOL-S-TRF-TR1": {
+      "identificador": "TR1",
+      "barra_secundaria": "1783",
+      "pot_nom_mva": 50.0
+    },
+    "GOL-S-TRF-TR2": {
+      "identificador": "TR2",
+      "barra_secundaria": "4629",
+      "pot_nom_mva": 50.0
+    },
+    "GOL-S-TRF-TR3": {
+      "identificador": "TR3",
+      "barra_secundaria": "4630",
+      "pot_nom_mva": 50.0
+    },
+    "GOL-S-TRF-TR4": {
+      "identificador": "TR4",
+      "barra_secundaria": "6440",
+      "pot_nom_mva": 50.0
+    }
+  },
+  "alimentadores": {
+    "5002409": {
+      "nome": "GOIANIA LESTE-1",
+      "trafo": "GOL-S-TRF-TR3",
+      "barra": "4630",
+      "pac_ini": "84799235002409"
+    },
+    "5001992": {
+      "nome": "GOIANIA LESTE-10",
+      "trafo": "GOL-S-TRF-TR1",
+      "barra": "1783",
+      "pac_ini": "85521915001992"
+    },
+    "5001993": {
+      "nome": "GOIANIA LESTE-11",
+      "trafo": "GOL-S-TRF-TR1",
+      "barra": "1783",
+      "pac_ini": "84804395001993"
+    },
+    "5002188": {
+      "nome": "GOIANIA LESTE-12",
+      "trafo": "GOL-S-TRF-TR1",
+      "barra": "1783",
+      "pac_ini": "85862715002188"
+    },
+    "5002228": {
+      "nome": "GOIANIA LESTE-13",
+      "trafo": "GOL-S-TRF-TR2",
+      "barra": "4629",
+      "pac_ini": "84804495002228"
+    },
+    "5001994": {
+      "nome": "GOIANIA LESTE-14",
+      "trafo": "GOL-S-TRF-TR2",
+      "barra": "4629",
+      "pac_ini": "84804505001994"
+    },
+    "5001995": {
+      "nome": "GOIANIA LESTE-15",
+      "trafo": "GOL-S-TRF-TR2",
+      "barra": "4629",
+      "pac_ini": "84804515001995"
+    },
+    "5002210": {
+      "nome": "GOIANIA LESTE-16",
+      "trafo": "GOL-S-TRF-TR2",
+      "barra": "4629",
+      "pac_ini": "84804525002210"
+    },
+    "5001996": {
+      "nome": "GOIANIA LESTE-17",
+      "trafo": "GOL-S-TRF-TR2",
+      "barra": "4629",
+      "pac_ini": "84804535001996"
+    },
+    "5001997": {
+      "nome": "GOIANIA LESTE-18",
+      "trafo": "GOL-S-TRF-TR2",
+      "barra": "4629",
+      "pac_ini": "84804545001997"
+    },
+    "5001998": {
+      "nome": "GOIANIA LESTE-19",
+      "trafo": "GOL-S-TRF-TR2",
+      "barra": "4629",
+      "pac_ini": "84804555001998"
+    },
+    "5002410": {
+      "nome": "GOIANIA LESTE-2",
+      "trafo": "GOL-S-TRF-TR3",
+      "barra": "4630",
+      "pac_ini": "84799255002410"
+    },
+    "5002211": {
+      "nome": "GOIANIA LESTE-20",
+      "trafo": "GOL-S-TRF-TR2",
+      "barra": "4629",
+      "pac_ini": "90018655002211"
+    },
+    "5007257": {
+      "nome": "GOIANIA LESTE-21",
+      "trafo": "GOL-S-TRF-TR4",
+      "barra": "6440",
+      "pac_ini": "93360665007257"
+    },
+    "5007258": {
+      "nome": "GOIANIA LESTE-22",
+      "trafo": "GOL-S-TRF-TR4",
+      "barra": "6440",
+      "pac_ini": "93360675007258"
+    },
+    "5007259": {
+      "nome": "GOIANIA LESTE-23",
+      "trafo": "GOL-S-TRF-TR4",
+      "barra": "6440",
+      "pac_ini": "93360685007259"
+    },
+    "5008497": {
+      "nome": "GOIANIA LESTE-24",
+      "trafo": "GOL-S-TRF-TR4",
+      "barra": "6440",
+      "pac_ini": "95463855008497"
+    },
+    "5008498": {
+      "nome": "GOIANIA LESTE-25",
+      "trafo": "GOL-S-TRF-TR4",
+      "barra": "6440",
+      "pac_ini": "95463865008498"
+    },
+    "5008499": {
+      "nome": "GOIANIA LESTE-26",
+      "trafo": "GOL-S-TRF-TR4",
+      "barra": "6440",
+      "pac_ini": "95463875008499"
+    },
+    "5008500": {
+      "nome": "GOIANIA LESTE-27",
+      "trafo": "GOL-S-TRF-TR4",
+      "barra": "6440",
+      "pac_ini": "95463885008500"
+    },
+    "5002411": {
+      "nome": "GOIANIA LESTE-3",
+      "trafo": "GOL-S-TRF-TR3",
+      "barra": "4630",
+      "pac_ini": "84799265002411"
+    },
+    "5002412": {
+      "nome": "GOIANIA LESTE-4",
+      "trafo": "GOL-S-TRF-TR3",
+      "barra": "4630",
+      "pac_ini": "84799275002412"
+    },
+    "5002413": {
+      "nome": "GOIANIA LESTE-5",
+      "trafo": "GOL-S-TRF-TR3",
+      "barra": "4630",
+      "pac_ini": "84799285002413"
+    },
+    "5002414": {
+      "nome": "GOIANIA LESTE-6",
+      "trafo": "GOL-S-TRF-TR3",
+      "barra": "4630",
+      "pac_ini": "84799245002414"
+    },
+    "5002148": {
+      "nome": "GOIANIA LESTE-7",
+      "trafo": "GOL-S-TRF-TR1",
+      "barra": "1783",
+      "pac_ini": "84804355002148"
+    },
+    "5001990": {
+      "nome": "GOIANIA LESTE-8",
+      "trafo": "GOL-S-TRF-TR1",
+      "barra": "1783",
+      "pac_ini": "84804365001990"
+    },
+    "5001991": {
+      "nome": "GOIANIA LESTE-9",
+      "trafo": "GOL-S-TRF-TR1",
+      "barra": "1783",
+      "pac_ini": "84804375001991"
+    }
+  }
+}

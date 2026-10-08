@@ -1,0 +1,809 @@
+! ==============================================================================
+! ALIMENTADOR CTMT_5008500 - GOIANIA LESTE-27
+! Subestacao: Trafo TR4 (GOL-S-TRF-TR4) | Barra MT: 6440 -> PAC_INI: 95463885008500
+! ==============================================================================
+
+! 1. Disjuntor de Saida MT do Alimentador
+new line.DJ_5008500 phases=3 bus1=6440 bus2=95463885008500 switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+! 2. Linhas de Media Tensao (MT)
+new line.52874543 phases=3 bus1=80444265008500.1.2.3 bus2=80441005008500.1.2.3 r1=0.62 x1=0.47 length=0.019402 units=km normamps=230.0
+new line.52874544 phases=3 bus1=80444275008500.1.2.3 bus2=80444265008500.1.2.3 r1=0.62 x1=0.47 length=0.010427 units=km normamps=230.0
+new line.52874570 phases=3 bus1=80440955008500.1.2.3 bus2=80440925008500.1.2.3 r1=1.551 x1=0.49 length=0.029774 units=km normamps=114.0
+new line.52874571 phases=3 bus1=80440965008500.1.2.3 bus2=80440955008500.1.2.3 r1=1.551 x1=0.49 length=0.029199 units=km normamps=114.0
+new line.52874572 phases=3 bus1=80440925008500.1.2.3 bus2=80440975008500.1.2.3 r1=1.551 x1=0.49 length=0.027072 units=km normamps=114.0
+new line.52874573 phases=3 bus1=80440985008500.1.2.3 bus2=80440975008500.1.2.3 r1=1.551 x1=0.49 length=0.00735 units=km normamps=114.0
+new line.52874574 phases=3 bus1=80440995008500.1.2.3 bus2=80440955008500.1.2.3 r1=0.975 x1=0.47 length=0.030762 units=km normamps=152.0
+new line.52874575 phases=3 bus1=80441005008500.1.2.3 bus2=80440995008500.1.2.3 r1=0.975 x1=0.47 length=0.032017 units=km normamps=152.0
+new line.52874603 phases=3 bus1=80441425008500.1.2.3 bus2=80441415008500.1.2.3 r1=1.551 x1=0.49 length=0.006044 units=km normamps=114.0
+new line.52879029 phases=3 bus1=80472545008500.1.2.3 bus2=80472535008500B.1.2.3 r1=0.236 x1=0.27 length=0.031746 units=km normamps=456.0
+new line.52879099 phases=3 bus1=80441065008500.1.2.3 bus2=80441055008500.1.2.3 r1=1.551 x1=0.49 length=0.019216 units=km normamps=114.0
+new line.52879100 phases=3 bus1=80441075008500.1.2.3 bus2=80441065008500.1.2.3 r1=1.551 x1=0.49 length=0.021006 units=km normamps=114.0
+new line.52879101 phases=3 bus1=80472905008500.1.2.3 bus2=80441075008500.1.2.3 r1=1.551 x1=0.49 length=0.001483 units=km normamps=114.0
+new line.52879102 phases=3 bus1=80441055008500.1.2.3 bus2=80472945008500.1.2.3 r1=0.236 x1=0.27 length=0.037809 units=km normamps=456.0
+new line.52879103 phases=3 bus1=80472935008500.1.2.3 bus2=80472945008500.1.2.3 r1=0.236 x1=0.27 length=0.01007 units=km normamps=456.0
+new line.52879104 phases=3 bus1=80472945008500.1.2.3 bus2=80472955008500.1.2.3 r1=1.551 x1=0.49 length=0.009426 units=km normamps=114.0
+new line.52879116 phases=3 bus1=80473115008500.1.2.3 bus2=80475165008500.1.2.3 r1=0.236 x1=0.27 length=0.035676 units=km normamps=456.0
+new line.52879117 phases=3 bus1=80475165008500.1.2.3 bus2=80475175008500.1.2.3 r1=0.236 x1=0.27 length=0.028968 units=km normamps=456.0
+new line.52879118 phases=3 bus1=80475175008500.1.2.3 bus2=80475185008500.1.2.3 r1=0.236 x1=0.27 length=0.040083 units=km normamps=456.0
+new line.52879162 phases=3 bus1=80472945008500.1.2.3 bus2=80472985008500.1.2.3 r1=0.236 x1=0.27 length=0.029279 units=km normamps=456.0
+new line.52879163 phases=3 bus1=80472985008500.1.2.3 bus2=80472995008500.1.2.3 r1=0.236 x1=0.27 length=0.038489 units=km normamps=456.0
+new line.52879164 phases=3 bus1=80473005008500.1.2.3 bus2=80472545008500.1.2.3 r1=0.236 x1=0.27 length=0.039189 units=km normamps=456.0
+new line.52879165 phases=3 bus1=80473015008500.1.2.3 bus2=80473005008500.1.2.3 r1=0.236 x1=0.27 length=0.026838 units=km normamps=456.0
+new line.52879166 phases=3 bus1=80472995008500.1.2.3 bus2=80473015008500.1.2.3 r1=0.236 x1=0.27 length=0.027814 units=km normamps=456.0
+new line.52879167 phases=3 bus1=80473105008500.1.2.3 bus2=80473115008500.1.2.3 r1=0.236 x1=0.27 length=0.033383 units=km normamps=456.0
+new line.54241792 phases=3 bus1=80473115008500.1.2.3 bus2=80474885008500.1.2.3 r1=0.975 x1=0.47 length=0.012702 units=km normamps=152.0
+new line.54241793 phases=3 bus1=80474885008500.1.2.3 bus2=80473675008500.1.2.3 r1=0.975 x1=0.47 length=0.025572 units=km normamps=152.0
+new line.54241794 phases=3 bus1=80473675008500.1.2.3 bus2=80473665008500.1.2.3 r1=0.975 x1=0.47 length=0.037496 units=km normamps=152.0
+new line.54241795 phases=3 bus1=80473665008500.1.2.3 bus2=80473655008500.1.2.3 r1=0.975 x1=0.47 length=0.034425 units=km normamps=152.0
+new line.54241796 phases=3 bus1=80473655008500.1.2.3 bus2=80473065008500.1.2.3 r1=0.975 x1=0.47 length=0.031518 units=km normamps=152.0
+new line.54241797 phases=3 bus1=80473065008500.1.2.3 bus2=80473055008500.1.2.3 r1=0.975 x1=0.47 length=0.033611 units=km normamps=152.0
+new line.54241798 phases=3 bus1=80473055008500.1.2.3 bus2=87173425008500.1.2.3 r1=0.732 x1=0.31 length=0.022895 units=km normamps=225.0
+new line.54241799 phases=3 bus1=80473675008500.1.2.3 bus2=87173415008500.1.2.3 r1=0.732 x1=0.31 length=0.016983 units=km normamps=225.0
+new line.54362376 phases=3 bus1=80472955008500.1.2.3 bus2=80472965008500.1.2.3 r1=0.236 x1=0.27 length=0.035257 units=km normamps=456.0
+new line.54507694 phases=3 bus1=80441075008500.1.2.3 bus2=80441085008500.1.2.3 r1=0.975 x1=0.47 length=0.029898 units=km normamps=152.0
+new line.54507695 phases=3 bus1=80441085008500.1.2.3 bus2=89178725008500.1.2.3 r1=0.975 x1=0.47 length=0.010417 units=km normamps=152.0
+new line.54507696 phases=3 bus1=89178725008500.1.2.3 bus2=89178735008500.1.2.3 r1=0.732 x1=0.31 length=0.027463 units=km normamps=225.0
+new line.54547946 phases=3 bus1=80444275008500.1.2.3 bus2=80473525008500.1.2.3 r1=0.975 x1=0.47 length=0.008026 units=km normamps=152.0
+new line.54547947 phases=3 bus1=80473535008500.1.2.3 bus2=80473525008500.1.2.3 r1=0.732 x1=0.31 length=0.026265 units=km normamps=225.0
+new line.54547949 phases=3 bus1=89482415008500.1.2.3 bus2=80473535008500.1.2.3 r1=0.732 x1=0.31 length=0.030962 units=km normamps=225.0
+new line.54579212 phases=3 bus1=89727325008500.1.2.3 bus2=89482415008500.1.2.3 r1=0.732 x1=0.31 length=0.005965 units=km normamps=225.0
+new line.55316811 phases=3 bus1=95463935008500.1.2.3 bus2=80439865008500.1.2.3 r1=0.236 x1=0.27 length=0.017364 units=km normamps=456.0
+new line.55316812 phases=3 bus1=80439865008500.1.2.3 bus2=95463925008500B.1.2.3 r1=0.236 x1=0.27 length=0.020358 units=km normamps=456.0
+new line.55317999 phases=3 bus1=95463885008500.1.2.3 bus2=95512445008500.1.2.3 r1=0.236 x1=0.27 length=0.001899 units=km normamps=456.0
+new line.55318000 phases=3 bus1=95512445008500.1.2.3 bus2=95463925008500.1.2.3 r1=0.236 x1=0.27 length=0.036586 units=km normamps=456.0
+new line.55555192 phases=3 bus1=80473105008500.1.2.3 bus2=80473095008500.1.2.3 r1=0.236 x1=0.27 length=0.042555 units=km normamps=456.0
+new line.55555225 phases=3 bus1=80473095008500.1.2.3 bus2=80473085008500B.1.2.3 r1=0.236 x1=0.27 length=0.012284 units=km normamps=456.0
+new line.55570384 phases=3 bus1=95463935008500.1.2.3 bus2=80439855008500.1.2.3 r1=0.236 x1=0.27 length=0.026498 units=km normamps=456.0
+new line.55570385 phases=3 bus1=80439855008500.1.2.3 bus2=80474995008500.1.2.3 r1=0.236 x1=0.27 length=0.041451 units=km normamps=456.0
+new line.55570388 phases=3 bus1=80474995008500.1.2.3 bus2=80475005008500.1.2.3 r1=0.236 x1=0.27 length=0.051718 units=km normamps=456.0
+new line.55570389 phases=3 bus1=80475005008500.1.2.3 bus2=80475015008500.1.2.3 r1=0.236 x1=0.27 length=0.044391 units=km normamps=456.0
+new line.55570390 phases=3 bus1=80475015008500.1.2.3 bus2=95442075008500.1.2.3 r1=0.236 x1=0.27 length=0.026518 units=km normamps=456.0
+new line.55570391 phases=3 bus1=95442075008500.1.2.3 bus2=80475075008500.1.2.3 r1=0.236 x1=0.27 length=0.018943 units=km normamps=456.0
+new line.55570392 phases=3 bus1=80475075008500.1.2.3 bus2=80475085008500.1.2.3 r1=0.236 x1=0.27 length=0.041064 units=km normamps=456.0
+new line.55570393 phases=3 bus1=80475085008500.1.2.3 bus2=80475105008500.1.2.3 r1=0.236 x1=0.27 length=0.022331 units=km normamps=456.0
+new line.55570395 phases=3 bus1=80475105008500.1.2.3 bus2=80475115008500.1.2.3 r1=0.236 x1=0.27 length=0.021349 units=km normamps=456.0
+new line.55573768 phases=3 bus1=80441415008500.1.2.3 bus2=80473025008500.1.2.3 r1=0.236 x1=0.27 length=0.014539 units=km normamps=456.0
+new line.55573769 phases=3 bus1=80473025008500.1.2.3 bus2=80473075008500.1.2.3 r1=0.236 x1=0.27 length=0.039308 units=km normamps=456.0
+new line.55573785 phases=3 bus1=97425515008500.1.2.3 bus2=88961975008500.1.2.3 r1=0.732 x1=0.31 length=0.006496 units=km normamps=225.0
+new line.55573786 phases=3 bus1=80473075008500.1.2.3 bus2=97425515008500.1.2.3 r1=0.236 x1=0.27 length=0.031275 units=km normamps=456.0
+new line.55573787 phases=3 bus1=97425515008500.1.2.3 bus2=80473085008500B.1.2.3 r1=0.236 x1=0.27 length=0.012006 units=km normamps=456.0
+new line.55594409 phases=3 bus1=80441415008500.1.2.3 bus2=80472895008500.1.2.3 r1=0.236 x1=0.27 length=0.017202 units=km normamps=456.0
+new line.55594410 phases=3 bus1=80472895008500.1.2.3 bus2=80440945008500.1.2.3 r1=0.236 x1=0.27 length=0.03643 units=km normamps=456.0
+new line.55598026 phases=3 bus1=80440945008500B.1.2.3 bus2=80440925008500.1.2.3 r1=0.236 x1=0.27 length=0.01124 units=km normamps=456.0
+new line.55598027 phases=3 bus1=80440945008500.1.2.3 bus2=80440915008500.1.2.3 r1=0.236 x1=0.27 length=0.041902 units=km normamps=456.0
+new line.55610653 phases=3 bus1=80440915008500.1.2.3 bus2=80441325008500.1.2.3 r1=0.236 x1=0.27 length=0.04238 units=km normamps=456.0
+new line.55610666 phases=3 bus1=80441325008500.1.2.3 bus2=80441335008500.1.2.3 r1=0.236 x1=0.27 length=0.023935 units=km normamps=456.0
+new line.55610667 phases=3 bus1=80441335008500.1.2.3 bus2=80441345008500.1.2.3 r1=0.236 x1=0.27 length=0.035257 units=km normamps=456.0
+new line.55610669 phases=3 bus1=80441345008500.1.2.3 bus2=80441355008500.1.2.3 r1=0.236 x1=0.27 length=0.033988 units=km normamps=456.0
+new line.55610870 phases=3 bus1=80441355008500.1.2.3 bus2=80441365008500.1.2.3 r1=0.236 x1=0.27 length=0.037218 units=km normamps=456.0
+new line.55610871 phases=3 bus1=80441365008500.1.2.3 bus2=80441375008500.1.2.3 r1=0.236 x1=0.27 length=0.031046 units=km normamps=456.0
+new line.55610872 phases=3 bus1=80441375008500.1.2.3 bus2=80441235008500.1.2.3 r1=0.236 x1=0.27 length=0.03076 units=km normamps=456.0
+new line.55610873 phases=3 bus1=80441235008500.1.2.3 bus2=80472915008500B.1.2.3 r1=0.236 x1=0.27 length=0.041102 units=km normamps=456.0
+new line.55610874 phases=3 bus1=80472915008500.1.2.3 bus2=80472925008500.1.2.3 r1=0.236 x1=0.27 length=0.033005 units=km normamps=456.0
+new line.55610876 phases=3 bus1=80472925008500.1.2.3 bus2=80472935008500.1.2.3 r1=0.236 x1=0.27 length=0.031747 units=km normamps=456.0
+new line.55610903 phases=3 bus1=80472965008500.1.2.3 bus2=80472975008500.1.2.3 r1=0.236 x1=0.27 length=0.032422 units=km normamps=456.0
+new line.55611346 phases=3 bus1=80472515008500.1.2.3 bus2=80472495008500.1.2.3 r1=0.236 x1=0.27 length=0.03437 units=km normamps=456.0
+new line.55611347 phases=3 bus1=80472495008500.1.2.3 bus2=80472485008500.1.2.3 r1=0.236 x1=0.27 length=0.033533 units=km normamps=456.0
+new line.55611357 phases=3 bus1=80472485008500.1.2.3 bus2=80472795008500.1.2.3 r1=0.236 x1=0.27 length=0.039069 units=km normamps=456.0
+new line.55622275 phases=3 bus1=80472795008500.1.2.3 bus2=80472805008500.1.2.3 r1=0.236 x1=0.27 length=0.033458 units=km normamps=456.0
+new line.55622284 phases=3 bus1=80472805008500.1.2.3 bus2=80472815008500.1.2.3 r1=0.236 x1=0.27 length=0.041479 units=km normamps=456.0
+new line.55622285 phases=3 bus1=80472815008500.1.2.3 bus2=80474015008500.1.2.3 r1=0.236 x1=0.27 length=0.026407 units=km normamps=456.0
+new line.55622286 phases=3 bus1=80474015008500.1.2.3 bus2=80474025008500.1.2.3 r1=0.236 x1=0.27 length=0.037934 units=km normamps=456.0
+new line.55622287 phases=3 bus1=80474025008500.1.2.3 bus2=80474045008500.1.2.3 r1=0.236 x1=0.27 length=0.030384 units=km normamps=456.0
+new line.55622294 phases=3 bus1=80474045008500.1.2.3 bus2=96098385008500.1.2.3 r1=0.236 x1=0.27 length=0.015637 units=km normamps=456.0
+new line.55639809 phases=3 bus1=80472515008500.1.2.3 bus2=80472525008500.1.2.3 r1=0.236 x1=0.27 length=0.033804 units=km normamps=456.0
+new line.55639811 phases=3 bus1=80472525008500.1.2.3 bus2=80472535008500.1.2.3 r1=0.236 x1=0.27 length=0.01337 units=km normamps=456.0
+new line.55640943 phases=3 bus1=96098385008500.1.2.3 bus2=96098405008500.1.2.3 r1=0.236 x1=0.27 length=0.00582 units=km normamps=456.0
+new line.55895003 phases=3 bus1=99827055008500.1.2.3 bus2=80475015008500.1.2.3 r1=0.236 x1=0.27 length=0.013488 units=km normamps=456.0
+new line.88888866561 phases=3 bus1=I888888499725008500.1.2.3 bus2=INT153325008500.1.2.3 r1=1.551 x1=0.47 length=0.001 units=km normamps=125.0
+new line.88888866558 phases=3 bus1=I888888499695008500.1.2.3 bus2=I888888499705008500.1.2.3 r1=1.551 x1=0.47 length=0.001 units=km normamps=125.0
+new line.88888866562 phases=3 bus1=I888888499735008500.1.2.3 bus2=I888888499695008500.1.2.3 r1=1.551 x1=0.47 length=0.001 units=km normamps=125.0
+new line.88888866559 phases=3 bus1=I888888499715008500.1.2.3 bus2=I888888499725008500.1.2.3 r1=1.551 x1=0.47 length=0.001 units=km normamps=125.0
+new line.88888866563 phases=3 bus1=I888888499735008500.1.2.3 bus2=I888888499745008500.1.2.3 r1=1.551 x1=0.47 length=0.001 units=km normamps=125.0
+new line.88888866560 phases=3 bus1=I888888499715008500.1.2.3 bus2=I888888499705008500.1.2.3 r1=1.551 x1=0.47 length=0.001 units=km normamps=125.0
+new line.88888866568 phases=3 bus1=95463885008500.1.2.3 bus2=I888888499695008500.1.2.3 r1=1.551 x1=0.47 length=0.001 units=km normamps=125.0
+new line.55841504 phases=3 bus1=80475115008500.1.2.3 bus2=80475125008500.1.2.3 r1=0.236 x1=0.27 length=0.032383 units=km normamps=456.0
+new line.55841503 phases=3 bus1=80475185008500.1.2.3 bus2=80475125008500.1.2.3 r1=0.236 x1=0.27 length=0.030732 units=km normamps=456.0
+new line.55845208 phases=3 bus1=96098405008500.1.2.3 bus2=80474055008500.1.2.3 r1=0.236 x1=0.27 length=0.01634 units=km normamps=456.0
+new line.55845210 phases=3 bus1=80474055008500.1.2.3 bus2=80474065008500.1.2.3 r1=0.236 x1=0.27 length=0.023671 units=km normamps=456.0
+
+! 3. Chaves Seccionadoras MT
+new line.SC_5270674 phases=3 bus1=80440945008500.1.2.3 bus2=80440945008500B.1.2.3 switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+new line.SC_5727781 phases=3 bus1=95463925008500.1.2.3 bus2=95463925008500B.1.2.3 switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+new line.SC_5776778 phases=3 bus1=80472915008500.1.2.3 bus2=80472915008500B.1.2.3 switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+new line.SC_5776863 phases=3 bus1=80472535008500.1.2.3 bus2=80472535008500B.1.2.3 switch=y r1=1e-4 x1=1e-4 length=0.001 units=km
+
+! 5. Transformadores MT/BT de Distribuicao
+new transformer.UNTRMT_5270730 phases=3 windings=2 %r=1.46 xhl=3.18 kva=112.0
+~ wdg=1 bus=80440985008500.1.2.3 conn=delta kv=13.8
+~ wdg=2 bus=80440985270730.1.2.3.0 conn=wye kv=0.38
+
+new transformer.UNTRMT_5270732 phases=3 windings=2 %r=1.46 xhl=3.18 kva=112.0
+~ wdg=1 bus=80444275008500.1.2.3 conn=delta kv=13.8
+~ wdg=2 bus=80444275270732.1.2.3.0 conn=wye kv=0.38
+
+new transformer.UNTRMT_5271174 phases=3 windings=2 %r=1.46 xhl=3.18 kva=112.0
+~ wdg=1 bus=80472545008500.1.2.3 conn=delta kv=13.8
+~ wdg=2 bus=80472545271174.1.2.3.0 conn=wye kv=0.38
+
+new transformer.UNTRMT_5271182 phases=3 windings=2 %r=1.46 xhl=3.18 kva=112.0
+~ wdg=1 bus=80473105008500.1.2.3 conn=delta kv=13.8
+~ wdg=2 bus=80473105271182.1.2.3.0 conn=wye kv=0.38
+
+new transformer.UNTRMT_5451476 phases=3 windings=2 %r=1.3 xhl=4.31 kva=225.0
+~ wdg=1 bus=87173415008500.1.2.3 conn=delta kv=13.8
+~ wdg=2 bus=87173415451476.1.2.3.0 conn=wye kv=0.38
+
+new transformer.UNTRMT_5483807 phases=3 windings=2 %r=1.55 xhl=3.14 kva=75.0
+~ wdg=1 bus=80472965008500.1.2.3 conn=delta kv=13.8
+~ wdg=2 bus=80472965483807.1.2.3.0 conn=wye kv=0.38
+
+! 6. Linhas de Baixa Tensao (BT)
+new line.52879549 phases=3 bus1=80472455271174.1.2.3.0 bus2=80472465271174.1.2.3.0 r1=1.551 x1=0.49 length=0.039192 units=km normamps=114.0
+new line.52879558 phases=3 bus1=80472565271174.1.2.3.0 bus2=80472555271174.1.2.3.0 r1=0.975 x1=0.47 length=0.040825 units=km normamps=152.0
+new line.52879567 phases=3 bus1=80472925483807.1.2.3.0 bus2=80472935483807.1.2.3.0 r1=0.613 x1=0.45 length=0.031749 units=km normamps=203.0
+new line.52879571 phases=3 bus1=80472955483807.1.2.3.0 bus2=80472985483807.1.2.3.0 r1=0.613 x1=0.45 length=0.02776 units=km normamps=203.0
+new line.52879573 phases=3 bus1=80473005271174.1.2.3.0 bus2=80472545271174.1.2.3.0 r1=0.613 x1=0.45 length=0.039192 units=km normamps=203.0
+new line.52879628 phases=3 bus1=80473025271182.1.2.3.0 bus2=80473035271182.1.2.3.0 r1=0.991 x1=0.1 length=0.013053 units=km normamps=100.0
+new line.52879637 phases=3 bus1=80441435271182.1.2.3.0 bus2=80441445271182.1.2.3.0 r1=0.991 x1=0.1 length=0.028034 units=km normamps=100.0
+new line.52879651 phases=3 bus1=80475145271182.1.2.3.0 bus2=80475155271182.1.2.3.0 r1=0.991 x1=0.1 length=0.01321 units=km normamps=100.0
+new line.52879655 phases=3 bus1=80474895271182.1.2.3.0 bus2=80474885271182.1.2.3.0 r1=0.991 x1=0.1 length=0.012601 units=km normamps=100.0
+new line.52879546 phases=3 bus1=80472975483807.1.2.3.0 bus2=88053975483807.1.2.3.0 r1=0.506 x1=0.1 length=0.015483 units=km normamps=157.0
+new line.52879547 phases=3 bus1=80472525271174.1.2.3.0 bus2=80472825271174.1.2.3.0 r1=0.984 x1=0.49 length=0.021896 units=km normamps=170.0
+new line.52879550 phases=3 bus1=80472465271174.1.2.3.0 bus2=80472475271174.1.2.3.0 r1=1.551 x1=0.49 length=0.046915 units=km normamps=114.0
+new line.52879554 phases=3 bus1=80472525271174.1.2.3.0 bus2=80472515271174.1.2.3.0 r1=0.613 x1=0.45 length=0.033744 units=km normamps=203.0
+new line.52879555 phases=3 bus1=80472535271174.1.2.3.0 bus2=80472525271174.1.2.3.0 r1=0.613 x1=0.45 length=0.013332 units=km normamps=203.0
+new line.52879557 phases=3 bus1=80472555271174.1.2.3.0 bus2=80472535271174.1.2.3.0 r1=0.975 x1=0.47 length=0.035177 units=km normamps=152.0
+new line.52879560 phases=3 bus1=80472585271174.1.2.3.0 bus2=80472575271174.1.2.3.0 r1=0.975 x1=0.47 length=0.03987 units=km normamps=152.0
+new line.52879563 phases=1 bus1=80472635271174.1.0 bus2=80472625271174.1.0 r1=0.975 x1=0.47 length=0.025855 units=km normamps=152.0
+new line.52879568 phases=3 bus1=80472935483807.1.2.3.0 bus2=80472955483807.1.2.3.0 r1=0.975 x1=0.47 length=0.015096 units=km normamps=152.0
+new line.52879574 phases=3 bus1=80473015271174.1.2.3.0 bus2=80473005271174.1.2.3.0 r1=0.613 x1=0.45 length=0.026841 units=km normamps=203.0
+new line.52879619 phases=3 bus1=80473115271182.1.2.3.0 bus2=80474895271182.1.2.3.0 r1=0.506 x1=0.1 length=0.00903 units=km normamps=157.0
+new line.52879622 phases=3 bus1=80473655271182.1.2.3.0 bus2=80473065271182.1.2.3.0 r1=0.991 x1=0.1 length=0.031518 units=km normamps=100.0
+new line.52879623 phases=3 bus1=80473665271182.1.2.3.0 bus2=80473655271182.1.2.3.0 r1=0.991 x1=0.1 length=0.034424 units=km normamps=100.0
+new line.52879624 phases=3 bus1=80473675271182.1.2.3.0 bus2=80473665271182.1.2.3.0 r1=0.991 x1=0.1 length=0.037496 units=km normamps=100.0
+new line.52879626 phases=3 bus1=80472895271182.1.2.3.0 bus2=80441415271182.1.2.3.0 r1=0.991 x1=0.1 length=0.017202 units=km normamps=100.0
+new line.52879630 phases=3 bus1=80473045271182.1.2.3.0 bus2=80473055271182.1.2.3.0 r1=0.991 x1=0.1 length=0.025107 units=km normamps=100.0
+new line.52879633 phases=3 bus1=80473075271182.1.2.3.0 bus2=80473085271182.1.2.3.0 r1=0.991 x1=0.1 length=0.043204 units=km normamps=100.0
+new line.52879634 phases=3 bus1=80473085271182.1.2.3.0 bus2=80473095271182.1.2.3.0 r1=0.506 x1=0.1 length=0.012284 units=km normamps=157.0
+new line.52879636 phases=3 bus1=80473105271182.1.2.3.0 bus2=80473115271182.1.2.3.0 r1=0.506 x1=0.1 length=0.033383 units=km normamps=157.0
+new line.52879638 phases=3 bus1=80441445271182.1.2.3.0 bus2=80441455271182.1.2.3.0 r1=0.991 x1=0.1 length=0.029807 units=km normamps=100.0
+new line.52879649 phases=3 bus1=80472875271182.1.2.3.0 bus2=88755825271182.1.2.3.0 r1=0.991 x1=0.1 length=0.024504 units=km normamps=100.0
+new line.52879652 phases=3 bus1=80445095271182.1.2.3.0 bus2=80475155271182.1.2.3.0 r1=0.991 x1=0.1 length=0.022903 units=km normamps=100.0
+new line.52879653 phases=3 bus1=80475155271182.1.2.3.0 bus2=80441435271182.1.2.3.0 r1=0.991 x1=0.1 length=0.00818 units=km normamps=100.0
+new line.52879658 phases=3 bus1=80445105271182.1.2.3.0 bus2=80445095271182.1.2.3.0 r1=0.991 x1=0.1 length=0.03139 units=km normamps=100.0
+new line.52879545 phases=3 bus1=80473905483807.1.2.3.0 bus2=80443085483807.1.2.3.0 r1=0.506 x1=0.1 length=0.032496 units=km normamps=157.0
+new line.52879548 phases=3 bus1=80440755271174.1.2.3.0 bus2=80472455271174.1.2.3.0 r1=1.551 x1=0.49 length=0.027979 units=km normamps=114.0
+new line.52879551 phases=3 bus1=80472475271174.1.2.3.0 bus2=80472485271174.1.2.3.0 r1=1.551 x1=0.49 length=0.013254 units=km normamps=114.0
+new line.52879552 phases=3 bus1=80472495271174.1.2.3.0 bus2=80472485271174.1.2.3.0 r1=0.613 x1=0.45 length=0.033533 units=km normamps=203.0
+new line.52879556 phases=3 bus1=80472545271174.1.2.3.0 bus2=80472535271174.1.2.3.0 r1=0.613 x1=0.45 length=0.031739 units=km normamps=203.0
+new line.52879561 phases=1 bus1=80472605271174.1.0 bus2=80472585271174.1.0 r1=0.975 x1=0.47 length=0.022074 units=km normamps=152.0
+new line.52879562 phases=1 bus1=80472625271174.1.0 bus2=80472605271174.1.0 r1=0.975 x1=0.47 length=0.02186 units=km normamps=152.0
+new line.52879566 phases=3 bus1=80472915483807.1.2.3.0 bus2=80472925483807.1.2.3.0 r1=1.551 x1=0.49 length=0.033008 units=km normamps=114.0
+new line.52879570 phases=3 bus1=80472965483807.1.2.3.0 bus2=80472975483807.1.2.3.0 r1=0.506 x1=0.1 length=0.035489 units=km normamps=157.0
+new line.52879575 phases=3 bus1=80472995271174.1.2.3.0 bus2=80473015271174.1.2.3.0 r1=0.613 x1=0.45 length=0.027816 units=km normamps=203.0
+new line.52879620 phases=3 bus1=80474885271182.1.2.3.0 bus2=80473675271182.1.2.3.0 r1=0.991 x1=0.1 length=0.025572 units=km normamps=100.0
+new line.52879627 phases=3 bus1=80441415271182.1.2.3.0 bus2=80473025271182.1.2.3.0 r1=0.991 x1=0.1 length=0.014539 units=km normamps=100.0
+new line.52879629 phases=3 bus1=80473035271182.1.2.3.0 bus2=80473045271182.1.2.3.0 r1=0.991 x1=0.1 length=0.029013 units=km normamps=100.0
+new line.52879631 phases=3 bus1=80473055271182.1.2.3.0 bus2=80473065271182.1.2.3.0 r1=0.991 x1=0.1 length=0.03361 units=km normamps=100.0
+new line.52879635 phases=3 bus1=80473095271182.1.2.3.0 bus2=80473105271182.1.2.3.0 r1=0.506 x1=0.1 length=0.042555 units=km normamps=157.0
+new line.52879639 phases=3 bus1=80473095271182.1.2.3.0 bus2=80441455271182.1.2.3.0 r1=0.991 x1=0.1 length=0.0331 units=km normamps=100.0
+new line.52879640 phases=3 bus1=80441455271182.1.2.3.0 bus2=80473125271182.1.2.3.0 r1=0.991 x1=0.1 length=0.013063 units=km normamps=100.0
+new line.52879642 phases=3 bus1=80473135271182.1.2.3.0 bus2=80441465271182.1.2.3.0 r1=0.991 x1=0.1 length=0.036165 units=km normamps=100.0
+new line.52879643 phases=3 bus1=80441465271182.1.2.3.0 bus2=80472835271182.1.2.3.0 r1=0.991 x1=0.1 length=0.012089 units=km normamps=100.0
+new line.52879647 phases=3 bus1=80472865271182.1.2.3.0 bus2=80472875271182.1.2.3.0 r1=0.991 x1=0.1 length=0.037677 units=km normamps=100.0
+new line.52879650 phases=3 bus1=80475135271182.1.2.3.0 bus2=80475145271182.1.2.3.0 r1=0.991 x1=0.1 length=0.028788 units=km normamps=100.0
+new line.52879654 phases=3 bus1=80475155271182.1.2.3.0 bus2=80474895271182.1.2.3.0 r1=0.975 x1=0.47 length=0.020498 units=km normamps=152.0
+new line.52879657 phases=3 bus1=80475165271182.1.2.3.0 bus2=80475175271182.1.2.3.0 r1=0.506 x1=0.1 length=0.0259 units=km normamps=157.0
+new line.54239709 phases=3 bus1=80472865271182.1.2.3.0 bus2=80472845271182.1.2.3.0 r1=0.991 x1=0.1 length=0.00858 units=km normamps=100.0
+new line.52879559 phases=3 bus1=80472575271174.1.2.3.0 bus2=80472565271174.1.2.3.0 r1=0.975 x1=0.47 length=0.048612 units=km normamps=152.0
+new line.52879569 phases=3 bus1=80472955483807.1.2.3.0 bus2=80472965483807.1.2.3.0 r1=0.506 x1=0.1 length=0.035257 units=km normamps=157.0
+new line.52879625 phases=3 bus1=80440945271182.1.2.3.0 bus2=80472895271182.1.2.3.0 r1=0.991 x1=0.1 length=0.025385 units=km normamps=100.0
+new line.52879632 phases=3 bus1=80473025271182.1.2.3.0 bus2=80473075271182.1.2.3.0 r1=0.991 x1=0.1 length=0.039308 units=km normamps=100.0
+new line.52879645 phases=3 bus1=80472845271182.1.2.3.0 bus2=80472855271182.1.2.3.0 r1=0.991 x1=0.1 length=0.029543 units=km normamps=100.0
+new line.54451754 phases=3 bus1=88755825271182.1.2.3.0 bus2=80475135271182.1.2.3.0 r1=0.991 x1=0.1 length=0.027245 units=km normamps=100.0
+new line.54237739 phases=3 bus1=87144915271182.1.2.3.0 bus2=80472845271182.1.2.3.0 r1=0.991 x1=0.1 length=0.026867 units=km normamps=100.0
+new line.52879564 phases=3 bus1=80441145483807.1.2.3.0 bus2=80472915483807.1.2.3.0 r1=1.551 x1=0.49 length=0.011423 units=km normamps=114.0
+new line.52879648 phases=3 bus1=80472855271182.1.2.3.0 bus2=80472885271182.1.2.3.0 r1=0.991 x1=0.1 length=0.031197 units=km normamps=100.0
+new line.52879656 phases=3 bus1=80474895271182.1.2.3.0 bus2=80475165271182.1.2.3.0 r1=0.506 x1=0.1 length=0.027163 units=km normamps=157.0
+new line.52879644 phases=3 bus1=80472835271182.1.2.3.0 bus2=87144915271182.1.2.3.0 r1=0.991 x1=0.1 length=0.019135 units=km normamps=100.0
+new line.52879572 phases=3 bus1=80472985271174.1.2.3.0 bus2=80472995271174.1.2.3.0 r1=0.613 x1=0.45 length=0.035415 units=km normamps=203.0
+new line.52879641 phases=3 bus1=80473125271182.1.2.3.0 bus2=80473135271182.1.2.3.0 r1=0.991 x1=0.1 length=0.039163 units=km normamps=100.0
+new line.52879565 phases=3 bus1=80441155483807.1.2.3.0 bus2=80441145483807.1.2.3.0 r1=1.551 x1=0.49 length=0.023479 units=km normamps=114.0
+new line.52879553 phases=3 bus1=80472515271174.1.2.3.0 bus2=80472495271174.1.2.3.0 r1=0.613 x1=0.45 length=0.034374 units=km normamps=203.0
+new line.54359663 phases=3 bus1=88053975483807.1.2.3.0 bus2=80473905483807.1.2.3.0 r1=0.506 x1=0.1 length=0.034402 units=km normamps=157.0
+
+! 7. Cargas Consumidoras de Baixa Tensao (BT)
+new load.UCBT_889918971255dfc41180aa92d772365774e3f8ff5db13e5095ecab702f569614 phases=3 model=1 bus=80472495271174.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo7 vminpu=0.85
+new load.UCBT_3e1f6a0871c1c8696b9397182ceaf421079c4a0a4777a2cfb6f65209d619c31f phases=2 model=1 bus=87173415451476.3.1.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_5eede3dc3b3b7baf1d038291799c1872a7d189df2f8923907553a3edc6486ecb phases=1 model=1 bus=80473135271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_c5ea729e2d41ce1b3dd56aa78a1c2d56603c2673f801ac5c98a473e36e6dfa51 phases=1 model=1 bus=80473105271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_4eb9dec4a831b2431c7ada9b71df9774e5382b75428d4ce49cbecfe8d24630ee phases=1 model=1 bus=80475135271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_05171350447c0e9709f13d08c4e20f7cc5d0df0dee874f9f668db4fcce9b8336 phases=1 model=1 bus=80475135271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_35e43ff3e7affa94d0a5a50f1cd7afdd9c8fc8db981dca2f42fc16dd26c6f9d5 phases=1 model=1 bus=80475135271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_07aa692926b5ddb2e4b9fca9b332d2bbfe588eb465fa64bb99dcd7b9a62234f9 phases=1 model=1 bus=80472875271182.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_d5fff864b8a1ec6ad3cedf3a938c3589681bc784d662376f9430361217e66220 phases=1 model=1 bus=80475135271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_32f26c4c46c0664c6b9c83dafe6e7c78ddb56a0deace8504f6826bba3e2fdd04 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_d55333019a5fc8cbfefb9d6a6e00cf5a682c24930301fc065cc52d904b80879a phases=1 model=1 bus=80472895271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_6bf8b7fcbba52c91f68930ed5f395a041cbb74d254386c970682280c0053c1b6 phases=3 model=1 bus=80473665271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_303fe3a626badd23156692e8b1e39051b365e6ba6add8267a7ddf0e4e190c674 phases=3 model=1 bus=80472895271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_76686481b48f91e153c453dace4a87f19fc550a32cd164b681abdddd044dd603 phases=1 model=1 bus=80472975483807.2.0 kv=0.22 conn=wye kw=7.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_3a7bd5e9adf9391acb168f09e52274b811dbd19f09df7ae393ef876c4c057084 phases=3 model=1 bus=80475135271182.1.2.3.0 kv=0.38 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_0aca6d03d0c2cd11f28366ed06f848832856d1df4c894bc6fbc6ea4426913e17 phases=1 model=1 bus=80475135271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_7e7af1ec25d5d8bc2d7dbd6d887bc1e9202512583c8a3b25af8915638041509b phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_cfb7ce45c6c469d8715c8fcade0d9ede0799ae0fa7a4436771b7889ea5f7ed93 phases=1 model=1 bus=80473135271182.1.0 kv=0.22 conn=wye kw=8.0 daily=COM-Tipo2 vminpu=0.85
+new load.UCBT_c1dbeaa67293b6c328862d45a4e260d0b63c2a92133d82d515115ab4fa930162 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_82788362988325a7a7af6fa9bff1090d90519b5f419e2491322a08de9e9f72e9 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_88197a3c86c1afc14e302e315dd49c1eba56bc41f67d4a03477b809c4d25d668 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_269358ee272cda0aaf4879e59c3f2cdc7bdf7c813dcb19e3d92d4700560befff phases=3 model=1 bus=87173415451476.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_a59ebd229da1033ee72a5257c03711138b5837b5a351805e98fb9ed3e528f696 phases=1 model=1 bus=80473105271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_ed60593a5f8f7e548d6606873f97d7cc54a236dde50f333565c08bfcac991ba1 phases=1 model=1 bus=80473105271182.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_8de86ff9696de71f10439b637d18254bd572e40e426273ffe1c2604179806204 phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=20.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_bbda3ac9645e7a0234348f79c2cf40fbcc9d3ab86f98f7d3a63eea4ab73690c1 phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=20.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_7052785cd6a9d5876b76dc1c54be0aef67a8b703cfa3fc4d605e81ab938ed542 phases=1 model=1 bus=80472975483807.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_64ea6a3b7eb64120ada2c35cdcde82c4b0e2c99730d1ec07ed95757468bbadaa phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_c49badfc9782994397f0c72f0864dfabfc7ee0b07ebf64d52c9e9d57f4bd9b0a phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_fdb95bc9895263dc2e1c47ea13e983543609acc6c9132d3f646619c3f004339f phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_00a59f39b13fb591af97313493dc53dea4b427fdd403f25c96c8f6649a347a63 phases=1 model=1 bus=80475135271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_35daa9a332dd4b97f972d1c0025e350b7b5cc1c0b8c8c71d0fc8dd308b86a368 phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=COM-Tipo3 vminpu=0.85
+new load.UCBT_c1b74324bce056e007850e50a8baa3525c91588225a3d13d28a75d309178d903 phases=1 model=1 bus=80472975483807.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_38b4c6d943bc6125c3db9c8244e1c141e6e85b54b1a4d69ce73434c795548528 phases=1 model=1 bus=80475145271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_8e5b38ada9dc00b035e8500174cd77beb1c27a1ce36530901612ff7ac735322a phases=1 model=1 bus=80475145271182.3.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_7fdba46f071434c217f2112b6847f143914f08c4d736c168eaa336827de1adc9 phases=3 model=1 bus=80475145271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_7cecca9d82e44bc4d848c7d1d5abb8b9892a5ec4a7052319dba75c0b3dcd3cfd phases=1 model=1 bus=80475145271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_fabffae64f754bf4d4b9fd79c7f20563043f0489a1382e998df50831fe919a96 phases=1 model=1 bus=80472975483807.3.0 kv=0.22 conn=wye kw=4.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_3cb4b769e242e529663b7d801598865a3167fdb60497730d695370fce9d4c769 phases=1 model=1 bus=80475145271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_5a684b6bafe2d19f48b5807da55a414f810b9010cedd47743a964e99fb75c6a5 phases=1 model=1 bus=80475145271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_e62c93637dd56bacdeaecfbdcfed31e8ac99b024e53d8059523ad3bf4ad96024 phases=1 model=1 bus=80475145271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_b44dfdb90be996c213e95fc6bf2e7ce259a5739fdad255b53492172c5356453a phases=1 model=1 bus=80475145271182.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_06ab1f93b82063782f895e22dbdef2f24ed2267ac2222ce023861748a3716d26 phases=1 model=1 bus=80473105271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_44b1a57b5055888cde663bc1df9c7701aad983bc36f5ce2c3b6b3be92c4b99e2 phases=1 model=1 bus=80475145271182.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_a8709e62d6c0f9fcfea135db29f02ed2abe8a3220d68e799671529e7382e6895 phases=2 model=1 bus=80473675271182.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_2b7e38e18c9273d0f953ecc7c437dbd980d4837705a286974aa8d00f8b995784 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_adce7110bdcd4de85dc06b00c1e3d66f09a1f1fee39a546c103928ac56beb6cb phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_2fe3baf257c945e99e2e51efad345988a6972d45dd20807817677bcdfed35fb0 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_7481823a742664fd7d6772a4c47e594d07d873285ef6a5cdb299e1382463de31 phases=2 model=1 bus=80473675271182.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_6bfd2a80de468076533388757deadde27c35d0fddc46344165e321cc348fa875 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_85f0bbdb4d84e5d5f6723f45c781fa6e565bf43f40d503d53182396ae66cf2b6 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_033721dd7e5d3a65bbbc10301c7f90a81af7957be6d2f95d1a525c5ab176287c phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_e88465e2aa1fd65d8617ffce53344fbe0373718d3c6a4cae54bf7ea22d865bbe phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_ef9e491bded1a06de0570e5726d2095f03e45088c0adb606e2370402f782f274 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_44d48f995e58e8e5263835e31b7e40f4aea2bfa38d1d2e2b8ef470a846bb4262 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_be97c72e7f364b826ae109ec109f6fcec14f40335649d7e3cf2155b16ee6fd2d phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_11a0bb4238960e7f87bde4d8cc1d77feb4dc866c70db51adba2524a120c3533c phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_6f61f28650fbd49da3ebcef0eaffd9be5fabcf90d7f17cbba26deb4c0afff5c3 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_cfaa86db8eb137936be7657df093f7666f172743da01748ab7193f99d066c0d8 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_8c560abe9bf30adb71db3e2d6850c05ed13980148d73d4ed0dcbf8cc8a7ad218 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_d2c3b2ebf7ca0d97f81b7733769e376562df3254a2e8a54f27a5c8aa5b97ef56 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_03f49110b02cc2cf33b01228362fde7ccca5022c7d659f5ee813bdafe0a663c8 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_a7293f33985538055143749092a19847fc9d71b3fc57a7f98b92926ce1d072cb phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_12c8d630a1362c89ec46c2a980a9e84d01794a6e84ed0c57317a09101b4b8ba6 phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_bcb420bccea7646cc453f9ec2a1a61865cabab226cbec3641e1930ef70f5565d phases=2 model=1 bus=87173415451476.3.1.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_6fbe98776c0185f95283f6b10ff0e9fd6bee739fc5cc3cdb194c30091b066b7f phases=1 model=1 bus=80472545271174.1.0 kv=0.22 conn=wye kw=7.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_1dafff059cbcce709274d82760a7d731e36cd00ede4e3ce855ce2a9923173c3c phases=1 model=1 bus=80473105271182.3.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_fb48fd371b779d4aef19904ce97fb456ecd5f2c668cbd4132cbe480d0bc16847 phases=3 model=1 bus=80472965483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_565c6c16fd0148b3482a3bd06f84a1397d214a1eb03d278427b8a1e429ef3354 phases=3 model=1 bus=80473665271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_d1535cb90d625da85699518cf3346b1d5cd256cf8576211fed821f549e9c2283 phases=1 model=1 bus=80473665271182.1.0 kv=0.22 conn=wye kw=4.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_02ae2e2712cfd3efe3949b0e01b270a4da94ee5914b65a81a226759dfe4ab2e0 phases=3 model=1 bus=80472975483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_5ba3af42d726d939a7be1a35555122eea58eccf0b6b46739c053f77b4fff9ac1 phases=1 model=1 bus=80472975483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_d32d582b8e84e1b8856918d5e3550151438c99d2a8942329ed301d255272909a phases=1 model=1 bus=80472975483807.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_03499b464e631f766f6cf171f154acb5c46e6bd8b92f75a5295f79f8f65e5c94 phases=1 model=1 bus=80472975483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_e644233579a249443b7eae39e6e68611dff54d97979b8ffb2ea06a4c3e674948 phases=3 model=1 bus=80475145271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_d2cb4cc1c8c285a2b33cfcd22057997da7cb8afdc82470941298bf19140abd34 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_335f3181f36a51197c066ad4f0861070b92a744d388eb299618538da7c80ac45 phases=1 model=1 bus=80472965483807.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_d6b396382f952b4fb5684262ca76475760986cd1643df3b9eead006b21840cda phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_767ab9d4924c7f5b6cc6bd1bf334b234c203ebc109efc91128a69e4de50e77c4 phases=1 model=1 bus=80473105271182.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_db6c0a23bbdf2323bd20f6cc85412175364f383841066393d147197ad5280a4a phases=1 model=1 bus=80475145271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_70b707ca9519b136efe227e4be44d24c7a8ee0b1f5343170d16a33aa6360dc89 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_edede5e5aa52970e67b8a897ecbd95c220abbc39e9c2c6c275f098bb65c69031 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_ae7ae9178062390d7f5b19566e7ec99916935676b4e1e439db953e5ad54d3243 phases=2 model=1 bus=80473675271182.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_a1e3835259a89fb06bea8e3320db618444fdf2fa22e7ac6fb4d9cc3f7481244a phases=2 model=1 bus=80473675271182.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_0ea5f226d38eba133ca93e10f0b990d6b4cca8b752996544a1af2d4de118ef0c phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_9f13a3fdc6c957b3226b4606e78fcf7307269d6cab626fc5193df1fb268d73c3 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_8923ede8b3a5ceca3fcbf77cf820eda08d1c78c02431e9d4000c6bd28421fe4a phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_111d7f3fee84c92cc4929610df46001744c6ecc7b69569d7e7285f62a68ffe75 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_c61c24d65dc20b0dd1afca23693f9297426fbea34e1747aea88563479793bbba phases=1 model=1 bus=80473905483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_ce6ac1c3aadcb57c890455a27e51f36689aa5d3d0deb8cd5d7e2af23695ffe14 phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_b158efadc33b2397e1227b7c40d990993a222046943ec7df80e03b795f1b3a01 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_7ab8404375af6fdf2d77e7af998f6fcc32be32400c4a4a77ce377509b4b88323 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_4dfd612cb6d18ebb38f2014baedaba8981a84e52e64156abaa7a30f421886c16 phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_c8ca4252ec871311e748c413e2a81ca66d4f33fa210a449e2139558aa174d70d phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_c3239896f81d1d03d64555a7bdc8ae0db527b7b9cb9bd389006ebca7d5688ddc phases=1 model=1 bus=80445105271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_8debdde72f65271ff26b9e6631442f6c331113251de2f362d1a4d780f15ebfa9 phases=1 model=1 bus=80473105271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_06cebbbce35befca56a2679438c0dc7b3c0e14a2e2914de5639b0bda2d98b323 phases=1 model=1 bus=80472895271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_23c834fe45e95608560a89ecf31ae1685b554054e0a28ce094cbfb6965ad294d phases=3 model=1 bus=80472895271182.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_62a78a5262e78ee4a3c8c90f7ead70f3dbcb97f5930495571001a2c44ef4e80f phases=3 model=1 bus=80441155483807.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=COM-Tipo6 vminpu=0.85
+new load.UCBT_0022bb981ab350d2142f19144d4c4edd6b4428b88dcd6a75b8590368569ddf8f phases=1 model=1 bus=80445105271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_031441c8301dcff107d0bb39eb88e2f751bf6dd7b95be24637148df0543f5d7c phases=1 model=1 bus=80473105271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_e98e519ad1c134628e11b03f7d491df6894cf5d07d6ad6afd79cafc13fd7e210 phases=1 model=1 bus=80475145271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_9e46f533bdbbc0f0027e1525d37332df148db372a27578da6a58a4a0b7d44779 phases=1 model=1 bus=80475145271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_c582f547824c998c0f06d96f8f0505ed93ad793191f0d30a3b053a2243035dd6 phases=1 model=1 bus=80475145271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_d92046d5960ed3ba293b1d5266a33d199ba4c0076f6757a46faaea0995037ef3 phases=3 model=1 bus=80441445271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_ea939c3689ce8ca4918231a01c4bdfab63c574b289168524aac4b5bef562efab phases=1 model=1 bus=80441445271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_b59e8a3d6673befa95d0cb3ffa74d67e04477d77084d0842bdf976acbffa445e phases=1 model=1 bus=80441445271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_514fc155780048ea9ee1a176ceebc28ce19174977f508a4cee96a58ff17e2766 phases=1 model=1 bus=80441445271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_70d0b9d56e09fd48c623b87ba5f5ce86bd1bf726784fee17bd52dd2eba58f060 phases=1 model=1 bus=80441445271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_ece4cfc667bd8ef8fb1a7a2aaa9a01ed11ddb26cd4c79e8bb86420710e53657f phases=1 model=1 bus=80441445271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_6f3e49504526af22da3b3044048deeb2453a605b9a80a15b93de4ab4328607f9 phases=1 model=1 bus=80473105271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_f88dc35902756b7cfbf892ae860c2036f252ed43cdb42e5fba4924d804a9a9d1 phases=1 model=1 bus=80441445271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_9f02cd7d96c13968ed0c715fe179220be381feb1b0344f52d47c938b5a95ae2f phases=3 model=1 bus=80472455271174.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_54a700263f080b185cbb037239973c7dd83a10d848deef1dbab90be9cc05ba19 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_66ef2e8f26a6628385e4a8b8c262f9f26ee76e84617e988a93895e08e785a534 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_6a4ec60bbbc303208af14890d49d75bb5a30ed0cdbfa378ccf2305d62f23721e phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_996fe3c50834e27c5f16ce23fde0b43d722c723acb759846a55449e05be361b4 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_62384b4ed6ec2117b2df6428bb4217ca6fad4a2c2fe145203e1d92ff9aa4ddae phases=2 model=1 bus=80473675271182.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_ce90d91218388f4a04232590405f569df2746e94b81655fc7136e20f6514a4b1 phases=2 model=1 bus=80473675271182.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_91e90c146891462df765c93edcc94c0dd75eef21c88d35761a2b3d04cf1a372a phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_61ebcedde7e4cbe1a2c0c1fa8774bd71e787836d0aab0758f14c9f56ccb7cf54 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_2b23882657d01b9dfa5a69e5a6d9d9ed59e5f3bd315b918701016526495b83fd phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_d464fd7b05f7670420eed70851a738c2f4fff70b3a2839c5b05be7632bce0700 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_4abe21e02127ded31ca2df75ded1f72f2cb902974f30f70c944ca179e127dfae phases=3 model=1 bus=87173415451476.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_8079e1b6358d25812bc2f494523df0d2d6572269828583b472b92a90c6977fdf phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_b1a03c9072b064193206f086a537dffca3f5a9f83a89d1772124925471bcc71b phases=2 model=1 bus=87173415451476.3.1.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_e1d8b245ee6cd1ca19ba909dbe5fffd4bd8769fe6687df8aa02ab6631ad67dc5 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_b2f0fc4d1eed96e8a7b766ac49196fdcb7eb866bbc49be0f03da197e192f8382 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_baf10af5dbe61027448cb8d0895a0edba9cc17ea55060eb883649caa6e1f724a phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_b070b46aa9ee7620c651e2ded15b6b18f764d209217b4e785269c9c7571051bd phases=2 model=1 bus=87173415451476.3.1.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_9fdfcc9cae655ed928cb56155684461520f95822ce52471ac0050202169101df phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_ae89f2b5bfa0f69ed8d14ba711f8a8846734b32904949b01f3cfe304ac784100 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=10.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_12e292e571288eef83e8d824381b5916bace1823920c768715b6b7bcdd477443 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_ad0274cc1c9f51a0a78e53baa5c4cf638e55c698108c9636f47167180acaf20e phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_c39d07e580d94653eb771fe73beb2cecd88ad3c10e111505ea757c7da1843615 phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_2adea695ce679ac8193c1a0e7c07f65456641a03d6bd2a070aa84aea1772648a phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_aede4463a610885f73f6035567da4b2a4667efcd5505cf97cce2ba2736fab7a4 phases=1 model=1 bus=80472965483807.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_0fcdc23ebe9a652dc6f11f2fb7daa4f723e956ad56ddfc119e53c99da60ed2c3 phases=2 model=1 bus=87173415451476.3.1.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_c8433146e7db522ff6a05a65cde7f676b427fd344b32b68d8b0fa9595c5391bb phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_7896d8d092ffe3762a4995e74b0a6804d79df17c1b3bb0a01a38b0fef93ca127 phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_28da038f4e9a37cef24b2142feaaa988fc1b900ec912ad5377569436880e2b03 phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_b626108527c5dc5e7ca16a26971d2c0aa3ab544c64cb8aba417b04c1273fc2df phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_6bb91de49fd108a630eb342cec97cbf1b2dd644439814378c1281c0a7038fa93 phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=20.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_926782b63b60616805527299b8fe20647fa9e31a319f028f5d5a60a07f6801d1 phases=3 model=1 bus=80472895271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_77ac6b6c26bddb5367e6c221567581fb3412b62a6735c80faf17fc14fd81622d phases=1 model=1 bus=80473135271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_46d5ab14fe2d6d949a47ba9bb1b93d8412e9e2a31bc69e26bc2e5ba1f3daf5b7 phases=1 model=1 bus=80440985270730.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_1793a8d7839a1b3ca95124c45200876ebdc9ecc303d54a42c73983d2ad326447 phases=3 model=1 bus=80443085483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo4 vminpu=0.85
+new load.UCBT_ff79c7726159b3d54f7d083b587097cd3eb68f754e5404da1715b32684e937b8 phases=1 model=1 bus=80475145271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_ee9d120c69618074a9a9c0a121498d8bc7499de282c00570de7b89977f12e0ef phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_f7020d9a86134bed9ee7658f78e2a7f3d2b8da06374eab8192653c82335220c0 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_aa5c685c3d0ab0f47e169fd4010a6c7a93453784ec3d62fe24f12e447f870cad phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_2f105569420df907b23afc3134c982b94cee8928f67e87d383a574e6029392f7 phases=1 model=1 bus=80444275270732.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_aa6d2daba4763781f40665e22c23234fffe6336ce69ff40289dce90f575642b4 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_04784196b5de2d0d8dea7c69aaee6d5791276c0833a173269abab00fd1163a9d phases=3 model=1 bus=80444275270732.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_e8d52a1163df4d9d47aab9cc672ce4d3c162b7ac6755a24bccf8ab53438d34bd phases=2 model=1 bus=87173415451476.3.1.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_de295304f1d6ef40c0c2621988a15fb072b4d727d5d2ea6142faf4ef16385967 phases=2 model=1 bus=80473675271182.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_7ca8adc6d46ea2060739156fcc8c95ce0318c7cf4840c718354f8e6817f080de phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_62100cd089460ae4d9d2be6ed8a45453b8999b3587e534da2f7186041108d3f7 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_28439d7c9680b1edf4904071850e4c389d312b9f760592f5225ab187c871ba56 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_5e6c1a84ea61a659fb364a8d1506e47609a325e3061f5498a462c900285d5d8a phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_027b270992c0e90ddf67f764725e177ab28507e0525ff069f598882db44b392e phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_10cb95f73ac40ab19b33021ba8643628e9d09047a7c2fd23d28becc83434d00e phases=2 model=1 bus=87173415451476.3.1.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_50327deafecc9879cafb841b944a16a2bd87c58eedd70134b1006f0fbad22f1f phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_432b9d954b1b2a106ca75664cc19d85893a1f15e86d3df98be7e19ceb8d629fe phases=3 model=1 bus=87173415451476.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_f75e68b2f24ac8760bce4f3ce39204da70fe58843e9a573a008fac34ce8b13d5 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_1811db04a4b583df74dbc81da92b3e01146c4087d4e919ff8d299258f6dc7013 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_aebb7d72c34abbb1456d23fbd189eb931433976b12f77f18187358bc707856be phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_3d9d4618849c93fb8d5de8ff9081f98e7c82441938cf9efaac23e277f84f6350 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_11825a2444772d0e902e1dbd6c176f7736b7178812270c6708273e1ec7ebabf4 phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_c8f00aebecae58520b8ffc60fde92eb5506b31188eb5991a05a7e7ea4dec0207 phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_4157a88b2019f6fb447856c5a11a9e2de1d4724f7d0c0ea968e8bf7290143f8e phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_251a60126f96e67605fe66dbf23e808c31bda438abb04db8c0f2c293ffaf83dc phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_c31f30351db032ae86d02a7f670d1611d9c3c715e6f2dd526f4d3c7c55b0108e phases=2 model=1 bus=88053975483807.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_27a2b2632876c736565660f811f097288c688610984dacbca33e3779a596c935 phases=3 model=1 bus=80441155483807.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=COM-Tipo6 vminpu=0.85
+new load.UCBT_79640e204b8691ec97a2613e7b28976d14e7133df9278073ad3deb68e5f9309e phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_1a15f96ee60ea408e55a84196d6c8b995512ec1ada9a2d7a80ac03c91f2e3322 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_affa388be39b5c1e07023b0163f90e70d993db517d1cb90ebc45f9c66e5d38de phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_4e1ad35280c8e0a0de35b60912037928541565906362e246a452b0a4f1221dfd phases=1 model=1 bus=80444275270732.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_cb00b4384482fc209258cff5eca53dc1b0850049e47524aa551f320806775486 phases=1 model=1 bus=80444275270732.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_8f27bc5aca3fe9decc1a32f82df943d73563565f7ed69550bcf2f7287eee0be2 phases=1 model=1 bus=80472975483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_3b721509a7ee57cc527fd82764b8f12003d55c9474e921bdeedc5427240995b8 phases=1 model=1 bus=80472925483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_abfca5e58eefcbd6a75b811474e01401ac6cd142b738f54667dfa3a73353fbdd phases=3 model=1 bus=80473135271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo2 vminpu=0.85
+new load.UCBT_c6120eef78103d41d44b8493fd4ae47c129713745572f78f549aecad9f0ba9e1 phases=1 model=1 bus=80441465271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_fe2c8bc4e895900615376f311f7d06ed2aae42502250cfeb33b484d106afae1b phases=1 model=1 bus=80472455271174.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_044223e072a2b1850cd3232aa747a96e63b627adb906c104b0c81787c7bcef11 phases=3 model=1 bus=80444275270732.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_82b299f82f3ed754bac8e932c08d1662ea97cf0286183307b0c1c550ddc543d6 phases=1 model=1 bus=80473115271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_fbad5ca8b94fb1560a782c1b9b6ef8ed0d655990b5e0d2fecc16c9e81e88e0e6 phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_8c81f5e57fac04595c72a6e5fe299b4bc9b9c02ffcff0a75781cea5bcacea3eb phases=2 model=1 bus=80472875271182.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_d3415dff74fcef17c8c2896e3000c953148c09a814fb7f70bd8174ce977b188d phases=1 model=1 bus=80475135271182.1.0 kv=0.22 conn=wye kw=4.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_98a47072a03114cdeaf68a9acf31b594b2120b024edc71209071f1af5506058d phases=1 model=1 bus=80475135271182.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_33a7533c83b4fc11004919f291aa2d75b94c9eae883c038daa7e381f70b9fccf phases=3 model=1 bus=80473675271182.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_6c505942b33ad11be02eaff0b46d8d1b2ddb0b71b776bcb8f7fe4506f8e4efaa phases=1 model=1 bus=80473665271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_0815db303d5b6b57177d5ef54e1582318c43c52264b27049f400ec304d12ec69 phases=1 model=1 bus=80472875271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_eedf6a5f5414855c6c00fc9abed4482e5eeab0c782da60436f58614b8903ffda phases=3 model=1 bus=80472875271182.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_44bd6af301ad5c6eca623aa7a0a767020fc6f272c5da14ba8ac4e13abb436cc8 phases=1 model=1 bus=80472875271182.1.0 kv=0.22 conn=wye kw=9.0 daily=COM-Tipo2 vminpu=0.85
+new load.UCBT_f4dcf11cc31b9f25e5165ea7177b52d162376eb9d8a749b49bb3795fa4988a9c phases=1 model=1 bus=80472875271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_86bcb2cb6ca983266d29c13702ee42f1f0f247917f7cfb6a70e660e31169de7a phases=1 model=1 bus=80472875271182.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_ac2bb12860879fc9fc0db76278cff5134da2dbb2cae372ca6bc6ca90a3ae2bba phases=3 model=1 bus=80472545271174.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo2 vminpu=0.85
+new load.UCBT_3fc7276b2c3b105121e96f9cbb434023cb7e473af164cfdd916ec8669227c62c phases=1 model=1 bus=80473065271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_f1474897205fe4d71703132ea953e1bec0f65b5608bf6faa2b24e312cb181c33 phases=2 model=1 bus=80473105271182.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_5c92752919e6d1d15ab6611a974e1ac884619f525df6a6956f1a63614893a96d phases=1 model=1 bus=80472545271174.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_f5fb55e29501b89707c327870de3f4bdc8490ba57d2f46312783bbafb220dfa2 phases=1 model=1 bus=80473905483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_fd4d293ad80ab31f4cb70a821b9c87898a88fe4fd15f9050eceb23b28c8fd210 phases=3 model=1 bus=80445105271182.1.2.3.0 kv=0.38 conn=wye kw=8.0 daily=COM-Tipo6 vminpu=0.85
+new load.UCBT_5af09b5e6f0ed9130ba9e3093fc27569aa6a8208f5b7c07430fed7056a07d3da phases=1 model=1 bus=80472925483807.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_cf214d45fc9114f40512025cba375277e29478762b2161c85614d082c2d7c707 phases=1 model=1 bus=80472925483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_f761376e761e23019b7b88b1d63fedb784c00d93acb75d3a555f3a952e29cdfb phases=3 model=1 bus=80472925483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_aa0d52e600f9235da5ba37f95024a7286b90869853e36b737d46409720a3d1b1 phases=3 model=1 bus=80472925483807.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_2e40e715380d27d65ee936031a1e6f34c4aaa4e7deb4d3788f383e8141c6a5f4 phases=3 model=1 bus=80472925483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_1ae6e9b8bdda3181eac3352141a2d91a52aa998dfd46ccc8f8e86a56fa917c03 phases=3 model=1 bus=80472925483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_fe9673d77301b94d78d4e8fd3c507149136081448988fd48e4c4cb376421e161 phases=3 model=1 bus=80472965483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_ad8c080bb7f24419a11ec507cfb3f56cab4207f1569dab1b647d3e7cd8b008d1 phases=3 model=1 bus=80472965483807.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_35b589f2e41b8e41897b3f9849fe2815878d3ef4397c8329ebcfb712411f3911 phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_4cd902bddc30f3c453fdc13613a01bcdee37f1f327d7f16b4c731fa8f766924f phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=4.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_9373882e36344f0455d8341700cfa1bd9c754445208691d4fc8cbdfdd1090efe phases=1 model=1 bus=80473065271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_26e6aa07c87f5b2dc08d7f3c2cc23ab0a3a99ecd0c681a8a4f23b392ac6a4b00 phases=3 model=1 bus=80475145271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_71a4c8dfa62e0d2b34a9f9a9dd850a33be5871fc0703f414a2d6f493401ae5b2 phases=1 model=1 bus=80444275270732.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_044d0c7e3d445506debd64366017e251862dbacb607b893e5e625a6c30776271 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_538746f54fbd5e099bec1e90dd5055d72c9ba17d68df49bf0ba8b527ac8d11ae phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_f5a9878a3e128085048a69b0f3264d0ae09341e8005f6503f41250e04728249e phases=3 model=1 bus=80444275270732.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_b2b7984f2f5159b8a440a79060f69d5285e4e8374e12a57f142d83863a1f03b7 phases=1 model=1 bus=80444275270732.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_53dfd4ce62e05dc64ef5d768e998d79b683d46f02e15b3dad4f25db9ba6de85b phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_d662cb2a1185f6ecf38af476241b00a41a00a60f8f2ecbdf5b5c9fc1b813ffee phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_a679572e42ab024f86d88df711ff0a50cd8556b9435efd2558b4cec5610f60a6 phases=1 model=1 bus=80444275270732.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_9b0b8e7ddacb97881366e11f4e01ab3b8a532d6cd5c99a9cce22c70cbd3ed0fb phases=1 model=1 bus=80444275270732.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_4e81be6a92260448c977b8147620f5ae75066487c97167cb644f823451de4370 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_82c62a299f8d3e78ec94a5cf85222dfe321c7fd035c26e3ec6e3bbc10b86fad0 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_bfff823aec337b501e0a7c045186e7abbd8a6a136c0aa8a342f7759a9f4e0eab phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_90e2c78686439ef3464cf89a23532cbb747df665a01b74bb6f64a617fb0c4f56 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_7017a415d11969aa59b951907e784c6a33d68af697358b2cc0009bc54133a236 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_702a624d3116a6c189063779939794b430fb91b82ce0109762f7e624390fe299 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_162cc405b00773e294ae32e4d905faa073311d837c81699954c1199af6d01dad phases=1 model=1 bus=80444275270732.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_c87c5bb26f7ee81985b6c249806fd4c6ee4a7bab1ec864ba2c34461f39a9baad phases=3 model=1 bus=80444275270732.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_56dd97946546f5077136b35816d4d8cfe137be2ca618b327cf58edfbe30349b0 phases=3 model=1 bus=80444275270732.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_362aee1a396993b3f43fd1ac4b7e7d7bc30eb69390e1441c3605ba6bdefad972 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_24213370bf6a5d798e9d6235083f974a95feee87d8051aed3dd5d45035b0c737 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_b25d390e833645492d7c261de24d5285476f43e65ebc0cc998a51a5456809962 phases=3 model=1 bus=80444275270732.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_5e524591eaa91a15d8d6f44876e0d96744ecc15fdbb5946168ab7ebe5e8b11a4 phases=3 model=1 bus=80444275270732.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_fc0693101616b103713547dab120c9f0591c88a4fb1bd4dd7ab826d04b62a488 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_4d5260b364e814cf3ab2ec6eb0fec90182a02cee44f32ceb7dbc078a2da18a70 phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo3 vminpu=0.85
+new load.UCBT_e7532e784de05ea0a05885e2affc16330e4b4a72830d498bee1b4faf0bd50f10 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_a98c1f635bfc4055d467419476bbbf7926318d188912ba18a021cdff904d6c02 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_2c6b9288a7e0622726c11681664cb54896afeabe59fae21f66c04729165398b9 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_065468649496d4a9830122cb6a76dd72f4082be6329864a0c113d4a404bd0e3d phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_93086bdd01e2607680cf4616ecd22ed083ec47a1de04933fc6b918228b772e1c phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_892d5ae520836f801df76970ac9e3fdd4bf0aaa65e30a2bc6cef566d3ac95f36 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_88a967c1dfdfea7a834410fc6dab71f20e87f4a31f2f17a04661f4afaffc45b7 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_c9ad39ce788e3a25ec46abde6d61e68fc8f46d4da657375d73b86c9b2714b79e phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_85dd45091fdd2f988003d7678ab7b9ee06db2020c3a9939aa82a502c3577d41d phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_bcc0734c9413253c72a6bf7cbe7ecbd25ae09b03f40dc3db9b64a4e363a0072f phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_a14270c477cb8c3162d76cc2540f347f174d059b32d49779b5378ae7b31c4c41 phases=2 model=1 bus=87173415451476.1.2.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_8a5036f6b18db5e1eca53728844e36f3a880bb074ab44e87a4b4406a32a40c61 phases=2 model=1 bus=87173415451476.2.3.0 kv=0.38 conn=wye kw=16.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_adc0f8fd4b20aa5dc1d5ff14f9c51d78185417638475e53a299439f69a3fc032 phases=3 model=1 bus=80445095271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_6f6b4c391bfeb52ab4ec6234b60b464cf49316956b97d764a0881f5ae838f619 phases=1 model=1 bus=80472965483807.3.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_e006a78518c282435a9d77f6303c9a132447a3407f595d960a284b8037d705c6 phases=3 model=1 bus=80472965483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_1fc01fd179369034ec8e1228b841bc1cae122ea050ad2734f43309bc0e77aa2c phases=1 model=1 bus=80473665271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_5d591e6de18c7478cd4e912c0b8e674bb74a97b75aee9c4a418f16a18a15f263 phases=3 model=1 bus=80472875271182.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=COM-Tipo4 vminpu=0.85
+new load.UCBT_e7285d5af6962e1e09c5f279a026419d2d52c5061e5baeee916a2ece06ab6f22 phases=3 model=1 bus=80475145271182.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_9613b8902ef20e14a4ef8ca003996cf09e4b1f6f54823ad60f08e7810e998f6a phases=3 model=1 bus=80472975483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo7 vminpu=0.85
+new load.UCBT_3e9fa0c1affd0510a773dce7a76806f7422cece31011f07b861dac9e39fc3822 phases=3 model=1 bus=80472925483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo3 vminpu=0.85
+new load.UCBT_cac66f328720fe0620769332bd37fa93eb8c581bfd4e12f5b10c3849c86a2b48 phases=1 model=1 bus=80472975483807.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_685b4df897ab0c28e2955b7e4c8f5274ea05ab02ababb284e342bf5e63dd9705 phases=1 model=1 bus=80472975483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_ad1eacd3d401eec7d3dd04b02ca91f48d30281bcc750793ed9bad7b4968a0c80 phases=1 model=1 bus=80472975483807.3.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_ad1a309f0b35187fca7a970819d6c3210f727dbd65635e5d8d6a1d3018c0adab phases=3 model=1 bus=80472975483807.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_a3ecc53cdf3f3338b67ff1057061831c7b1161f62f6e8ae389c7ad531ede8a14 phases=3 model=1 bus=80475145271182.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_b47385a312f0329b85faa4d93151ccb76fd37c25e888e0965d878804122cba4d phases=1 model=1 bus=80475145271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_28e055a184a433671f8eed6267425ffabe63c3b01cd5b857190c911cd1c2158d phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_b58bc377dbdf49664b1c79332ce22da43860245a7630399c42e42041442c2994 phases=1 model=1 bus=80472545271174.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_dabcd3bc99bfca0f2a5bf196c9bc85ea0d0c76a5bc511de7021d4842ebd3271c phases=2 model=1 bus=80472545271174.1.2.0 kv=0.38 conn=wye kw=12.0 daily=COM-Tipo4 vminpu=0.85
+new load.UCBT_7bb8c19bf07c723130e5f502951a92cfff23062fe5ba71481cfc8a5a4ba38507 phases=1 model=1 bus=80472975483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_0684adb9775d85e27c481b186ced76f3f781799fe7328d4c506076a6c0a4516e phases=3 model=1 bus=80472975483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_1517766fff354b31069b71a038396cda0974749c331f2549ffdff4095ad10f9d phases=1 model=1 bus=80473055271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_26ac158cbf4c8b8ea3d4f1500f7dd6e900ffc9160c4fd8754b834211d8fabaf3 phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_241769d9c9bc2184d56ea849d4505ca9b448774fea6db30e8712e0b211aa2289 phases=1 model=1 bus=80472975483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_111cef60c5ba0e6e8bdad6bd58f4bf506d5e6875905045b9a211f063f19991d2 phases=1 model=1 bus=80443085483807.3.0 kv=0.22 conn=wye kw=8.0 daily=COM-Tipo2 vminpu=0.85
+new load.UCBT_52e8fa229100e93a50ef580f378da2161325aec5aec20f50f66c3af0f934dceb phases=3 model=1 bus=80473905483807.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=COM-Tipo6 vminpu=0.85
+new load.UCBT_bdee33cf86c169eb9439b6e09fda04474fcaa2517e23eb89832155d2387577be phases=1 model=1 bus=80441465271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_56523e4635115485c9c1872ede343aae446625c3f99376492f5c4db3d85801a1 phases=3 model=1 bus=80443085483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_a33b73d2ad3cdbede7ac25eca1376fab64ce2d6a7ecb3359ceed5a188ee41ee7 phases=3 model=1 bus=80475135271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_f1e9d80618199ad67228bb559599d717f8afe4e1fc008502e3324d04b17d8a09 phases=1 model=1 bus=80472975483807.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_1535ad0cd4020b0942b12b0cdc26759cb0181be4a90d4c2cb45a80a4e3834720 phases=1 model=1 bus=80473105271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_a0abd5db4481bca1dfd650710eca60f2e2804f8934c984b4519c9c554a08e039 phases=1 model=1 bus=80472995271174.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_57f05b5358ca8562b124f7643f91b3abc5d657a6ba8850df830a5c665ac24b8a phases=1 model=1 bus=80473905483807.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_cc3b7c04e2f0e05c8566f22528eb381e51fafee81c20ec59a6b13b705f727257 phases=3 model=1 bus=80475165271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_adbb4c6cd288e6fc739e62746807979018bac8c85023b06137ee177bd4c4c54c phases=3 model=1 bus=80472925483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_2a878f4f6297db4f8a81a8e280b7da4222bc905f3f18a3b6c34cd52f3fb72f4b phases=1 model=1 bus=80472895271182.3.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_65b9a809e45133ae697863f1876897c9807ef43924a823ae72db40937894a404 phases=1 model=1 bus=80472975483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_60977d1a14a263eb5bd5c0ad7813ad7fd792387aacab64cbd7714b46498484e7 phases=1 model=1 bus=80472525271174.3.0 kv=0.22 conn=wye kw=9.0 daily=COM-Tipo4 vminpu=0.85
+new load.UCBT_88dcb185716eb82e03fe6fc6bc2f0dfad396acef5218de38b360aa65757f520b phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_a8074bb2bd867e9e1e04a62bd5c6465556d16446fea2a31ff9dadd84f6d05be6 phases=1 model=1 bus=80472975483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_4ac443eb79da2569fd800b9e3d6a443d37879ff9fac8d97d4940a8b7888dd347 phases=3 model=1 bus=80472455271174.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=COM-Tipo5 vminpu=0.85
+new load.UCBT_cf70f10c8d1e47a6d4945f2f042f7dcab2c85adbf6664720e1167c1cb1799a00 phases=1 model=1 bus=80472895271182.3.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_5d186de0f2f9e7b002fc962056abe4ff9a50aea21715cd5b1239db1b32330606 phases=1 model=1 bus=80475135271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_fed9176c0bd6998d74a1b59e9896ecd55b3a8d7d689e8e46af3cf8f72eb3962a phases=1 model=1 bus=80473105271182.1.0 kv=0.22 conn=wye kw=8.0 daily=COM-Tipo4 vminpu=0.85
+new load.UCBT_f4b3dbb59178c9ef107d64900320da889b3940de11b235af2f0a02e29930e329 phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_03c0d66aab013b487ce8921f106668b4641e8886aab66a3217b5ede65da882a1 phases=1 model=1 bus=80472985483807.3.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_64d546f0a6e4f1dcef7f909f473e8c50d3f1174cc721f41d1149bfb011c7c3c5 phases=3 model=1 bus=80472965483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_f7cf0956b7c5775ce0e6743a8b520ef119349345e592845e05b22dc3d0d23259 phases=1 model=1 bus=80472875271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo9 vminpu=0.85
+new load.UCBT_6af6ef0fef97ba678faccdb434dfeb5f9c9b33ea6a501be3f26116e746f61059 phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo9 vminpu=0.85
+new load.UCBT_8ce873634a9f0d8f8f47e71024c385bb3d2a8cb168e99b7d619203362a761675 phases=1 model=1 bus=80473105271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_2549f014ba03aa7bb8b19208dba85f20c22eecc7277465151eedbffbaced853d phases=1 model=1 bus=80472565271174.3.0 kv=0.22 conn=wye kw=4.0 daily=COM-Tipo2 vminpu=0.85
+new load.UCBT_bbe5d3ea8a7f72458652e66fea73c5794f005d12fb571b973a890393583879cb phases=1 model=1 bus=80445105271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_1ddfeca52b05653176c314f58d85784431c0a82328ed6ee027bfeb1e15528d60 phases=1 model=1 bus=80440755271174.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_14949a6c7bdf7de8602058bdccb2da6a2e01bc420e65fbd5132e1d27ce6ff206 phases=1 model=1 bus=80475135271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_d354984853393aa54623ca33b4cc3d346509a51063bfdcc2a79332ddca38899b phases=1 model=1 bus=80475135271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_0784e8a706fcebef149dfa4aa03bc40a839232310c982fd5c18f424cc0d74cfc phases=1 model=1 bus=80475135271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_9bf9ec7431d426cc4e7dfb6a9eda6fe63712769f65868575a06e91386b766918 phases=1 model=1 bus=80475135271182.3.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_3332297d2b4bffc18f7d8d0945d7af6f26b062e51edc09b545904e38fc976c2f phases=1 model=1 bus=80473105271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_718bcaf6ab104d2c71e4cc13ac729ae7af4868e78f18250ccc1b0298efc508da phases=1 model=1 bus=80475135271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_58c35601f290454b85084dbaf3c236239fd4eb38c982ee43bbfc3377e1fc0ae0 phases=1 model=1 bus=80472925483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_b353cc7746bbc44f82e7ccd8b05c237296dc10d80626cb2ca696ddca4e0dca33 phases=3 model=1 bus=80472925483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_e45efced8692e64e408245ca1f02af5c3a52041559e52ce7a2b9f2df68e2ce76 phases=3 model=1 bus=80472965483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_4d6dbec3abaeeea477d1953f4f1a9b58356204c16f67bbea082f685e079ba9ec phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_83c8f4a7347833ebf81752cb6c89f4639de846c8cfbb705e7987066750c925f7 phases=1 model=1 bus=80472965483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_36ceb349e5271a78bf0d442d4056a14e110e7108bc07aa322810903aec6ccc8e phases=3 model=1 bus=80472965483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_27830d59d701eb44aebc7bbb7c67a300b5c95333280c255beeb5f31357b5fd50 phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_6c0afbf3b7f67b7b6c67817ee301c790c62e33033fe5bed7a0a5a450520f0837 phases=1 model=1 bus=80472965483807.3.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_1463ab6a602e47e70e9e1e058de9a93c3d308f06a2b0f43c45bf70405d207a2d phases=3 model=1 bus=80472965483807.1.2.3.0 kv=0.38 conn=wye kw=8.0 daily=COM-Tipo5 vminpu=0.85
+new load.UCBT_376c40c6d4d9326270b2388a9fd856275860150c7f8442ac47756e399d76d136 phases=1 model=1 bus=80473905483807.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_efedc4403776bd7f2ce894e5072acf1b77cfff062f3489b1bc04ad121ee0a2f9 phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_91cdd5f983400d04e63ba4a057e978a7b37ee4ae0f20a486631aaca93f63fb23 phases=3 model=1 bus=80440985270730.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=SP-Tipo4 vminpu=0.85
+new load.UCBT_862cf627267e1e1b60d90f2c8b867a2b33bfa270b45ea73cf0315584f1f6e8aa phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_fb0ed8a5bb0841843666a8458cf65895691e0adb9321d4eb81afe61bba5a9557 phases=1 model=1 bus=80472985483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_3d079d151222e1961b3d119af241af7bc37a29aa5c2b20312d31342b43c42053 phases=3 model=1 bus=80472545271174.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_6487d80bf3cb763602b7ebc7452ba7c60326e542cebbd681975e7a6096de3acb phases=1 model=1 bus=80472895271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_2f5e6e6bdcbde3f131210beb997517ea31f701c1288c7e1f929bf134ff755505 phases=3 model=1 bus=80472895271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo2 vminpu=0.85
+new load.UCBT_07ffa0dcadb9e49b98f8e3251fb6cf702b24b785f77486014700de379ac14c35 phases=1 model=1 bus=80473105271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_d23c03c4fb258f65217f911009527f27ab8e88d45dc8d28d61428412712676e5 phases=3 model=1 bus=80441465271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo2 vminpu=0.85
+new load.UCBT_80bb459a455b380df0304349e15c9243b966129e2b0738a7eef0e654f8da75eb phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_bd6bd53ae5c4ec739b0f3c2fd29663abc9b2c72f3909f9133e6d0acbdc388a14 phases=1 model=1 bus=80473135271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_5ec59d197595a0488c448bc5f15a55f6fc0f743f13da0092584786ec33411af5 phases=1 model=1 bus=80472545271174.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_c2cc505aea6be04dbc7e7d3a3271cc75d6b9ff233f062605d0cb923408bceed2 phases=1 model=1 bus=80440755271174.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_8445f0be14f85004956a8631971ded8759edec722b54e78bbba06478c1417821 phases=1 model=1 bus=80441155483807.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_a2316b343a831021d5c262579f5d2d1f08bcf947dcf2e81f73b7aba5f28ad39a phases=3 model=1 bus=80445105271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_465d38bd40cb6f7e7dec91ce2f29ac8e02d49c899cb64763463347ee204a6ddd phases=1 model=1 bus=80475175271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_8fa3e8113919d9f2dc2bff63f19269df9e96cee9e0331e7c20b1a45c28c42e10 phases=1 model=1 bus=80475175271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_896258c384772fb72cde3d651283c7c7d7e2f8f4be9b1d6a5a1438ab851b6805 phases=1 model=1 bus=80475175271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_877db8920754e8f5b43f477f8e199231b4cc396fc6d4ff8bfe8dfbb421a2bc39 phases=3 model=1 bus=80441445271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=IND-Tipo2 vminpu=0.85
+new load.UCBT_fddc86e19f6c0db89127c9b1965554907b5b740d28000dbc527fce0c3b200620 phases=1 model=1 bus=80473115271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_722d467e8891616397d5fbb851b03db4321f4d2fc037cb012d9a05ce086d76b8 phases=3 model=1 bus=80472875271182.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_aff435b2b6fac601380e3fc3a328b2a900b09623135ee8f79bcc18302d248838 phases=1 model=1 bus=80472875271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_03539b60ccd0427b0b38a01c4a2004c37abdd67b801c4afae5a37dfd0a90274f phases=1 model=1 bus=80473665271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo2 vminpu=0.85
+new load.UCBT_8cb43fbbc11c4f050bf414c895e6c96d17ebf2ab12a18379ac39d2169e3411cb phases=1 model=1 bus=80472875271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_72a5a30e9b8d85a125b7fba09e665d58310e8a8eee03cb852f7c865ae79fd556 phases=1 model=1 bus=80472875271182.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_ef50bf0cd4eeab5aade1443605e808cfd2b8ce3d27991fa0bccce5b41b19c816 phases=1 model=1 bus=80473905483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_ba95d920becf9f67d80baaf7317fdbdc5352a92a56e634c09b6bce8e8e600cd5 phases=1 model=1 bus=80473105271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_11ef69e8250cc390f4b48c91a9e74c883e6d66febc0e9a6e1eb624e020e92652 phases=1 model=1 bus=80472465271174.3.0 kv=0.22 conn=wye kw=8.0 daily=COM-Tipo1 vminpu=0.85
+new load.UCBT_170995cb76b1b3a5026e0b70d050bb1d2c931735003e86b63b66878cf068b4d8 phases=3 model=1 bus=80472885271182.1.2.3.0 kv=0.38 conn=wye kw=19.0 daily=RES-Tipo5 vminpu=0.85
+new load.UCBT_7901e60ab38d0a13b03c647ea2a26110ab3d5e25bf5c5bf2658530e54d1df881 phases=1 model=1 bus=80473105271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_d946236eae5aff0fd69feebce2f62baea481417edc6ebfee4f3e0ef336883983 phases=3 model=1 bus=80445105271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo6 vminpu=0.85
+new load.UCBT_96553dca5d5102308aa080120ecbda85258346de49799f6b427072e3dbdc4e1b phases=1 model=1 bus=80472455271174.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_b23c031f4cb3900b2cc99dd0069b2dc1abf278377cad310252c9a601690fbdf4 phases=1 model=1 bus=80472985483807.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_e5570c71449d193c5b5e7089679f27b218f8f803df008c6e09e105a92d8fe0f8 phases=3 model=1 bus=80472875271182.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=COM-Tipo8 vminpu=0.85
+new load.UCBT_bfa5bfdf21e5d4c8bfe6a452f0acbb0e4cecfecdbd464d2789a43b92a7e5f27d phases=3 model=1 bus=80472995271174.1.2.3.0 kv=0.38 conn=wye kw=20.0 daily=RES-Tipo9 vminpu=0.85
+new load.UCBT_7aad313424030d682f6ea8cfd203aeedb3eab2907d1ab5405835dcf94f6a44af phases=1 model=1 bus=80443085483807.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_dd4409986c3598d2182a67b745fd960d4c56810b4889650a9313f76223b03cf8 phases=1 model=1 bus=80475135271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_1ed7c777375cc02d92967e6f82f525c307c4552cdc0d2f8056aff78243ca7883 phases=1 model=1 bus=80475135271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_cf5e6d8f25b0546e57ef592456081d02666c38d87201df044a34fb1846dbc383 phases=1 model=1 bus=80475135271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_9cb90b953b0eeeb419989a614448812a890fc91c2e2d7db59968b8a1b1d38ee6 phases=1 model=1 bus=80475135271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_4221e7e467866f519d2d5466b1c0a996ac539bcfdca0cdd73a48408e4a866739 phases=1 model=1 bus=80475135271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo3 vminpu=0.85
+new load.UCBT_961775658e5807ef82d7f3b92884df5ee9a7c8106af2b5fd7617fd861031b373 phases=1 model=1 bus=80473105271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_51e08cd0e79e69088e553eb0679d89a5a33b4f0020188bee98d1961481226263 phases=1 model=1 bus=80473105271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_7e16c5408a940f7810e2c1ba56a71912117e6f3d656941bb78c95b50c256c78b phases=1 model=1 bus=80473105271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_44b77d4c10d272aabe1b6ee970644998a09be78842f8c00d840ecac5367b83ba phases=1 model=1 bus=80473105271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_812f08594120b6da275bbd0c605ecbc6a35e72028adcf1406ec98798cbd1d975 phases=1 model=1 bus=80473105271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_962073e32b406237ccca1a41362cde6c8808e053ab3cbe3b6f7b25cb932d3bf3 phases=1 model=1 bus=80473105271182.1.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_bc70ef43d47c2b981431f32995bccdb8a741ec3d4c9f3e49afdfe9478634c720 phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_656fcd5621f6b1d618e9864c6d1a2ae0411abb420b3cd05f8f0a78368cdb741e phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_688e0a4709f8ed9a79962ea774c95e0dc3d680de92b7edcfaf1b6d43c116a0fc phases=1 model=1 bus=80473105271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_c6e06ee7459fb76208c847b35d439a0778f907a2ce11bec9f3c7be4163b91336 phases=3 model=1 bus=80441155483807.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=COM-Tipo3 vminpu=0.85
+new load.UCBT_8a2308e03503267fbd39d9c47878eff7b5854aa10fba5435c264ff9b430dd355 phases=3 model=1 bus=80441155483807.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=COM-Tipo3 vminpu=0.85
+new load.UCBT_c869faa392e8425de6c23c03ae86e7ed92724fd7ce9944f708a42742fca6baf9 phases=3 model=1 bus=80472925483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_9abb561081b38b5a1aa23955b299ce6bd26c4e7346f6aa20770bb273fdaf1ec2 phases=1 model=1 bus=80472925483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_7600e058c546e5ba97c21588f5a8a6345197822b119f4a06c9621b87ad67742b phases=1 model=1 bus=80472925483807.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_d25d8be45586d48804ebd7c29cb0fcd11afa043389e82d67b5696c0f92be1645 phases=3 model=1 bus=80472925483807.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_655f3ba688793748e93263441c3b4b5187ddab8e5098082baaa8372d87c9a99e phases=3 model=1 bus=80472925483807.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_159c7e9c3673b9db0d3885e4a27b4488e0628e03eaf086c271f06d6c669fafe2 phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_4f42c583c01a6537c90e3b3fdd04e0d9d10e1bd8571c1a9117f8f84ff7c23a1d phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_fa10ac7d73316502d409e7ae318fb61ed0a5bdef5689cee55e34c56cf0c9a4b6 phases=3 model=1 bus=80472965483807.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_45f7082d1d6b1c4c05dd7880780a947f08f4e9e406ffa06ede4b825a76f082d2 phases=1 model=1 bus=80472965483807.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo7 vminpu=0.85
+new load.UCBT_9ca4cf98ebd84691ceb5f4c70af36da124abdc9eef8e01573dfa9ab975098947 phases=1 model=1 bus=80475145271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo8 vminpu=0.85
+new load.UCBT_620f7c9add99d19f9a09d7d612707b10b8d13f755983647f860aff00d7ec40d9 phases=1 model=1 bus=80441445271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_3c1025dfa9bbfdf87a150ab56fe5b04438b28ab4478f9c1b4823f8653dc77cf7 phases=1 model=1 bus=80441445271182.2.0 kv=0.22 conn=wye kw=6.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_e253a71fc239a8b7c6d410097998057887a79c49d5cca51a5e3059ed5810ccbe phases=1 model=1 bus=80441445271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_0d2eec1ecd57beeb1ed5dd9487f93f383deea3014b2a91c0ebd0ee429f8700c8 phases=3 model=1 bus=80441445271182.1.2.3.0 kv=0.38 conn=wye kw=9.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_25d5d3e835347d957511394862e24b6d22b5e95678d95275a0b228f6693ee89a phases=1 model=1 bus=80441445271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_0146111a2da2e2a3146d144d2268a40433a54b055cbaca5bfafcf5a4c1f30c8b phases=1 model=1 bus=80441445271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo1 vminpu=0.85
+new load.UCBT_1e96b689443a2978f9f7df7e71f747c2b801acef8d1193632340a711312b487a phases=1 model=1 bus=80441445271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_a93ee1e13536ec01787d59402e81e4b81398b3261578ed7613f4dc43fb97e72f phases=1 model=1 bus=80441445271182.2.0 kv=0.22 conn=wye kw=9.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_f7a98d9e83b93cb5cdaf2ab45fa6bb0099e92a9051e62715e63be3ebeb566d89 phases=1 model=1 bus=80441445271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_edf1e66044ae418ed35496879b61da773515b4f980140b8c799d8205acd20cf5 phases=1 model=1 bus=80441445271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_3f545a175d74008bb9b796bf1d0f31abcf136cd69590087b2d72fcdcb56dc2df phases=1 model=1 bus=80441445271182.2.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_97241cc84d6874c4a19dfc2dbd0ea40883bad3df42cdb1474879e652e6ceccec phases=1 model=1 bus=80441445271182.3.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_1a28d51540c8168c506153d9cc850a4804e73b04ecc0b28c1bd932d782558e2a phases=1 model=1 bus=80441445271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo6 vminpu=0.85
+new load.UCBT_a8877c428851c51dc8453ae69d8ee290502527f1b0c485e26171147bcfd81c3d phases=1 model=1 bus=80441445271182.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+new load.UCBT_7d7ad84ae658efb43d530807fba2552e189b207717ba8cf6642df1474e358b9d phases=3 model=1 bus=80473105271182.1.2.3.0 kv=0.38 conn=wye kw=37.0 daily=COM-Tipo4 vminpu=0.85
+new load.UCBT_ce9c28dadfe729eef7be6307d72a0c4bf2117707259426361ce0b6f3d3c2ba42 phases=1 model=1 bus=80444275270732.1.0 kv=0.22 conn=wye kw=8.0 daily=RES-Tipo4 vminpu=0.85
+
+! 8. Cargas Consumidoras de Media Tensao (MT)
+new load.UCMT_5f80241229db8fae3f2cf18a36afbbb602ac075e191575e9dee79cbf229c1df6 phases=3 model=1 bus=87173425008500.1.2.3 kv=13.8 kw=225.0 daily=MT-Tipo4 vminpu=0.85
+new load.UCMT_125ed4fce92d5dbe6c6f82b023cd8101f76cba0dbfda0c8b7df897451f97d715 phases=3 model=1 bus=89178735008500.1.2.3 kv=13.8 kw=500.0 daily=MT-Tipo2 vminpu=0.85
+new load.UCMT_859881c179c5e3c405e11648a39fbb162aa5cd18efd84c68aaf2202302a05313 phases=3 model=1 bus=89727325008500.1.2.3 kv=13.8 kw=300.0 daily=MT-Tipo2 vminpu=0.85
+new load.UCMT_7789d9c3555022b4d7f2ce6b9b13fd744e39292d9688eff6bed998307300c883 phases=3 model=1 bus=80440965008500.1.2.3 kv=13.8 kw=112.0 daily=MT-Tipo1 vminpu=0.85
+new load.UCMT_d7125ae06dfdf301ba7a51ce3ac1f35a600008d69ff3554e2db9abbef9f2cac7 phases=3 model=1 bus=88961975008500.1.2.3 kv=13.8 kw=500.0 daily=MT-Tipo5 vminpu=0.85
+new load.UCMT_a769394eb405db6834a0f638d0db3be12e937f9fbc8d25fa2458ce27eac66926 phases=3 model=1 bus=80441425008500.1.2.3 kv=13.8 kw=500.0 daily=MT-Tipo1 vminpu=0.85
+
+! 9. Geracao Distribuida (GD) Solar Existente
+new PVSystem.GD_UGBT_88dcb185716eb82e03fe6fc6bc2f0dfad396acef5218de38b360aa65757f520b phases=1 bus1=80472965483807.2.0 kv=0.22 conn=wye pmpp=12.00 kva=12.00 pf=1.0 irradiance=1.0 daily=Curva_Solar_Abril %cutin=0.1 %cutout=0.1
+new PVSystem.GD_UGBT_adc0f8fd4b20aa5dc1d5ff14f9c51d78185417638475e53a299439f69a3fc032 phases=3 bus1=80445095271182.1.2.3.0 kv=0.38 conn=wye pmpp=20.00 kva=20.00 pf=1.0 irradiance=1.0 daily=Curva_Solar_Abril %cutin=0.1 %cutout=0.1
+new PVSystem.GD_UGBT_3e9fa0c1affd0510a773dce7a76806f7422cece31011f07b861dac9e39fc3822 phases=3 bus1=80472925483807.1.2.3.0 kv=0.38 conn=wye pmpp=8.00 kva=8.00 pf=1.0 irradiance=1.0 daily=Curva_Solar_Abril %cutin=0.1 %cutout=0.1
+new PVSystem.GD_UGBT_9e46f533bdbbc0f0027e1525d37332df148db372a27578da6a58a4a0b7d44779 phases=1 bus1=80475145271182.2.0 kv=0.22 conn=wye pmpp=3.00 kva=3.00 pf=1.0 irradiance=1.0 daily=Curva_Solar_Abril %cutin=0.1 %cutout=0.1
+new PVSystem.GD_UGBT_efedc4403776bd7f2ce894e5072acf1b77cfff062f3489b1bc04ad121ee0a2f9 phases=3 bus1=80473105271182.1.2.3.0 kv=0.38 conn=wye pmpp=33.00 kva=33.00 pf=1.0 irradiance=1.0 daily=Curva_Solar_Abril %cutin=0.1 %cutout=0.1
+
+! 10. Coordenadas Geograficas dos Barramentos deste Alimentador
+MakeBusList
+SetBusXY Bus=80444265008500 X=-49.240513 Y=-16.679629
+SetBusXY Bus=80441005008500 X=-49.240682 Y=-16.679685
+SetBusXY Bus=80444275008500 X=-49.24042 Y=-16.679611
+SetBusXY Bus=80440955008500 X=-49.241233 Y=-16.679843
+SetBusXY Bus=80440925008500 X=-49.241495 Y=-16.679918
+SetBusXY Bus=80440965008500 X=-49.241278 Y=-16.679589
+SetBusXY Bus=80440975008500 X=-49.241544 Y=-16.679683
+SetBusXY Bus=80440985008500 X=-49.241558 Y=-16.67962
+SetBusXY Bus=80440995008500 X=-49.240962 Y=-16.679769
+SetBusXY Bus=80441425008500 X=-49.241407 Y=-16.680407
+SetBusXY Bus=80441415008500 X=-49.241445 Y=-16.680446
+SetBusXY Bus=80472545008500 X=-49.244706 Y=-16.678355
+SetBusXY Bus=80472535008500B X=-49.244784 Y=-16.678084
+SetBusXY Bus=80441065008500 X=-49.243789 Y=-16.679582
+SetBusXY Bus=80441055008500 X=-49.243958 Y=-16.679631
+SetBusXY Bus=80441075008500 X=-49.243605 Y=-16.679528
+SetBusXY Bus=80472905008500 X=-49.243601 Y=-16.67954
+SetBusXY Bus=80472945008500 X=-49.244291 Y=-16.679725
+SetBusXY Bus=80472935008500 X=-49.244252 Y=-16.679806
+SetBusXY Bus=80472955008500 X=-49.244375 Y=-16.679743
+SetBusXY Bus=80473115008500 X=-49.240455 Y=-16.681559
+SetBusXY Bus=80475165008500 X=-49.240136 Y=-16.681629
+SetBusXY Bus=80475175008500 X=-49.239879 Y=-16.681696
+SetBusXY Bus=80475185008500 X=-49.239526 Y=-16.681792
+SetBusXY Bus=80472985008500 X=-49.244349 Y=-16.679472
+SetBusXY Bus=80472995008500 X=-49.244455 Y=-16.679148
+SetBusXY Bus=80473005008500 X=-49.24461 Y=-16.678688
+SetBusXY Bus=80473015008500 X=-49.244533 Y=-16.678913
+SetBusXY Bus=80473105008500 X=-49.240741 Y=-16.681455
+SetBusXY Bus=80474885008500 X=-49.240367 Y=-16.681484
+SetBusXY Bus=80473675008500 X=-49.240349 Y=-16.681259
+SetBusXY Bus=80473665008500 X=-49.240348 Y=-16.680928
+SetBusXY Bus=80473655008500 X=-49.240373 Y=-16.680624
+SetBusXY Bus=80473065008500 X=-49.240526 Y=-16.680388
+SetBusXY Bus=80473055008500 X=-49.24082 Y=-16.680476
+SetBusXY Bus=87173425008500 X=-49.240711 Y=-16.680649
+SetBusXY Bus=87173415008500 X=-49.240231 Y=-16.681161
+SetBusXY Bus=80472965008500 X=-49.244683 Y=-16.679836
+SetBusXY Bus=80441085008500 X=-49.243342 Y=-16.679452
+SetBusXY Bus=89178725008500 X=-49.243251 Y=-16.679425
+SetBusXY Bus=89178735008500 X=-49.243205 Y=-16.679187
+SetBusXY Bus=80473525008500 X=-49.240349 Y=-16.679592
+SetBusXY Bus=80473535008500 X=-49.240121 Y=-16.679518
+SetBusXY Bus=89482415008500 X=-49.240091 Y=-16.679245
+SetBusXY Bus=89727325008500 X=-49.240118 Y=-16.679199
+SetBusXY Bus=95463935008500 X=-49.236753 Y=-16.683035
+SetBusXY Bus=80439865008500 X=-49.236703 Y=-16.68318
+SetBusXY Bus=95463925008500B X=-49.236647 Y=-16.683351
+SetBusXY Bus=95463885008500 X=-49.23626 Y=-16.683407
+SetBusXY Bus=95512445008500 X=-49.236278 Y=-16.683405
+SetBusXY Bus=95463925008500 X=-49.236612 Y=-16.683382
+SetBusXY Bus=80473095008500 X=-49.241115 Y=-16.681349
+SetBusXY Bus=80473085008500B X=-49.241191 Y=-16.681268
+SetBusXY Bus=80439855008500 X=-49.236703 Y=-16.682802
+SetBusXY Bus=80474995008500 X=-49.236963 Y=-16.682505
+SetBusXY Bus=80475005008500 X=-49.237433 Y=-16.682369
+SetBusXY Bus=80475015008500 X=-49.237829 Y=-16.682273
+SetBusXY Bus=95442075008500 X=-49.238069 Y=-16.682235
+SetBusXY Bus=80475075008500 X=-49.238237 Y=-16.682195
+SetBusXY Bus=80475085008500 X=-49.238594 Y=-16.68208
+SetBusXY Bus=80475105008500 X=-49.238792 Y=-16.682028
+SetBusXY Bus=80475115008500 X=-49.23898 Y=-16.681975
+SetBusXY Bus=80473025008500 X=-49.241408 Y=-16.680569
+SetBusXY Bus=80473075008500 X=-49.241304 Y=-16.680902
+SetBusXY Bus=97425515008500 X=-49.241232 Y=-16.68117
+SetBusXY Bus=88961975008500 X=-49.241175 Y=-16.681155
+SetBusXY Bus=80472895008500 X=-49.24149 Y=-16.6803
+SetBusXY Bus=80440945008500 X=-49.241569 Y=-16.679987
+SetBusXY Bus=80440945008500B X=-49.241569 Y=-16.679987
+SetBusXY Bus=80440915008500 X=-49.241689 Y=-16.679636
+SetBusXY Bus=80441325008500 X=-49.24203 Y=-16.679814
+SetBusXY Bus=80441335008500 X=-49.242236 Y=-16.679888
+SetBusXY Bus=80441345008500 X=-49.242545 Y=-16.679981
+SetBusXY Bus=80441355008500 X=-49.242844 Y=-16.680065
+SetBusXY Bus=80441365008500 X=-49.243171 Y=-16.680158
+SetBusXY Bus=80441375008500 X=-49.243442 Y=-16.680242
+SetBusXY Bus=80441235008500 X=-49.243713 Y=-16.680316
+SetBusXY Bus=80472915008500B X=-49.244088 Y=-16.680356
+SetBusXY Bus=80472915008500 X=-49.244088 Y=-16.680356
+SetBusXY Bus=80472925008500 X=-49.244175 Y=-16.680076
+SetBusXY Bus=80472975008500 X=-49.244966 Y=-16.679926
+SetBusXY Bus=80472515008500 X=-49.245193 Y=-16.678016
+SetBusXY Bus=80472495008500 X=-49.245485 Y=-16.677901
+SetBusXY Bus=80472485008500 X=-49.24569 Y=-16.677686
+SetBusXY Bus=80472795008500 X=-49.245919 Y=-16.677421
+SetBusXY Bus=80472805008500 X=-49.246225 Y=-16.677492
+SetBusXY Bus=80472815008500 X=-49.246587 Y=-16.677608
+SetBusXY Bus=80474015008500 X=-49.246819 Y=-16.677673
+SetBusXY Bus=80474025008500 X=-49.247152 Y=-16.67777
+SetBusXY Bus=80474045008500 X=-49.247419 Y=-16.677845
+SetBusXY Bus=96098385008500 X=-49.247557 Y=-16.677884
+SetBusXY Bus=80472525008500 X=-49.244887 Y=-16.678031
+SetBusXY Bus=80472535008500 X=-49.244784 Y=-16.678084
+SetBusXY Bus=96098405008500 X=-49.247608 Y=-16.677898
+SetBusXY Bus=99827055008500 X=-49.237709 Y=-16.682303
+SetBusXY Bus=I888888499725008500 X=-49.236063 Y=-16.683431
+SetBusXY Bus=INT153325008500 X=-49.236044 Y=-16.683432
+SetBusXY Bus=I888888499695008500 X=-49.236207 Y=-16.683424
+SetBusXY Bus=I888888499705008500 X=-49.236156 Y=-16.683426
+SetBusXY Bus=I888888499735008500 X=-49.236212 Y=-16.683391
+SetBusXY Bus=I888888499715008500 X=-49.236089 Y=-16.683429
+SetBusXY Bus=I888888499745008500 X=-49.236159 Y=-16.683394
+SetBusXY Bus=80475125008500 X=-49.23926 Y=-16.681883
+SetBusXY Bus=80474055008500 X=-49.247751 Y=-16.677941
+SetBusXY Bus=80474065008500 X=-49.247964 Y=-16.677921
+SetBusXY Bus=80472455271174 X=-49.246572 Y=-16.677914
+SetBusXY Bus=80472465271174 X=-49.246226 Y=-16.67782
+SetBusXY Bus=80472565271174 X=-49.244183 Y=-16.67775
+SetBusXY Bus=80472555271174 X=-49.244528 Y=-16.677889
+SetBusXY Bus=80472925483807 X=-49.244161 Y=-16.680073
+SetBusXY Bus=80472935483807 X=-49.244239 Y=-16.679802
+SetBusXY Bus=80472955483807 X=-49.244389 Y=-16.679742
+SetBusXY Bus=80472985483807 X=-49.244366 Y=-16.679498
+SetBusXY Bus=80473005271174 X=-49.244596 Y=-16.678685
+SetBusXY Bus=80472545271174 X=-49.244693 Y=-16.678351
+SetBusXY Bus=80473025271182 X=-49.241413 Y=-16.680582
+SetBusXY Bus=80473035271182 X=-49.241301 Y=-16.680624
+SetBusXY Bus=80441435271182 X=-49.240493 Y=-16.681753
+SetBusXY Bus=80441445271182 X=-49.240741 Y=-16.681686
+SetBusXY Bus=80475145271182 X=-49.240467 Y=-16.681879
+SetBusXY Bus=80475155271182 X=-49.240424 Y=-16.68177
+SetBusXY Bus=80474895271182 X=-49.240382 Y=-16.681594
+SetBusXY Bus=80474885271182 X=-49.240353 Y=-16.681486
+SetBusXY Bus=80472975483807 X=-49.244996 Y=-16.679922
+SetBusXY Bus=88053975483807 X=-49.245133 Y=-16.679961
+SetBusXY Bus=80472525271174 X=-49.244876 Y=-16.67803
+SetBusXY Bus=80472825271174 X=-49.244762 Y=-16.67787
+SetBusXY Bus=80472475271174 X=-49.245815 Y=-16.677699
+SetBusXY Bus=80472515271174 X=-49.245197 Y=-16.678011
+SetBusXY Bus=80472535271174 X=-49.244776 Y=-16.678073
+SetBusXY Bus=80472585271174 X=-49.243416 Y=-16.6775
+SetBusXY Bus=80472575271174 X=-49.243753 Y=-16.677638
+SetBusXY Bus=80472635271174 X=-49.242786 Y=-16.67738
+SetBusXY Bus=80472625271174 X=-49.24302 Y=-16.677414
+SetBusXY Bus=80473015271174 X=-49.244519 Y=-16.678909
+SetBusXY Bus=80473115271182 X=-49.240461 Y=-16.681571
+SetBusXY Bus=80473655271182 X=-49.240361 Y=-16.680617
+SetBusXY Bus=80473065271182 X=-49.240514 Y=-16.680381
+SetBusXY Bus=80473665271182 X=-49.240334 Y=-16.680927
+SetBusXY Bus=80473675271182 X=-49.240335 Y=-16.681259
+SetBusXY Bus=80472895271182 X=-49.241504 Y=-16.680304
+SetBusXY Bus=80441415271182 X=-49.241458 Y=-16.68045
+SetBusXY Bus=80473045271182 X=-49.241039 Y=-16.680547
+SetBusXY Bus=80473055271182 X=-49.240817 Y=-16.680489
+SetBusXY Bus=80473075271182 X=-49.241318 Y=-16.680906
+SetBusXY Bus=80473085271182 X=-49.241204 Y=-16.681272
+SetBusXY Bus=80473095271182 X=-49.241126 Y=-16.681358
+SetBusXY Bus=80473105271182 X=-49.240746 Y=-16.681468
+SetBusXY Bus=80441455271182 X=-49.241002 Y=-16.681608
+SetBusXY Bus=80472875271182 X=-49.240874 Y=-16.682474
+SetBusXY Bus=88755825271182 X=-49.240733 Y=-16.682305
+SetBusXY Bus=80445095271182 X=-49.240222 Y=-16.681827
+SetBusXY Bus=80445105271182 X=-49.239947 Y=-16.681905
+SetBusXY Bus=80473905483807 X=-49.245435 Y=-16.680049
+SetBusXY Bus=80443085483807 X=-49.24572 Y=-16.680132
+SetBusXY Bus=80440755271174 X=-49.246825 Y=-16.677963
+SetBusXY Bus=80472485271174 X=-49.245819 Y=-16.6777
+SetBusXY Bus=80472495271174 X=-49.245687 Y=-16.677683
+SetBusXY Bus=80472605271174 X=-49.243218 Y=-16.677452
+SetBusXY Bus=80472915483807 X=-49.244075 Y=-16.680352
+SetBusXY Bus=80472965483807 X=-49.244688 Y=-16.679824
+SetBusXY Bus=80472995271174 X=-49.244442 Y=-16.679144
+SetBusXY Bus=80473125271182 X=-49.241118 Y=-16.681664
+SetBusXY Bus=80473135271182 X=-49.241302 Y=-16.68197
+SetBusXY Bus=80441465271182 X=-49.241462 Y=-16.68225
+SetBusXY Bus=80472835271182 X=-49.241474 Y=-16.682362
+SetBusXY Bus=80472865271182 X=-49.241126 Y=-16.682705
+SetBusXY Bus=80475135271182 X=-49.240593 Y=-16.682103
+SetBusXY Bus=80475165271182 X=-49.240139 Y=-16.681642
+SetBusXY Bus=80475175271182 X=-49.23991 Y=-16.681702
+SetBusXY Bus=80472845271182 X=-49.241214 Y=-16.682707
+SetBusXY Bus=80440945271182 X=-49.24157 Y=-16.680089
+SetBusXY Bus=80472855271182 X=-49.241067 Y=-16.682913
+SetBusXY Bus=87144915271182 X=-49.241369 Y=-16.682508
+SetBusXY Bus=80441145483807 X=-49.244121 Y=-16.680452
+SetBusXY Bus=80472885271182 X=-49.240899 Y=-16.683137
+SetBusXY Bus=80472985271174 X=-49.244344 Y=-16.679442
+SetBusXY Bus=80441155483807 X=-49.244337 Y=-16.680517

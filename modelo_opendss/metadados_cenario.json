@@ -1,0 +1,16 @@
+{
+    "data_execucao": "2026-09-29 10:24:05",
+    "fator_demanda": 0.11,
+    "fator_demanda_str": "11.0%",
+    "geracao_distribuida": {
+        "habilitada": true,
+        "fator_gd": 2.5,
+        "mes_solar": "Abril",
+        "tipo_curva": "STC"
+    },
+    "potencia_max_kw": 203553.34972298215,
+    "hora_pico": "20:00",
+    "energia_total_dia_mwh": 2694.275435543162,
+    "convergencia_100_pct": true,
+    "total_passos_divergentes": 0
+}

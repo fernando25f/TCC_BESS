@@ -1,0 +1,9 @@
+new capacitor.BA0000021 phases=3 bus1=INT114925002148.1.2.3 conn=wye kv=13.8 kvar=1800.0
+new capacitor.BA0000022 phases=3 bus1=INT114925002148.1.2.3 conn=wye kv=13.8 kvar=1800.0
+new capacitor.BA0000023 phases=3 bus1=INT114925002148.1.2.3 conn=wye kv=13.8 kvar=1800.0
+new capacitor.BA0000128 phases=3 bus1=I888888414505002409.1.2.3 conn=wye kv=13.8 kvar=5400.0
+new capacitor.BA0000392 phases=3 bus1=I888888481905007257B.1.2.3 conn=wye kv=13.8 kvar=5400.0
+new capacitor.BA0000393 phases=3 bus1=I888888312825007257.1.2.3 conn=wye kv=13.8 kvar=5400.0
+new capacitor.5287786 phases=3 bus1=82185905002188.1.2.3 conn=wye kv=13.8 kvar=1200.0
+new capacitor.5289600 phases=3 bus1=82361125002409.1.2.3 conn=wye kv=13.8 kvar=300.0
+new capacitor.5291487 phases=3 bus1=80439215002228.1.2.3 conn=wye kv=13.8 kvar=600.0

@@ -1,0 +1,456 @@
+New "LoadShape.default_pv_daily_bt" npts=24 interval=1 
+~ mult = [0 0 0 0 0 0 0.1 0.2 0.3 0.5 0.8 0.9 1.0 1.0 0.99 0.9 0.7 0.4 0.1 0 0 0 0 0] 
+
+New "generator.GD.GO.001.809.051" phases=3 bus1=10007633490.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=0.46 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.597.414" phases=3 bus1=10028423214.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.964.941" phases=1 bus1=10028605690.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.135.703" phases=1 bus1=10005925523.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=7.5 daily=default_pv_daily_bt 
+
+
+New "generator.GD.GO.001.016.611" phases=3 bus1=10035989970-341.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=18.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.870.137" phases=1 bus1=10006769479.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=1.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.270.953" phases=1 bus1=10006769630.1.2.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=3.85 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.069.840" phases=1 bus1=10006988910.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.15 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.135.449" phases=1 bus1=10007089650.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.451.888" phases=3 bus1=10007166964.1.2.3 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=75.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.842.553" phases=1 bus1=10007683047.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.917.359" phases=1 bus1=12513349.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=1.84 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.906.952" phases=1 bus1=16944288.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.900.450" phases=3 bus1=11955090.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=3.88 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.809.427" phases=1 bus1=10012134560.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.809.422" phases=1 bus1=13506845.3.1.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=4.95 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.809.483" phases=1 bus1=15530905.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.809.497" phases=3 bus1=12486735.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.858.835" phases=3 bus1=10032938401.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=36.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.258.201" phases=1 bus1=10023930266.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.43 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.069.232" phases=3 bus1=10024138027.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=11.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.691.801" phases=1 bus1=10017453079.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.4 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.134.968" phases=3 bus1=10032610465.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=15.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.597.634" phases=3 bus1=10029740841.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=4.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.135.063" phases=1 bus1=10030216514.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=1.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.856.201" phases=3 bus1=11638783.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=15.4 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.861.218" phases=3 bus1=10036756110.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=16.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.860.389" phases=1 bus1=12411371.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.690.880" phases=1 bus1=13236570.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.3 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.690.904" phases=3 bus1=12856782.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=4.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.839.616" phases=1 bus1=11748898.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.557.800" phases=1 bus1=10009612252.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.502.613" phases=1 bus1=10009971023.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.851.865" phases=1 bus1=13248080.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.78 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.134.259" phases=1 bus1=10024200091.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.2 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.839.324" phases=3 bus1=16179717.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=40.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.015.757" phases=1 bus1=10030413077.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.870.054" phases=1 bus1=10011421582.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.597.758" phases=1 bus1=10000610869.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=9.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.135.717" phases=3 bus1=10001258476.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=34.58 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.214.812" phases=1 bus1=10026475004.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.7 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.431.031" phases=1 bus1=10031149365.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=8.8 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.965.327" phases=1 bus1=10021509750.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.135.284" phases=1 bus1=10012847974.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.19 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.842.526" phases=1 bus1=10013025633.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.870.138" phases=1 bus1=10006769711.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=1.9 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.925.842" phases=1 bus1=10006769800.1.2.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=1.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.290.966" phases=1 bus1=10831540.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.2 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.295.526" phases=1 bus1=10846712.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.4 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.870.295" phases=1 bus1=10853248.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=7.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.660.621" phases=1 bus1=10874574.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.8 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.851.217" phases=3 bus1=10875220.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=19.8 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.135.549" phases=1 bus1=10878210.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=11.04 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.270.618" phases=3 bus1=10961872.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.195.385" phases=3 bus1=10040018.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=26.4 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.029.081" phases=1 bus1=10040328.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=6.54 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.925.698" phases=1 bus1=10063304.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.295.150" phases=1 bus1=10127276.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=10.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.136.061" phases=1 bus1=10127495.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.964.112" phases=1 bus1=10133288.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.3 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.532.457" phases=1 bus1=10002752750.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=12.06 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.258.087" phases=1 bus1=10002763697.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.720.848" phases=1 bus1=10002780745.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.183.233" phases=1 bus1=10027468303.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.235.107" phases=3 bus1=10027639647.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=50.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.859.929" phases=1 bus1=10027667497.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=7.08 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.015.802" phases=3 bus1=10013829066.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=18.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.532.477" phases=1 bus1=10013900755.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.070.820" phases=1 bus1=10014051891.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.660.556" phases=1 bus1=10014602464.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.293.252" phases=1 bus1=10021937778.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.95 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.855.850" phases=1 bus1=10004450033.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.195.487" phases=1 bus1=10027920974.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.68 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.780.758" phases=1 bus1=10032045059.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.68 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.325.245" phases=1 bus1=10015688435.3.1.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=5.2 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.502.985" phases=3 bus1=R82360965583868.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=10.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.502.986" phases=3 bus1=R82360965583868.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=10.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.502.661" phases=3 bus1=10023220080.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=4.84 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.925.897" phases=3 bus1=10030550775.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.964.903" phases=1 bus1=11102135.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.271.196" phases=3 bus1=11265619.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=10.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.965.370" phases=1 bus1=11319070.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=6.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.838.903" phases=1 bus1=11397883.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.3 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.029.050" phases=1 bus1=11503816.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.59 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.925.724" phases=3 bus1=11534953.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=20.1 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.821.356" phases=1 bus1=10850363.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.3 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.070.892" phases=3 bus1=10850879.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=21.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.660.505" phases=1 bus1=11630413.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.069.988" phases=1 bus1=11659245.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.68 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.015.830" phases=1 bus1=11678690.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.77 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.855.040" phases=1 bus1=11734176.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.86 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.214.879" phases=3 bus1=11888088.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=15.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.888.415" phases=1 bus1=10011221664.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.873.530" phases=3 bus1=14822350.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=11.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.270.793" phases=1 bus1=12336919.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.451.939" phases=1 bus1=12170616.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.780.997" phases=3 bus1=12218716.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=4.8 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.965.284" phases=1 bus1=12235647.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.070.861" phases=1 bus1=12235672.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=10.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.134.205" phases=1 bus1=12239902.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.2 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.069.952" phases=1 bus1=12262134.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.870.220" phases=3 bus1=12299789.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=46.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.870.229" phases=1 bus1=12307038.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.069.944" phases=3 bus1=12316040.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=10.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.545.453" phases=1 bus1=12346731.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=6.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.861.229" phases=1 bus1=12371040.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.395.893" phases=1 bus1=12378288.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.311.532" phases=3 bus1=12382929.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=10.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.058.461" phases=1 bus1=12385359.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=1.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.271.184" phases=1 bus1=12387680.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=10.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.301.137" phases=1 bus1=12401961.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=6.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.069.170" phases=1 bus1=12417919.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.64 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.134.948" phases=3 bus1=12420566.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=7.7 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.133.416" phases=1 bus1=12454928.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=10.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.551.329" phases=1 bus1=12474149.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.4 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.292.664" phases=3 bus1=12488616.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.310.732" phases=3 bus1=12488835.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=25.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.660.527" phases=1 bus1=12499080.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.859.986" phases=1 bus1=12508111.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.820.983" phases=1 bus1=12510336.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.820.933" phases=1 bus1=16941640.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.19 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.883.431" phases=3 bus1=12479913.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=12.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.835.628" phases=1 bus1=12586122.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=36.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.502.599" phases=1 bus1=12654218.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=9.1 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.781.310" phases=1 bus1=12690909.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.532.363" phases=1 bus1=12697242.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=1.8 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.821.371" phases=1 bus1=12729036.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.870.215" phases=1 bus1=12853215.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.52 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.292.864" phases=3 bus1=12856230.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=42.4 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.414.237" phases=1 bus1=12870766.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.133.691" phases=3 bus1=12882148.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=13.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.900.669" phases=3 bus1=12418559.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=12.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.864.142" phases=1 bus1=13008353.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=6.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.886.659" phases=1 bus1=13464905.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=11.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.882.771" phases=1 bus1=15795457.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.33 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.532.347" phases=1 bus1=13087575.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.294.373" phases=1 bus1=13300040-342.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.4 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.965.060" phases=1 bus1=13361843.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=1.6 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.075.447" phases=1 bus1=13410143.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=1.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.208.676" phases=3 bus1=13521895.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=6.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.069.140" phases=1 bus1=13553306.1.2.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=8.2 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.135.203" phases=3 bus1=13592166.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=25.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.545.697" phases=1 bus1=13625093.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.468.004" phases=1 bus1=13791102.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.271.175" phases=1 bus1=13826750.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=7.52 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.597.544" phases=1 bus1=14123680.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.96 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.183.208" phases=3 bus1=14130970.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.873.484" phases=1 bus1=10013566340.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.898.963" phases=3 bus1=14400066.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=4.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.294.563" phases=1 bus1=14305940.1.2.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=21.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.852.159" phases=1 bus1=14377639.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=6.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.136.073" phases=1 bus1=14469947.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.24 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.135.532" phases=3 bus1=14536651.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=4.6 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.018.839" phases=1 bus1=14572898.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.015.773" phases=1 bus1=14595321.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.136.044" phases=1 bus1=14623213.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=1.7 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.166.716" phases=3 bus1=14703774.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=8.58 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.451.907" phases=1 bus1=14740667.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.627.360" phases=3 bus1=14741702.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=50.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.806.852" phases=3 bus1=10031502340.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.894.395" phases=1 bus1=10011819144.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.840.934" phases=1 bus1=10001833896.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.32 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.829.242" phases=3 bus1=10023935071.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=8.74 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.813.159" phases=1 bus1=12443311.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.893.619" phases=1 bus1=14718674.1.2.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=6.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.311.530" phases=1 bus1=14777587.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.24 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.134.979" phases=1 bus1=14820304.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.6 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.271.235" phases=3 bus1=14825466.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=20.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.467.851" phases=1 bus1=14832069.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=6.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.166.718" phases=1 bus1=14872705.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.627.467" phases=1 bus1=15006761-342.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=6.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.853.295" phases=1 bus1=15042613.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.899.091" phases=1 bus1=15032840.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.891.453" phases=1 bus1=17140985.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.909.676" phases=1 bus1=12488495.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.660.620" phases=1 bus1=15099611.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.91 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.475.525" phases=1 bus1=15268263.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.545.707" phases=1 bus1=15303172.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.1 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.135.383" phases=1 bus1=15335318.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=1.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.549.326" phases=1 bus1=15430005-340.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.03 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.272.764" phases=3 bus1=15462857.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=9.9 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.597.394" phases=1 bus1=15518838.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.8 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.395.776" phases=3 bus1=15617920.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=32.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.502.614" phases=1 bus1=15705766.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.780.975" phases=3 bus1=15719406.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.692.207" phases=1 bus1=15796395.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.808.063" phases=3 bus1=11508498.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.890.388" phases=1 bus1=11114058.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.874.004" phases=1 bus1=10031553492.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.6 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.896.581" phases=1 bus1=10010139603.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=10.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.694.406" phases=3 bus1=15937689.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=6.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.016.541" phases=3 bus1=15974911.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=15.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.271.264" phases=1 bus1=15998356-342.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.76 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.471.421" phases=3 bus1=16249008.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=4.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.135.946" phases=1 bus1=16331904.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.882.951" phases=3 bus1=10037379249.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=35.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.906.384" phases=1 bus1=10009472078.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.886.520" phases=1 bus1=10008540584.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.925.376" phases=3 bus1=16573444.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.836.509" phases=3 bus1=16776926.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.821.243" phases=3 bus1=16784030.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=2.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.373.591" phases=3 bus1=16824088.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=36.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.075.414" phases=1 bus1=16900686.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.183.269" phases=1 bus1=16902051.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=1.6 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.258.183" phases=3 bus1=16908703.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=20.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.208.863" phases=3 bus1=16940015.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.414.221" phases=1 bus1=16976265.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.820.939" phases=1 bus1=17005486.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=30.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.879.793" phases=1 bus1=10015611645.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=15.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.906.863" phases=1 bus1=15203785.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=7.7 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.532.336" phases=3 bus1=17079469.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=6.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.660.440" phases=3 bus1=17173760.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=20.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.000.414.257" phases=1 bus1=17258339.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.5 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.912.090" phases=1 bus1=12895210.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.859.175" phases=1 bus1=10874604.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=5.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.891.910" phases=1 bus1=14876220.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=4.4 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.876.981" phases=1 bus1=13417101.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=9.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.893.177" phases=1 bus1=16755935.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=3.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.840.958" phases=1 bus1=15570400.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.878.620" phases=3 bus1=17271654.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=4.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.864.832" phases=1 bus1=12469257.2.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=15.4 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.890.499" phases=3 bus1=12870171.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=8.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.866.131" phases=1 bus1=14473884.3.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=9.99 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.883.787" phases=1 bus1=10020369342.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=75.0 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.808.795" phases=3 bus1=16803917.1.2.3.4 basefreq=60 conn=Delta kv=0.38 pf=0.92 kw=17.28 daily=default_pv_daily_bt 
+
+New "generator.GD.GO.001.809.167" phases=1 bus1=13356227.1.4 basefreq=60 conn=Wye kv=0.2193931022920578 pf=0.92 kw=2.0 daily=default_pv_daily_bt 
+

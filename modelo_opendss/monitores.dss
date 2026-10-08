@@ -1,0 +1,73 @@
+! ==============================================================================
+! MONITORES OPENDSS - SUBESTAÇÃO GOIÂNIA LESTE, TRAFOS AT E ALIMENTADORES CTMT
+! Gerado automaticamente pelo script converter_csv_para_dss.py
+! ==============================================================================
+
+! Monitor na fonte principal (Subestacao)
+new monitor.mon_subestacao element=vsource.source terminal=1 mode=1 ppolar=no
+
+! Monitores nos Transformadores da Subestacao (AT/MT)
+new monitor.mon_tr_TR1_pot element=transformer.GOL-S-TRF-TR1 terminal=2 mode=1 ppolar=no
+new monitor.mon_tr_TR1_vi  element=transformer.GOL-S-TRF-TR1 terminal=2 mode=0
+new monitor.mon_tr_TR2_pot element=transformer.GOL-S-TRF-TR2 terminal=2 mode=1 ppolar=no
+new monitor.mon_tr_TR2_vi  element=transformer.GOL-S-TRF-TR2 terminal=2 mode=0
+new monitor.mon_tr_TR3_pot element=transformer.GOL-S-TRF-TR3 terminal=2 mode=1 ppolar=no
+new monitor.mon_tr_TR3_vi  element=transformer.GOL-S-TRF-TR3 terminal=2 mode=0
+new monitor.mon_tr_TR4_pot element=transformer.GOL-S-TRF-TR4 terminal=2 mode=1 ppolar=no
+new monitor.mon_tr_TR4_vi  element=transformer.GOL-S-TRF-TR4 terminal=2 mode=0
+
+! Monitores nos 27 Alimentadores CTMT (Disjuntores MT de saida)
+new monitor.mon_ctmt_5002409_pot element=line.DJ_5002409 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002409_vi  element=line.DJ_5002409 terminal=1 mode=0
+new monitor.mon_ctmt_5001992_pot element=line.DJ_5001992 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5001992_vi  element=line.DJ_5001992 terminal=1 mode=0
+new monitor.mon_ctmt_5001993_pot element=line.DJ_5001993 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5001993_vi  element=line.DJ_5001993 terminal=1 mode=0
+new monitor.mon_ctmt_5002188_pot element=line.DJ_5002188 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002188_vi  element=line.DJ_5002188 terminal=1 mode=0
+new monitor.mon_ctmt_5002228_pot element=line.DJ_5002228 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002228_vi  element=line.DJ_5002228 terminal=1 mode=0
+new monitor.mon_ctmt_5001994_pot element=line.DJ_5001994 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5001994_vi  element=line.DJ_5001994 terminal=1 mode=0
+new monitor.mon_ctmt_5001995_pot element=line.DJ_5001995 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5001995_vi  element=line.DJ_5001995 terminal=1 mode=0
+new monitor.mon_ctmt_5002210_pot element=line.DJ_5002210 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002210_vi  element=line.DJ_5002210 terminal=1 mode=0
+new monitor.mon_ctmt_5001996_pot element=line.DJ_5001996 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5001996_vi  element=line.DJ_5001996 terminal=1 mode=0
+new monitor.mon_ctmt_5001997_pot element=line.DJ_5001997 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5001997_vi  element=line.DJ_5001997 terminal=1 mode=0
+new monitor.mon_ctmt_5001998_pot element=line.DJ_5001998 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5001998_vi  element=line.DJ_5001998 terminal=1 mode=0
+new monitor.mon_ctmt_5002410_pot element=line.DJ_5002410 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002410_vi  element=line.DJ_5002410 terminal=1 mode=0
+new monitor.mon_ctmt_5002211_pot element=line.DJ_5002211 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002211_vi  element=line.DJ_5002211 terminal=1 mode=0
+new monitor.mon_ctmt_5007257_pot element=line.DJ_5007257 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5007257_vi  element=line.DJ_5007257 terminal=1 mode=0
+new monitor.mon_ctmt_5007258_pot element=line.DJ_5007258 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5007258_vi  element=line.DJ_5007258 terminal=1 mode=0
+new monitor.mon_ctmt_5007259_pot element=line.DJ_5007259 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5007259_vi  element=line.DJ_5007259 terminal=1 mode=0
+new monitor.mon_ctmt_5008497_pot element=line.DJ_5008497 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5008497_vi  element=line.DJ_5008497 terminal=1 mode=0
+new monitor.mon_ctmt_5008498_pot element=line.DJ_5008498 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5008498_vi  element=line.DJ_5008498 terminal=1 mode=0
+new monitor.mon_ctmt_5008499_pot element=line.DJ_5008499 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5008499_vi  element=line.DJ_5008499 terminal=1 mode=0
+new monitor.mon_ctmt_5008500_pot element=line.DJ_5008500 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5008500_vi  element=line.DJ_5008500 terminal=1 mode=0
+new monitor.mon_ctmt_5002411_pot element=line.DJ_5002411 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002411_vi  element=line.DJ_5002411 terminal=1 mode=0
+new monitor.mon_ctmt_5002412_pot element=line.DJ_5002412 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002412_vi  element=line.DJ_5002412 terminal=1 mode=0
+new monitor.mon_ctmt_5002413_pot element=line.DJ_5002413 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002413_vi  element=line.DJ_5002413 terminal=1 mode=0
+new monitor.mon_ctmt_5002414_pot element=line.DJ_5002414 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002414_vi  element=line.DJ_5002414 terminal=1 mode=0
+new monitor.mon_ctmt_5002148_pot element=line.DJ_5002148 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5002148_vi  element=line.DJ_5002148 terminal=1 mode=0
+new monitor.mon_ctmt_5001990_pot element=line.DJ_5001990 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5001990_vi  element=line.DJ_5001990 terminal=1 mode=0
+new monitor.mon_ctmt_5001991_pot element=line.DJ_5001991 terminal=1 mode=1 ppolar=no
+new monitor.mon_ctmt_5001991_vi  element=line.DJ_5001991 terminal=1 mode=0

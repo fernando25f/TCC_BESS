@@ -1,0 +1,21 @@
+clear
+Redirect "CircuitoMT_2023056072_5002409_------1-----.dss"
+Redirect "CodCondutor_2023056072_5002409_------1-----.dss"
+Redirect "TransformadorMTMTMTBT_2023056072_5002409_------1-----.dss"
+Redirect "SegmentosMT_2023056072_5002409_------1-----.dss"
+Redirect "ChavesMT_2023056072_5002409_------1-----.dss"
+Redirect "SegmentosBT_2023056072_5002409_------1-----.dss"
+Redirect "RamaisBT_2023056072_5002409_------1-----.dss"
+Redirect "Medidores_2023056072_5002409_------1-----.dss"
+Redirect "CurvaCarga_2023056072_5002409_------1-----.dss"
+Redirect "CargasBT_DO04_2023056072_5002409_------1-----.dss"
+Redirect "CargasMT_DO04_2023056072_5002409_------1-----.dss"
+Set mode = daily
+Set Voltagebases = [0.38 13.8 0.44]
+Calc Voltagebases
+Set tolerance = 0.0001
+Set maxcontroliter = 10
+!Set algorithm = newton
+!Solve mode = direct
+!Solve
+buscoords buscoords.csv

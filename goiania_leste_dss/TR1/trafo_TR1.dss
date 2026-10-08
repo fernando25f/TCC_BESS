@@ -1,0 +1,4 @@
+! Transformador AT GOL-S-TRF-TR1 (TR1) da Subestacao
+new transformer.GOL-S-TRF-TR1 phases=3 xhl=4.5 windings=2 %loadloss=0.278 %noloadloss=0.037 kva=50000.0
+~ wdg=1 bus=5001462 conn=delta kv=230.0
+~ wdg=2 bus=1783 conn=wye kv=13.8

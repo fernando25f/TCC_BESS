@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais e Chaves
+venv/
+env/
+.env
+.venv/
+
+# Pastas de Saída Geradas pelo Código (Logs e Gráficos)
+graficos_TCC/
+logs_TCC/
+scratch/
+*.png
+*.svg
+
+# Bancos de Dados Pesados e Exportações
+*.gdb/
+*.csv
+*.xlsx
+
+# Modelos Gerados do OpenDSS (se gerados dinamicamente)
+# Descomente as linhas abaixo se os arquivos DSS não devem ser versionados (porque são extraídos do GDB)
+# opendss/
+# goiania_leste_dss/
+# modelo_opendss/
+
+# IDE e Sistema Operacional
+.vscode/
+.idea/
+.tmp.driveupload/
+.DS_Store
+Thumbs.db

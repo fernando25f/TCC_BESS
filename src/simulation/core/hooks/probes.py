@@ -12,7 +12,7 @@ from src.simulation.core.stats import ElementStats
 class SubstationProbe(SimulationProbe):
     """Sonda que monitora os transformadores da subestação e o fluxo de potência total."""
     
-    def __init__(self):
+    def __init__(self) -> None:
         self.circuit: Optional[CircuitManager] = None
         self.curva_subestacao_kw: List[float] = []
         self.perfil_p_trafos_at: Dict[str, List[float]] = {}
@@ -29,6 +29,8 @@ class SubstationProbe(SimulationProbe):
         if not self.circuit: return
         p_se_kw = -dss.Circuit.TotalPower()[0]
         self.curva_subestacao_kw.append(p_se_kw)
+        if passo % 24 == 0:
+            print(f"DEBUG PROBE: hora={hora_str}, p_se_kw={p_se_kw}")
 
         for tr in self.circuit.trafos_subestacao:
             dss.Circuit.SetActiveElement(f"transformer.{tr}")
@@ -85,7 +87,7 @@ class SubstationProbe(SimulationProbe):
 class FeederProbe(SimulationProbe):
     """Sonda que monitora os disjuntores dos alimentadores (CTMT)."""
     
-    def __init__(self):
+    def __init__(self) -> None:
         self.circuit: Optional[CircuitManager] = None
         self.dados_ctmt: Dict[str, ElementStats] = {}
 
@@ -129,7 +131,7 @@ class FeederProbe(SimulationProbe):
 class TrafoMTProbe(SimulationProbe):
     """Sonda que rastreia sobrecargas térmicas nos transformadores de distribuição (MT)."""
     
-    def __init__(self):
+    def __init__(self) -> None:
         self.cache_trafos: Dict[str, Dict[str, Any]] = {}
         self.trafos_sobrecarregados: Set[str] = set()
         self.registros_sobrecarga: List[Tuple[Any, ...]] = []
@@ -162,7 +164,7 @@ class TrafoMTProbe(SimulationProbe):
 class TrafoBTProbe(SimulationProbe):
     """Sonda para coletar as curvas 24h dos trafos sob estresse da GD na Baixa Tensão."""
     
-    def __init__(self, alvos_bt: List[Tuple[str, float, str]]):
+    def __init__(self, alvos_bt: List[Tuple[str, float, str]]) -> None:
         self.alvos_bt = alvos_bt
         self.curvas_trafos_bt: Dict[str, Dict[str, Any]] = {}
 
@@ -200,7 +202,7 @@ class TrafoBTProbe(SimulationProbe):
 class VoltageProbe(SimulationProbe):
     """Sonda vetorizada que varre todas as barras do circuito para detectar limites máximos e mínimos."""
     
-    def __init__(self):
+    def __init__(self) -> None:
         self.config: Optional[SimulationConfig] = None
         self.buses_fase: List[str] = []
         self.indices_fase: Optional[np.ndarray] = None

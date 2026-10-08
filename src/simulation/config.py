@@ -36,6 +36,10 @@ class SimulationConfig:
     # Escopo da Simulação (Hierárquico)
     escopo: str = "SUBESTACAO"          # "SUBESTACAO", "TRAFO_AT" ou "ALIMENTADOR"
     alvo: Optional[str] = None         # Ex: "TR1" (para TRAFO_AT), "5001996" (para ALIMENTADOR), ou None (SE)
+    
+    # Parâmetros BESS
+    bess_ativo: bool = False
+    bess_posicionamento: str = "BASE_ALIMENTADOR" # "BASE_ALIMENTADOR" ou "TRAFOS_SOBRECARREGADOS"
 
     # Parâmetros de simulação
     fator_demanda: float = 0.11
@@ -115,6 +119,10 @@ class SimulationConfig:
         self.pasta_log_divergencia = os.path.join(self.pasta_logs_tcc, "divergencia")
         self.pasta_log_relatorios = os.path.join(self.pasta_logs_tcc, "relatorios")
 
+        # Removido o os.makedirs() do __post_init__ (Side-Effects em Dataclasses são má prática)
+
+    def criar_pastas_saida(self) -> None:
+        """Cria todas as pastas de relatório e gráficos no sistema operacional."""
         for pasta in [self.pasta_graf_subestacao, self.pasta_graf_trafo_dist, self.pasta_graf_mapa_rede,
                       self.pasta_log_divergencia, self.pasta_log_relatorios]:
             os.makedirs(pasta, exist_ok=True)

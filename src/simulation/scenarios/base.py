@@ -13,12 +13,15 @@ class ScenarioComponent(ABC):
     def aplicar(self, circuit: CircuitManager) -> Any:
         pass
 
+from src.simulation.core.hooks.base import SimulationController
+
 class Scenario:
     """Contêiner que executa uma lista de componentes por composição."""
     
-    def __init__(self, nome: str, components: List[ScenarioComponent]) -> None:
+    def __init__(self, nome: str, components: List[ScenarioComponent], actuators: Optional[List[SimulationController]] = None) -> None:
         self.nome = nome
         self.components = components
+        self.actuators: List[SimulationController] = actuators or []
         self.info_sobrecarga: Optional[dict] = None
 
     def aplicar(self, circuit: CircuitManager) -> None:

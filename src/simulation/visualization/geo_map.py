@@ -45,7 +45,7 @@ class GeoMapRenderer:
                     bx, by = dss.Bus.X(), dss.Bus.Y()
                     if bx != 0.0 or by != 0.0:
                         coords_map[b_nome.strip().upper()] = (float(bx), float(by))
-        except Exception:
+        except (ImportError, AttributeError):
             pass
 
         # 3. PASSO 1: Varre todos os arquivos do escopo extraindo SetBusXY para o mapa de coordenadas

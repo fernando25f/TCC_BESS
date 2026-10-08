@@ -10,12 +10,14 @@ class Plotter:
 
     CORES = {
         'padrao': '#444444',  # Grafite escuro (#444)
-        'com_gd': '#0284c7'   # Azul celeste claro
+        'com_gd': '#0284c7',  # Azul celeste claro
+        'com_bess': '#16a34a' # Verde vibrante
     }
 
     ESTILOS = {
         'padrao': {'linestyle': '-', 'linewidth': 2.2, 'label': 'Rede Padrão'},
-        'com_gd': {'linestyle': '-', 'linewidth': 2.2, 'label': 'Rede com GD'}
+        'com_gd': {'linestyle': '-', 'linewidth': 2.2, 'label': 'Rede com GD'},
+        'com_bess': {'linestyle': '-', 'linewidth': 3.0, 'label': 'Rede com GD + BESS'}
     }
 
     @classmethod
@@ -72,18 +74,14 @@ class Plotter:
 
         res_padrao = resultados.get('padrao')
         res_gd = resultados.get('com_gd')
+        res_bess = resultados.get('com_bess')
         if not res_padrao and not res_gd:
             return
 
         paleta_cores = ['#e74c3c', '#0284c7', '#16a34a', '#9b59b6', '#e67e22', '#1abc9c']
         cores_tr = {tr: paleta_cores[i % len(paleta_cores)] for i, tr in enumerate(circuit.trafos_subestacao)}
 
-        if res_padrao and res_gd:
-            subtitulo = "Comparativo: Padrão (tracejado) vs Com GD (sólido)"
-        elif res_padrao:
-            subtitulo = "Cenário Padrão"
-        else:
-            subtitulo = "Cenário com GD"
+        subtitulo = "Comparativo Cenários"
 
         # ----------------------------------------------------
         # 1. Carregamento Ativo (MW) — Comparativo 24h
@@ -105,9 +103,17 @@ class Plotter:
                 curva_p_gd = [p / 1000.0 for p in res_gd.perfil_p_trafos_at[tr]]
                 n_pts = min(len(curva_p_gd), len(config.vetor_tempo_horas))
                 t_eixo = config.vetor_tempo_horas[:n_pts]
-                lbl_gd = f"{tr_short} (Com GD)" if res_padrao else tr_short
+                lbl_gd = f"{tr_short} (Com GD)"
                 plt.plot(t_eixo, curva_p_gd[:n_pts], label=lbl_gd,
                          color=cor, linestyle='-', linewidth=2.2)
+
+            if res_bess and tr in res_bess.perfil_p_trafos_at:
+                curva_p_bess = [p / 1000.0 for p in res_bess.perfil_p_trafos_at[tr]]
+                n_pts = min(len(curva_p_bess), len(config.vetor_tempo_horas))
+                t_eixo = config.vetor_tempo_horas[:n_pts]
+                lbl_bess = f"{tr_short} (Com BESS)"
+                plt.plot(t_eixo, curva_p_bess[:n_pts], label=lbl_bess,
+                         color='#16a34a', linestyle='-', linewidth=2.5)
 
         plt.axhline(y=50.0, color='#e67e22', linestyle=':', linewidth=1.4, label='Capacidade Nominal (50 MVA)')
         plt.axhline(y=0.0, color='#111827', linestyle='-', linewidth=0.8, alpha=0.5)
@@ -144,9 +150,17 @@ class Plotter:
                 curva_v_gd = res_gd.perfil_v_trafos_at[tr]
                 n_pts_v = min(len(curva_v_gd), len(config.vetor_tempo_horas))
                 t_eixo_v = config.vetor_tempo_horas[:n_pts_v]
-                lbl_gd = f"{tr_short} (Com GD)" if res_padrao else tr_short
+                lbl_gd = f"{tr_short} (Com GD)"
                 plt.plot(t_eixo_v, curva_v_gd[:n_pts_v], label=lbl_gd,
                          color=cor, linestyle='-', linewidth=2.2)
+
+            if res_bess and tr in res_bess.perfil_v_trafos_at:
+                curva_v_bess = res_bess.perfil_v_trafos_at[tr]
+                n_pts_v = min(len(curva_v_bess), len(config.vetor_tempo_horas))
+                t_eixo_v = config.vetor_tempo_horas[:n_pts_v]
+                lbl_bess = f"{tr_short} (Com BESS)"
+                plt.plot(t_eixo_v, curva_v_bess[:n_pts_v], label=lbl_bess,
+                         color='#16a34a', linestyle='-', linewidth=2.5)
 
         plt.axhline(y=config.limite_sobretensao_pu, color='#e74c3c', linestyle='--', linewidth=1.2, label=f'Limite Superior Adequado ({config.limite_sobretensao_pu} pu)')
         plt.axhline(y=1.00, color='#7f8c8d', linestyle=':', linewidth=0.8, label='Tensão Nominal Base (1.00 pu)')
@@ -174,6 +188,7 @@ class Plotter:
 
         res_gd = resultados['com_gd']
         res_padrao = resultados['padrao']
+        res_bess = resultados.get('com_bess')
 
         info_sb = res_gd.info_sobrecarga or {}
         cod_alvo = info_sb.get('cod_alimentador')
@@ -185,6 +200,7 @@ class Plotter:
 
         curva_padrao_kw = res_padrao.dados_ctmt.get(cod_alvo).curva_p_kw if res_padrao.dados_ctmt.get(cod_alvo) else []
         curva_gd_kw = res_gd.dados_ctmt.get(cod_alvo).curva_p_kw if res_gd.dados_ctmt.get(cod_alvo) else []
+        curva_bess_kw = res_bess.dados_ctmt.get(cod_alvo).curva_p_kw if res_bess and res_bess.dados_ctmt.get(cod_alvo) else []
 
         if not curva_gd_kw or not curva_padrao_kw:
             return
@@ -195,6 +211,7 @@ class Plotter:
 
         p_padrao_mw = np.array(curva_padrao_kw[:min_len]) / 1000.0
         p_gd_mw = np.array(curva_gd_kw[:min_len]) / 1000.0
+        p_bess_mw = np.array(curva_bess_kw[:min_len]) / 1000.0 if curva_bess_kw else None
         t_eixo = np.array(config.vetor_tempo_horas[:min_len])
 
         p_rev_max_mw = max(0.0, -float(np.min(p_gd_mw)))
@@ -205,6 +222,9 @@ class Plotter:
         # Curvas horárias
         plt.plot(t_eixo, p_padrao_mw, color='#4b5563', linestyle='--', linewidth=2.0, label='Demanda Padrão (Sem GD Extra)')
         plt.plot(t_eixo, p_gd_mw, color='#0284c7', linestyle='-', linewidth=2.4, label='Demanda com Sobrecarga Solar')
+        
+        if p_bess_mw is not None:
+            plt.plot(t_eixo, p_bess_mw, color='#16a34a', linestyle='-', linewidth=2.8, label='Demanda com BESS Atuando')
 
         # Limiar de fluxo reverso
         plt.axhline(0, color='#111827', linewidth=1.1, linestyle='-', alpha=0.75, label='Limiar de Fluxo Reverso (0 MW)')

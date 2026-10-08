@@ -11,6 +11,9 @@ from src.simulation.scenarios.solar import EnableSolarGenerationComponent
 from src.simulation.scenarios.solar_overload import SolarOverloadInjector
 from src.simulation.visualization.plots import Plotter
 from src.simulation.visualization.geo_map import GeoMapRenderer
+from src.simulation.bess.sizing import BESSSizer
+from src.simulation.scenarios.bess_deployment import BESSDeploymentComponent
+from src.simulation.core.hooks.actuators import BESSRealTimeController
 from src.simulation.analysis.exporter import ReportExporter
 
 def main():
@@ -25,10 +28,13 @@ def main():
         alvo = "TR2",
         controle_tap_ativo = False,
         sobrecarga_solar_ativa = True,
+        bess_ativo = True,
+        bess_posicionamento = "BASE_ALIMENTADOR", # "BASE_ALIMENTADOR" ou "TRAFOS_SOBRECARREGADOS"
         modo_sobrecarga = "MT_FEEDER",
         alimentador_alvo = "5001996",
         fator_sobrecarga_alvo = 1.5
     )
+    config.criar_pastas_saida()
     circuit = CircuitManager(config)
     engine = SimulationEngine(circuit, config)
 
@@ -50,6 +56,27 @@ def main():
         'padrao': res_padrao,
         'com_gd': res_gd
     }
+
+    # Cenário com BESS (Se ativado)
+    if config.bess_ativo:
+        print("\n[MAIN] Dimensionando BESS a partir dos resultados com GD...")
+        comandos_dss, regras_bess = BESSSizer.dimensionar(res_gd, config, circuit)
+        
+        # O BESS precisa operar numa rede COM GD e COM a sobrecarga ativa
+        componentes_bess = [
+            EnableSolarGenerationComponent(config)
+        ]
+        if config.sobrecarga_solar_ativa:
+            componentes_bess.append(SolarOverloadInjector(config))
+            
+        componentes_bess.append(BESSDeploymentComponent(comandos_dss))
+        
+        actuators = [BESSRealTimeController(regras_bess)]
+        
+        cenario_bess = Scenario("com_bess", components=componentes_bess, actuators=actuators)
+        res_bess = engine.run_scenario(cenario_bess)
+        
+        resultados['com_bess'] = res_bess
 
     ReportExporter.exportar_relatorios(resultados, circuit, config)
 

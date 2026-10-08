@@ -80,6 +80,10 @@ class SimulationEngine:
         for sonda in sondas:
             sonda.setup(self.circuit, self.config)
 
+        if hasattr(scenario, 'actuators') and scenario.actuators:
+            for actuator in scenario.actuators:
+                actuator.setup(self.circuit, self.config)
+
         passos_divergentes: List[int] = []
         convergiu_todas = True
         tap_atual = self.config.tap_normal
@@ -99,6 +103,21 @@ class SimulationEngine:
                     print(f"  [CONTROLE DE TAP] {hora_str}h: Ajustando tap dos trafos AT de {tap_atual:.3f} para {tap_alvo:.3f}...")
                     tap_atual = tap_alvo
 
+            # 1. Prepara a rede para medição "limpa" (ex: desliga baterias temporariamente)
+            if hasattr(scenario, 'actuators') and scenario.actuators:
+                for actuator in scenario.actuators:
+                    if hasattr(actuator, 'prepare_measurement'):
+                        actuator.prepare_measurement()
+
+            # 2. Resolve sem controle para "ler o presente" (medidor em tempo real) natural
+            dss.Solution.SolveNoControl()
+
+            # 3. Atuadores reagem ao estado atual natural
+            if hasattr(scenario, 'actuators') and scenario.actuators:
+                for actuator in scenario.actuators:
+                    actuator.actuate(i, hora_str)
+
+            # 4. Resolve a física final com as ações do atuador (e avança o tempo)
             dss.Solution.Solve()
 
             if not dss.Solution.Converged():

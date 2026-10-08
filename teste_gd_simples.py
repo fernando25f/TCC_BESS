@@ -1,203 +1,166 @@
-"""
-Simulação didática de circuito de teste reduzido com Geração Distribuída (PVSystem).
-Demonstra a curva de geração solar diária de Goiânia (Abril - 96 passos de 15 min),
-o impacto no fluxo de potência (fluxo reverso) e no perfil de tensão da barra.
-"""
-
-import os
-import numpy as np
-import matplotlib.pyplot as plt
 import opendssdirect as dss
+import matplotlib.pyplot as plt
 
-def criar_circuito_teste(potencia_pv_kw: float = 75.0, usar_pico_unitario: bool = False):
-    """
-    Monta um circuito radial trifásico simples em OpenDSS:
-    Rede 13.8 kV -> Trafo 150 kVA (13.8/0.38 kV) -> Linha BT 100m -> Carga + Usina Solar
-    """
-    dss.Command("Clear")
+def main():
+    # ==============================================================================
+    # 1. DEFINIÇÃO DO CIRCUITO SIMPLIFICADO NO OPENDSS
+    # ==============================================================================
+    dss_script = """
+    Clear
+    New Circuit.BessTest BasekV=13.8 pu=1.00 Isc3=3000 Isc1=2250
     
-    # 1. Fonte da Subestação (Rede MT 13.8 kV)
-    dss.Command("New Circuit.TesteGD basekv=13.8 pu=1.00 bus1=Barra_MT r1=0.01 x1=0.02")
+    ! --- Curvas de Comportamento (24h) ---
+    ! Curva de Carga (Pico à noite)
+    New Loadshape.Carga_Diaria npts=24 interval=1 
+    ~ mult=[0.3 0.3 0.3 0.3 0.4 0.5 0.7 0.8 0.7 0.6 0.6 0.5 0.5 0.5 0.5 0.6 0.7 0.9 1.0 0.9 0.8 0.6 0.4 0.3]
+    
+    ! Curva Solar (Meio-dia)
+    New Loadshape.Solar_Diaria npts=24 interval=1
+    ~ mult=[0 0 0 0 0 0 0.1 0.3 0.6 0.8 1.0 1.0 1.0 0.9 0.7 0.4 0.1 0 0 0 0 0 0 0]
 
-    # 2. Definição da Curva Solar de Goiânia para o mês de Abril (24h interpoladas em 96 passos de 15 min)
-    # Valores horários médios de irradiação solar em W/m² (Goiânia - Abril)
-    irrad_24h = [0, 0, 0, 0, 0, 0, 68, 353, 521, 624, 676, 655, 591, 522, 465, 416, 363, 215, 0, 0, 0, 0, 0, 0]
-    x_24 = np.arange(24) + 0.5
-    x_96 = np.arange(1, 97) * 0.25
-    interp_96 = np.interp(x_96, x_24, irrad_24h)
-    interp_96[x_96 < 5.75] = 0.0
-    interp_96[x_96 > 18.5] = 0.0
+    ! --- Topologia ---
+    ! Rede muito fraca (rural/longa) para que a injeção da GD cause forte elevação de tensão
+    New Line.L1 phases=3 Bus1=sourcebus Bus2=carga_bus length=25 units=km R1=0.40 X1=0.20
+    
+    ! Carga: 1000 kW nominal
+    New Load.Carga1 Bus1=carga_bus kV=13.8 kW=1000 pf=0.92 daily=Carga_Diaria status=variable
+    
+    ! Usina GD Solar: 2500 kW (Gera muito mais do que a carga no meio-dia = Fluxo Reverso!)
+    New Generator.GD1 Bus1=carga_bus kV=13.8 kW=2500 pf=1.0 daily=Solar_Diaria status=variable
+    
+    ! Bateria (BESS): Inversor de 1500 kW e Capacidade de 4000 kWh
+    New Storage.BESS1 Bus1=carga_bus kV=13.8 kWrated=1500 kWhrated=4000 state=IDLING %stored=50
+    
+    Set Voltagebases=[13.8]
+    CalcVoltageBases
+    """
+    
+    for line in dss_script.strip().split("\n"):
+        if line.strip():
+            dss.Command(line.strip())
 
-    if usar_pico_unitario:
-        mult_solar = interp_96 / max(interp_96)
-        nome_loadshape = "Curva_Solar_Abril_PicoUnitario"
-    else:
-        # Normalização STC padrão (1000 W/m² = 1.0 pu)
-        mult_solar = interp_96 / 1000.0
-        nome_loadshape = "Curva_Solar_Abril"
+    # ==============================================================================
+    # 2. RODADA 1: SIMULAÇÃO SEM BATERIA (Para ver o estrago do fluxo reverso)
+    # ==============================================================================
+    dss.Command("Disable Storage.BESS1")
+    dss.Command("Set mode=daily stepsize=1h number=1 hour=0 sec=0")
+    
+    p_grid_sem_bess = []
+    v_grid_sem_bess = []
+    
+    for h in range(24):
+        dss.Solution.Solve()
+        p_subestacao = -dss.Circuit.TotalPower()[0]
+        p_grid_sem_bess.append(p_subestacao)
+        
+        dss.Circuit.SetActiveBus("carga_bus")
+        v_grid_sem_bess.append(dss.Bus.puVmagAngle()[0])
 
-    mult_str = " ".join(f"{v:.4f}" for v in mult_solar)
-    dss.Command(f"New Loadshape.{nome_loadshape} npts=96 interval=0.25 mult=({mult_str})")
+    # ==============================================================================
+    # 3. RODADA 2: SIMULAÇÃO COM BESS (O Controle em Python)
+    # ==============================================================================
+    dss.Command("Enable Storage.BESS1")
+    dss.Command("Reset") 
+    dss.Command("Storage.BESS1.%stored=10") # Bateria começa o dia com 10% (vazia)
+    dss.Command("Set mode=daily stepsize=1h number=1 hour=0 sec=0")
+    
+    # REGRAS DO CONTROLADOR:
+    LIMITE_FLUXO_REVERSO = -800 # Limite de suporte do Transformador para fluxo reverso
+    LIMITE_PICO_CARGA = 800     # Peak Shaving clássico
+    
+    p_grid_com_bess = []
+    v_grid_com_bess = []
+    estado_bateria = [] 
 
-    # 3. Curva de Carga Comercial/Residencial diária típica (96 passos)
-    curva_carga_24h = [0.30, 0.25, 0.22, 0.20, 0.20, 0.25, 0.40, 0.60, 0.75, 0.85, 0.90, 0.88, 
-                       0.85, 0.82, 0.80, 0.82, 0.85, 0.95, 1.00, 0.98, 0.90, 0.75, 0.55, 0.40]
-    mult_carga = np.interp(x_96, x_24, curva_carga_24h)
-    mult_carga_str = " ".join(f"{v:.4f}" for v in mult_carga)
-    dss.Command(f"New Loadshape.CurvaCarga_Comercial npts=96 interval=0.25 mult=({mult_carga_str})")
+    for h in range(24):
+        p_previsao = p_grid_sem_bess[h]
+        
+        dss.Circuit.SetActiveElement("Storage.BESS1")
+        soc_atual = float(dss.Properties.Value("%stored"))
+        
+        # O Algoritmo de Decisão do BESS
+        if p_previsao < LIMITE_FLUXO_REVERSO and soc_atual < 90.0:
+            # Tem fluxo reverso perigoso E a bateria ainda não atingiu o topo (90%)
+            excesso_kw = abs(p_previsao - LIMITE_FLUXO_REVERSO) 
+            pct_charge = (excesso_kw / 1500) * 100 
+            pct_charge = min(pct_charge, 100.0)
+            dss.Command(f"edit Storage.BESS1 state=CHARGING %Charge={pct_charge}")
+            
+        elif soc_atual > 10.0 and (p_previsao > LIMITE_PICO_CARGA or h >= 18.5):
+            # Tem pico de carga OU já está de noite (h >= 17) -> Descarrega proativamente!
+            # Tenta suprir toda a demanda local (p_previsao - 0) para esvaziar a bateria para o dia seguinte
+            alvo_rede = LIMITE_PICO_CARGA if h < 18.5 else 0 
+            
+            excesso_kw = p_previsao - alvo_rede
+            if excesso_kw > 0:
+                pct_discharge = (excesso_kw / 1500) * 100
+                pct_discharge = min(pct_discharge, 100.0)
+                dss.Command(f"edit Storage.BESS1 state=DISCHARGING %Discharge={pct_discharge}")
+            else:
+                dss.Command("edit Storage.BESS1 state=IDLING")
+            
+        else:
+            dss.Command("edit Storage.BESS1 state=IDLING")
 
-    # 4. Transformador de Distribuição MT/BT (150 kVA, 13.8 kV / 0.38 kV)
-    dss.Command("New Transformer.TrafoMTBT phases=3 windings=2 %r=1.0 xhl=4.0 kva=150")
-    dss.Command("~ wdg=1 bus=Barra_MT conn=delta kv=13.8")
-    dss.Command("~ wdg=2 bus=Barra_Sec conn=wye kv=0.38 tap=1.00")
-
-    # 5. Ramal Secundário de Baixa Tensão (100 metros)
-    dss.Command("New Line.LinhaBT phases=3 bus1=Barra_Sec.1.2.3.0 bus2=Barra_GD.1.2.3.0 r1=0.27 x1=0.08 length=0.10 units=km normamps=200")
-
-    # 6. Carga Local na Baixa Tensão (Pico de 35 kW)
-    dss.Command("New Load.CargaLocal phases=3 bus1=Barra_GD.1.2.3.0 kv=0.38 conn=wye kw=35 pf=0.95 model=1 daily=CurvaCarga_Comercial vminpu=0.85")
-
-    # 7. Usina Solar Fotovoltaica (PVSystem)
-    kva_inversor = round(potencia_pv_kw * 1.05, 2)
-    dss.Command(f"New PVSystem.UsinaSolar phases=3 bus1=Barra_GD.1.2.3.0 kv=0.38 conn=wye pmpp={potencia_pv_kw} kva={kva_inversor} pf=1.0 irradiance=1.0 daily={nome_loadshape} %cutin=0.1 %cutout=0.1")
-
-    # 8. Configuração das bases de tensão e modo de simulação
-    dss.Command("Set VoltageBases=[13.8, 0.38]")
-    dss.Command("CalcVoltageBases")
-    dss.Command("Set Mode=Daily StepSize=15m Number=1 Hour=0 Sec=0")
-
-    return nome_loadshape, interp_96
-
-def executar_simulacao(potencia_pv_kw: float = 75.0, usar_pico_unitario: bool = False):
-    """Executa a simulação de 24 horas passo a passo e coleta as métricas elétricas."""
-    nome_curva, irrad_w_m2 = criar_circuito_teste(potencia_pv_kw, usar_pico_unitario)
-
-    passos = 96
-    horas = [i * 0.25 for i in range(passos)]
-    rotulos_hora = [f"{int(h):02d}:{int((h % 1)*60):02d}" for h in horas]
-
-    geracao_pv_kw = []
-    consumo_carga_kw = []
-    fluxo_subestacao_kw = []
-    tensao_barra_pu = []
-
-    for step in range(passos):
         dss.Solution.Solve()
 
-        # Potência gerada pela Usina Solar (kW)
-        # Convenção do OpenDSS: injeção de potência na barra resulta em valor negativo no terminal 1
-        dss.Circuit.SetActiveElement("PVSystem.UsinaSolar")
-        pot_pv = dss.CktElement.Powers()
-        p_pv = -sum(pot_pv[0::2]) if pot_pv else 0.0
-        geracao_pv_kw.append(max(0.0, p_pv))
+        p_final = -dss.Circuit.TotalPower()[0]
+        
+        dss.Circuit.SetActiveBus("carga_bus")
+        v_final = dss.Bus.puVmagAngle()[0]
+        
+        dss.Circuit.SetActiveElement("Storage.BESS1")
+        soc_final = float(dss.Properties.Value("%stored"))
+        
+        p_grid_com_bess.append(p_final)
+        v_grid_com_bess.append(v_final)
+        estado_bateria.append(soc_final)
 
-        # Potência consumida pela Carga (kW)
-        dss.Circuit.SetActiveElement("Load.CargaLocal")
-        pot_carga = dss.CktElement.Powers()
-        p_carga = sum(pot_carga[0::2]) if pot_carga else 0.0
-        consumo_carga_kw.append(p_carga)
+    # ==============================================================================
+    # 4. GRÁFICOS COMPARATIVOS
+    # ==============================================================================
+    print("\n--- RESUMO DE TENSÃO ---")
+    print(f"Max Tensão SEM Bateria: {max(v_grid_sem_bess):.4f} pu")
+    print(f"Max Tensão COM Bateria: {max(v_grid_com_bess):.4f} pu")
+    print("------------------------\n")
 
-        # Fluxo líquido na Subestação (kW) - Positivo: Subestação fornece; Negativo: Fluxo reverso
-        dss.Circuit.SetActiveElement("Vsource.source")
-        pot_se = dss.CktElement.Powers()
-        p_se = -sum(pot_se[0::2]) if pot_se else 0.0
-        fluxo_subestacao_kw.append(p_se)
-
-        # Tensão na barra da Usina (pu) - extrai magnitude fasorial correta
-        dss.Circuit.SetActiveBus("Barra_GD")
-        pu_mags = dss.Bus.puVmagAngle()
-        v_mags = pu_mags[0::2] if pu_mags else [1.0]
-        tensao_barra_pu.append(float(np.mean(v_mags[:3])))
-
-    return {
-        "horas": horas,
-        "rotulos": rotulos_hora,
-        "irrad_w_m2": irrad_w_m2,
-        "geracao_pv": geracao_pv_kw,
-        "consumo_carga": consumo_carga_kw,
-        "fluxo_se": fluxo_subestacao_kw,
-        "tensao_pu": tensao_barra_pu,
-        "potencia_pv_kw": potencia_pv_kw,
-        "nome_curva": nome_curva
-    }
-
-def imprimir_relatorio(dados: dict):
-    """Exibe no terminal a tabela horária e o sumário operacional."""
-    print("=" * 88)
-    print(f"  CIRCUITO DE TESTE: USINA SOLAR FOTOVOLTAICA ({dados['potencia_pv_kw']:.1f} kWp)")
-    print(f"  Curva Solar Referência: {dados['nome_curva']} (Goiânia/GO)")
-    print("=" * 88)
-    print(f"{'Hora':<7} | {'Irrad (W/m²)':<13} | {'Geração GD (kW)':<16} | {'Carga (kW)':<12} | {'Fluxo SE (kW)':<14} | {'Tensão (pu)':<11}")
-    print("-" * 88)
-
-    # Imprime amostragem de 1 em 1 hora (passos a cada 4 intervalos de 15 min)
-    for i in range(0, 96, 4):
-        hora = dados["rotulos"][i]
-        irrad = dados["irrad_w_m2"][i]
-        p_gd = dados["geracao_pv"][i]
-        p_ld = dados["consumo_carga"][i]
-        p_se = dados["fluxo_se"][i]
-        v_pu = dados["tensao_pu"][i]
-
-        status_fluxo = "<- REVERSO" if p_se < -0.5 else ""
-        print(f"{hora:<7} | {irrad:>11.1f}   | {p_gd:>14.2f}   | {p_ld:>10.2f}   | {p_se:>12.2f}   | {v_pu:>9.4f} {status_fluxo}")
-
-    print("-" * 88)
+    fig, (ax1, ax3) = plt.subplots(2, 1, figsize=(12, 10), sharex=True, gridspec_kw={'height_ratios': [1, 1]})
     
-    # Métricas agregadas
-    energia_gd_kwh = sum(dados["geracao_pv"]) * 0.25
-    pico_gd_kw = max(dados["geracao_pv"])
-    idx_pico = np.argmax(dados["geracao_pv"])
-    hora_pico = dados["rotulos"][idx_pico]
-    v_max = max(dados["tensao_pu"])
-    v_min = min(dados["tensao_pu"])
+    # Eixo de Potência (Top)
+    ax1.plot(range(24), p_grid_sem_bess, label='Subestação (SEM Bateria)', color='red', linestyle='--', linewidth=2)
+    ax1.plot(range(24), p_grid_com_bess, label='Subestação (COM Bateria)', color='blue', linewidth=3)
+    ax1.axhline(LIMITE_FLUXO_REVERSO, color='black', linestyle=':', label='Limite Exportação (Reverso)')
+    ax1.axhline(LIMITE_PICO_CARGA, color='green', linestyle=':', label='Limite Importação (Pico)')
+    ax1.set_ylabel("Potência Trocada (kW)")
+    ax1.grid(True, alpha=0.3)
+    ax1.legend(loc='upper left')
 
-    print(f"  * Energia Solar Gerada no Dia : {energia_gd_kwh:.2f} kWh")
-    print(f"  * Potência de Pico Atingida   : {pico_gd_kw:.2f} kW às {hora_pico}")
-    print(f"  * Fator de Capacidade Diário  : {(energia_gd_kwh / (dados['potencia_pv_kw'] * 24)) * 100:.1f}%")
-    print(f"  * Tensão Mínima na Barra      : {v_min:.4f} pu")
-    print(f"  * Tensão Máxima na Barra      : {v_max:.4f} pu (Elevação solar no meio-dia)")
-    print("=" * 88)
+    # Eixo da Carga da Bateria (State of Charge)
+    ax2 = ax1.twinx()
+    ax2.fill_between(range(24), estado_bateria, color='orange', alpha=0.2, label='SoC (%)')
+    ax2.set_ylabel("Carga da Bateria (%)", color='orange')
+    ax2.set_ylim(0, 110)
+    ax2.legend(loc='upper right')
+    
+    # Eixo de Tensão (Bottom)
+    ax3.plot(range(24), v_grid_sem_bess, label='Tensão Carga (SEM Bateria)', color='red', linestyle='--', linewidth=2)
+    ax3.plot(range(24), v_grid_com_bess, label='Tensão Carga (COM Bateria)', color='blue', linewidth=3)
+    ax3.axhline(1.05, color='darkred', linestyle='-', linewidth=2, label='Limite Sobretensão (1.05 pu)')
+    ax3.axhline(0.93, color='darkred', linestyle='-', linewidth=2, label='Limite Subtensão (0.93 pu)')
+    
+    # Preencher área de violação para ficar bem visível
+    ax3.fill_between(range(24), 1.05, v_grid_sem_bess, where=[v > 1.05 for v in v_grid_sem_bess], color='red', alpha=0.3, label='Violação de Tensão!')
+    
+    ax3.set_ylabel("Tensão (pu)")
+    ax3.set_xlabel("Hora do Dia")
+    ax3.set_ylim(0.95, 1.15)
+    ax3.grid(True, alpha=0.3)
+    ax3.legend(loc='upper left')
 
-def gerar_grafico(dados: dict, caminho_imagem: str = "teste_gd_abril.png"):
-    """Gera visualização gráfica das 24 horas da simulação."""
-    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(11, 7.5), sharex=True)
-
-    horas = dados["horas"]
-
-    # 1. Gráfico Superior: Curvas de Potência
-    ax1.plot(horas, dados["geracao_pv"], label="Geração Solar (kW)", color="#eab308", linewidth=2.5)
-    ax1.plot(horas, dados["consumo_carga"], label="Demanda da Carga (kW)", color="#dc2626", linewidth=2.0, linestyle="--")
-    ax1.plot(horas, dados["fluxo_se"], label="Fluxo na Subestação (kW)", color="#2563eb", linewidth=2.0)
-    ax1.axhline(0, color="#6b7280", linestyle=":", alpha=0.8)
-    ax1.fill_between(horas, 0, dados["geracao_pv"], color="#fde047", alpha=0.35, label="Área de Geração Solar")
-
-    ax1.set_title(f"Simulação 24h - Curva Solar de Abril (Usina PV {dados['potencia_pv_kw']:.0f} kWp)", fontsize=13, fontweight="bold")
-    ax1.set_ylabel("Potência Ativa (kW)", fontsize=11)
-    ax1.grid(True, linestyle="--", alpha=0.5)
-    ax1.legend(loc="upper right", framealpha=0.9)
-
-    # 2. Gráfico Inferior: Perfil de Tensão
-    ax2.plot(horas, dados["tensao_pu"], label="Tensão na Barra da Usina (pu)", color="#059669", linewidth=2.2)
-    ax2.axhline(1.05, color="#b91c1c", linestyle="--", alpha=0.6, label="Limite Superior (1.05 pu)")
-    ax2.axhline(0.93, color="#b91c1c", linestyle="--", alpha=0.6, label="Limite Inferior (0.93 pu)")
-    ax2.axhline(1.00, color="#6b7280", linestyle=":", alpha=0.6)
-
-    ax2.set_xlabel("Hora do Dia (h)", fontsize=11)
-    ax2.set_ylabel("Tensão (pu)", fontsize=11)
-    ax2.set_xlim(0, 24)
-    ax2.set_xticks(range(0, 25, 2))
-    ax2.set_xticklabels([f"{h:02d}:00" for h in range(0, 25, 2)])
-    ax2.grid(True, linestyle="--", alpha=0.5)
-    ax2.legend(loc="lower right", framealpha=0.9)
-
+    plt.suptitle("Estudo Teórico: Mitigação de Fluxo Reverso e Regulação de Tensão via BESS", y=0.95, fontsize=14)
     plt.tight_layout()
-    plt.savefig(caminho_imagem, dpi=160)
-    plt.close()
-    print(f"\n[GRÁFICO] Imagem salva com sucesso em: {os.path.abspath(caminho_imagem)}")
+    plt.savefig("teste_gd_simples_grafico.png")
+    print("\n[OK] Gráfico gerado e salvo como 'teste_gd_simples_grafico.png'")
 
 if __name__ == "__main__":
-    # Executa com usina de 75 kWp utilizando a curva de irradiação solar de Abril
-    resultados = executar_simulacao(potencia_pv_kw=75.0, usar_pico_unitario=True)
-    imprimir_relatorio(resultados)
-    gerar_grafico(resultados, "teste_gd_abril.png")
+    main()

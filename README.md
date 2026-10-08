@@ -1,61 +1,82 @@
-# TCC: Simulação de Fluxo Reverso e BESS (OpenDSS + Python)
-
-Este projeto é fruto de um Trabalho de Conclusão de Curso (TCC) com o objetivo de analisar o impacto da alta penetração de **Geração Distribuída (GD)** — especificamente energia solar fotovoltaica — em redes de distribuição reais. A simulação investiga fenômenos como **fluxo reverso** e **sobretensão**, e propõe o dimensionamento e controle dinâmico de um **BESS (Battery Energy Storage System)** para mitigar esses problemas.
-
-O código controla o software **OpenDSS** por meio da biblioteca `opendssdirect.py`, automatizando a execução do fluxo de potência ao longo de perfis diários (24h).
-
----
-
-## ⚡ Principais Funcionalidades
-
-- **Controle Automatizado do OpenDSS:** Interface robusta utilizando `opendssdirect` em Python, encapsulando os detalhes complexos do OpenDSS.
-- **Cenários por Composição:** A arquitetura do projeto utiliza o padrão de composição (interfaces modulares) para criar cenários flexíveis. Você pode empilhar componentes em um cenário, como:
-  - `DisableDistributedGenerationComponent`: Roda a simulação apenas com carga (cenário padrão).
-  - `EnableSolarGenerationComponent`: Ativa a base instalada de GD da rede.
-  - `SolarOverloadInjector`: Injeta agressivamente novas usinas solares (na MT ou BT) para forçar o fluxo reverso.
-  - `BESSControllerComponent` *(Em desenvolvimento)*: Controla o despacho de baterias para absorver excedentes solares.
-- **Métricas e Relatórios Automáticos (Clean Code):** Extrai dados detalhados usando *Dataclasses* (`ElementStats`), calculando picos de demanda, violações de tensão (subtensão/sobretensão) e perfil de geração.
-- **Exportação Visual:** Gera relatórios detalhados em `CSV` e plota gráficos em `SVG/PNG` do perfil de tensão e carregamento dos transformadores (Subestação e Distribuição).
+<div align="center">
+  <h1>TCC: Impactos da Geração Distribuída e Mitigação via BESS em Redes Reais</h1>
+  <p><i>Simulação avançada de fluxo de potência em séries temporais utilizando OpenDSS e Python.</i></p>
+</div>
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📖 Descrição Completa do Trabalho
+
+A transição energética e o crescimento exponencial da **Geração Distribuída (GD)** — principalmente sistemas solares fotovoltaicos — estão alterando drasticamente o comportamento elétrico das redes de distribuição. Redes que foram historicamente projetadas para um fluxo unidirecional (da subestação para os consumidores) agora lidam com injeções massivas de potência nas pontas do alimentador.
+
+Este Trabalho de Conclusão de Curso foca em **quantificar, diagnosticar e mitigar** esses impactos estruturais operacionais. Através de simulações em **séries temporais de 24 horas**, o projeto analisa o efeito do **Fluxo Reverso** em transformadores e o aumento drástico no perfil de tensão da rede em horários de pico de irradiação solar.
+
+Para resolver essas violações sistêmicas, o projeto desenvolve e propõe uma lógica de controle de **Sistemas de Armazenamento de Energia em Baterias (BESS)**. O algoritmo dimensiona as baterias e executa seu despacho dinâmico para absorver a energia excedente (Peak Shaving Inverso), aliviando a infraestrutura existente e regularizando os níveis de tensão sem a necessidade de reforços pesados na rede física.
+
+---
+
+## 🎯 Objetivos do Projeto
+
+1. **Modelagem de Redes Reais:** Importação e conversão de redes georreferenciadas provenientes da BDGD (Base de Dados Geográfica da Distribuidora), neste estudo utilizando a rede de **Goiânia Leste (ENEL-GO)**.
+2. **Estudo de Casos Extremos:** Aplicação de injeções forçadas de Usinas Solares em Média Tensão (MT) e Baixa Tensão (BT) simulando cenários de alta penetração que superam a capacidade de curto-circuito local.
+3. **Análise de Violações:** Detecção algorítmica de barras submetidas a tensões fora do limite regulatório (PRODIST) e identificação da causa-raiz topológica (rastreamento de efeito cascata).
+4. **Integração de Baterias (BESS):** Algoritmo automatizado que dimensiona o inversor (MW) e a capacidade do banco de baterias (MWh) necessários para neutralizar o fluxo de potência reverso na subestação.
+
+---
+
+## 🧠 Metodologia e Pipeline de Simulação
+
+O fluxo de processamento é inteiramente orquestrado em **Python** utilizando a biblioteca **`opendssdirect.py`** (interface direta em memória com o OpenDSS), contornando as limitações do COM Interface padrão.
+
+1. **Cenário Baseline:** O sistema realiza um Load Flow inicial (sem GD) varrendo 1440 minutos (ou passos definidos) do dia para estabelecer a carga técnica e as quedas de tensão naturais da rede.
+2. **Cenário de Estresse (Com GD):** Um "Injetor de Sobrecarga" instala dinamicamente Usinas Solares ao longo da topologia seguindo padrões configurados (MT_FEEDER ou BT_DISTRIBUTION), gerando severa inversão de fluxo na curva do meio-dia.
+3. **Coleta de Métricas:** Através de `Dataclasses` com tipagem estrita (`ElementStats`), o motor monitora P(kW), Q(kVAr), S(kVA) e tensões máxima/mínima (pu) em todos os Transformadores da Subestação e Disjuntores dos Alimentadores, em tempo contínuo (O(1)).
+4. **Exportação e Análise Visual:** Exportação automatizada de matrizes de relatórios em `.csv` e plotagem de mapas coropléticos da rede, evidenciando as zonas de estresse elétrico e curvas diárias vetoriais (`.svg`).
+
+---
+
+## 🏗️ Arquitetura de Software (Clean Code)
+
+A base de código foi projetada sob requisitos rigorosos de qualidade, visando a continuidade da pesquisa e escalabilidade em outros circuitos do Sistema Interligado Nacional:
+
+- **SOLID (Cenários por Composição):** Cenários não dependem de heranças engessadas. O estudo é montado empilhando componentes (peças de Lego), como `DisableDistributedGenerationComponent`, `EnableSolarGenerationComponent` e `SolarOverloadInjector`.
+- **Fail-Fast:** Regras de negócio e parâmetros (`SimulationConfig`) são validados instantaneamente no `__post_init__`, impedindo que simulações de alto custo computacional rodem com dados inconsistentes.
+- **Isolamento de Domínio:** O Motor de Simulação (`engine.py`) não conhece regras de plotagem ou exportação CSV. Todo o processamento passa por injetores de dependência para analisadores independentes (`metrics.py`, `plots.py`).
+- **Resolução de Malhas Topológicas:** O módulo `topology_debugger.py` realiza grafos de profundidade na árvore elétrica do OpenDSS para agrupar milhares de sobretensões de clientes em apenas 1 ou 2 "elementos causadores" na rede primária.
+
+---
+
+## 📂 Estrutura de Diretórios
 
 ```text
-├── main.py                     # Ponto de entrada: configura e executa os cenários
-├── src/                        # Código-fonte principal do simulador
+├── main.py                     # Ponto de entrada: orquestra a injeção de dependências e roda os cenários.
+├── src/                        # Domínio e regras de negócio do simulador.
 │   ├── simulation/
-│   │   ├── config.py           # Definição estrita dos parâmetros da simulação (dataclass)
-│   │   ├── core/               # Motor do OpenDSS, Circuit Manager e Tipagens
-│   │   ├── scenarios/          # Peças de Lego dos cenários (Injeção de GD, Sobrecarga, etc.)
-│   │   ├── analysis/           # Geração de relatórios CSV, detecção de falhas de topologia
-│   │   └── visualization/      # Plotagem de gráficos 24h e renderização de mapas
-│   └── converter/              # Scripts de suporte e conversão (ex: BDGD para DSS)
-├── modelo_opendss/             # Base de dados dos circuitos e alimentadores mapeados (.dss)
-├── logs_TCC/                   # (Gerado) Saídas de log, debug e tabelas CSV
-└── graficos_TCC/               # (Gerado) Relatórios visuais (tensão, potência, mapas)
+│   │   ├── config.py           # Configurações globais, steps, e variáveis estritas.
+│   │   ├── core/               # Engine de passo, OpenDSS Reader, Circuit Manager e Tipagens (ElementStats).
+│   │   ├── scenarios/          # Interfaces base e injetores de lógica para o circuito.
+│   │   ├── analysis/           # Geração de CSVs, dimensionamento do BESS e rastreio topológico.
+│   │   └── visualization/      # Módulo de plotagem (Matplotlib) e Geo-Renderização.
+│   └── converter/              # Ferramental de ETL para conversão da BDGD para código `.dss`.
+├── modelo_opendss/             # Base de arquivos compilados prontos para uso do simulador.
+├── logs_TCC/                   # (Output) Relatórios quantitativos das execuções (.csv).
+└── graficos_TCC/               # (Output) Visualizações gráficas em alta resolução (.svg/.png).
 ```
 
 ---
 
-## 🚀 Como Executar
+## 🚀 Guia de Execução
 
-1. **Pré-requisitos:** Certifique-se de que possui as bibliotecas necessárias instaladas (ex: `pandas`, `numpy`, `matplotlib`, `opendssdirect.py`).
-2. **Configuração:** Abra o arquivo `main.py` para alterar o `escopo`, ativar/desativar `controle_tap_ativo`, ou ajustar a intensidade do fluxo reverso em `fator_sobrecarga_alvo`.
-3. **Rodar:**
+1. **Dependências:** Crie um ambiente virtual e instale as bibliotecas científicas padrão:
+   ```bash
+   pip install pandas numpy matplotlib opendssdirect.py
+   ```
+2. **Setup:** Clone o repositório e garanta que as bases elétricas (`.dss`) do circuito alvo existam na pasta `modelo_opendss/`.
+3. **Parametrização:** Em `main.py`, defina as metas da simulação modificando os parâmetros de instância do `SimulationConfig` (ex: `escopo`, `modo_sobrecarga`, `fator_sobrecarga_alvo`).
+4. **Simulação:**
    ```bash
    python main.py
    ```
-4. **Análise:** Verifique as pastas `graficos_TCC/` e `logs_TCC/` para os relatórios da simulação.
 
 ---
-
-## 🛠️ Arquitetura
-
-Este código foi desenvolvido respeitando rígidos princípios de Engenharia de Software e **Clean Code**:
-- **SOLID**: Componentes fracamente acoplados. A adição do BESS requer apenas a injeção de uma nova classe na lista de modificadores do cenário.
-- **Fail-Fast**: Validação proativa de parâmetros no módulo de configurações (evitando falhas silenciosas do OpenDSS horas após o início do processamento).
-- **Type Hints Rigorosos**: Utilização de `dataclasses` para eliminação de "dicionários mágicos", prevenindo `KeyErrors` e documentando a estrutura dos dados elétricos em tempo de codificação.
-
----
-*Este repositório faz parte de um estudo acadêmico focado no planejamento da infraestrutura de distribuição moderna frente à transição energética.*
+*Este código representa a base metodológica para o desenvolvimento de monografias e publicações na área de Planejamento de Sistemas Elétricos Inteligentes e Smart Grids.*
